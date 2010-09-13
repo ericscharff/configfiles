@@ -16,6 +16,7 @@ set wildmenu
 syn on
 "colorscheme mine
 
+" TODO - probably only use 256 colors if available
 set t_Co=256
 colorscheme desert256
 set ruler
