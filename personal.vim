@@ -11,8 +11,9 @@ endif
 set wildmode=longest,list,full
 set wildmenu
 
+" TODO - determine appropriate mouse settings
 "set mouse=a
-set mouse=""
+"set mouse=""
 syn on
 "colorscheme mine
 
