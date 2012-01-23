@@ -11,7 +11,7 @@ endif
 set wildmode=longest,list,full
 set wildmenu
 
-"set mouse=a
+set mouse=a
 "set mouse=""
 syn on
 "colorscheme mine
