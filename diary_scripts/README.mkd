@@ -52,3 +52,10 @@ the time, and that, for each day, there shold be a list of things done
 on that day.  (Completely reverse order is a bit tricky to read.) 
 
 Like the previous script, this relies on vim to edit the change file.
+
+There are some notes about this as well:
+
+* This requires Python 2.6 or later (shebang line seems to fail in Mac OS
+  10.5)
+* There is a bug with the first entry in the file, so it is probably a good
+  idea for there to be a DONE file with one entry to start.
