@@ -7,4 +7,4 @@ Information
 -----------
 
 These are personal configuration files that I use on most of my machines.
-It has recently been revised for vim 7.3
+It has recently been revised for vim 7.3.
