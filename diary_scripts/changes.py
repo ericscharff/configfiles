@@ -1,5 +1,6 @@
 #!/usr/bin/env python2.6
 
+
 """Help edit a diary of entires.
 
 This module helps maintain a diary of entries in this form:

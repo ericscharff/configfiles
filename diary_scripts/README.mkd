@@ -2,6 +2,7 @@ This directory has two kinds of "diary configuration" scripts.  Both work
 similarly.  They create a file with dates, with the most recent entry at (or
 near) the top of the file, and older entries below.
 
+
 However, the two scripts differ in some significant ways:
 
 changes.pl

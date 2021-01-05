@@ -1,3 +1,4 @@
+"
 " NOTE - before using, rename dot_vim to .vim (unix) or vimfiles (windows)
 syntax on
 filetype plugin indent on
