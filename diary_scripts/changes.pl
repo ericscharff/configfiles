@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 
-
 # Script for maintaining a system diary.  Relies heavily on external
 # unix programs
 
