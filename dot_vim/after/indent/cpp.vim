@@ -1,3 +1,4 @@
+
 function! GetJavaIndent_improved()
     let theIndent = GetJavaIndent()
     let lnum = prevnonblank(v:lnum - 1)
