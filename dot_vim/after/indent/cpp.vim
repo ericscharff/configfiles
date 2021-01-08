@@ -9,3 +9,4 @@ function! GetJavaIndent_improved()
     return theIndent
 endfunction
 setlocal indentexpr=GetJavaIndent_improved()
+

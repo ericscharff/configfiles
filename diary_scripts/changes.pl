@@ -54,3 +54,4 @@ if ($checkOld eq $checkNew) {
   system("mv $diaryFile.tmp $diaryFile");
   system("svn commit");
 }
+
