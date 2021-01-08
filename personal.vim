@@ -11,4 +11,3 @@ map ,s :split <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
 
 " make vim do bash tab completion
 set wildmode=longest,list,full
-
