@@ -28,7 +28,7 @@ $ pip3 install duplicity
 Backing up involves three steps
 
 1. Activating the virtualenv (which has duplicity)
-1. Run ssh-agent (to avoid password primpts)
+1. Run ssh-agent (to avoid password prompts)
 1. Back up with duplicity to a remote site
 
 In code:
