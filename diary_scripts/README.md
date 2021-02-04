@@ -41,7 +41,7 @@ this:
 
   This is an entry
   An other entry
-  ___INSERTS CURSOR TO EDIT HERE___
+  \_\_\_INSERTS CURSOR TO EDIT HERE\_\_\_
 
   20-Jan-2012
 
