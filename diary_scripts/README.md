@@ -4,8 +4,7 @@ near) the top of the file, and older entries below.
 
 However, the two scripts differ in some significant ways:
 
-changes.pl
-----------
+# changes.pl
 
 This is the older script.  It is written in perl and has a lot of hard
 coded behavior.  It creates files like this:
@@ -27,8 +26,7 @@ This script has several limitations:
 * It is assumed you want to SVN commit after editing the file.
 * Editing requires command line arguments sent to vim
 
-changes.py
-----------
+# changes.py
 
 This is the newer script.  It is written in python, and, with minimal
 modificaitons, could probably work cross platforms.  It creates files like
