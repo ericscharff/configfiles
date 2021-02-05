@@ -9,6 +9,7 @@ However, the two scripts differ in some significant ways:
 This is the older script.  It is written in perl and has a lot of hard
 coded behavior.  It creates files like this:
 
+```
   22-Jan-2012
 
   10:35 - Entry one
@@ -18,6 +19,7 @@ coded behavior.  It creates files like this:
   20-Jan-2012
 
   22:28 - An entry
+```
 
 This script has several limitations:
 
@@ -32,6 +34,7 @@ This is the newer script.  It is written in python, and, with minimal
 modificaitons, could probably work cross platforms.  It creates files like
 this:
 
+```
   The file can have arbitrary text
   before the first date entry.
 
@@ -44,6 +47,7 @@ this:
   20-Jan-2012
 
   An older entry
+```
 
 The rationale behind this version is that the date is more important than
 the time, and that, for each day, there shold be a list of things done
