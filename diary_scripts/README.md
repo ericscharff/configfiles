@@ -41,7 +41,7 @@ modificaitons, could probably work cross platforms. It creates files like this:
 
   This is an entry
   An other entry
-  \_\_\_INSERTS CURSOR TO EDIT HERE\_\_\_
+  ___INSERTS CURSOR TO EDIT HERE___
 
   20-Jan-2012
 
