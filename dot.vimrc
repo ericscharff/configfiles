@@ -1,8 +1,7 @@
 " NOTE - before using, rename dot_vim to .vim (unix) or vimfiles (windows)
 syntax on
 filetype plugin indent on
-set background=dark
-colorscheme solarized8
+colorscheme koehler
 set smarttab
 
 " Some handy navigation to current directory
