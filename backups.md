@@ -10,7 +10,7 @@ up installing my own.
 
 I installed virtualenv and installed duplicity in it:
 
-```
+```bash
 # Install virtualenv
 $ sudo apt install python3-virtualenv
 
