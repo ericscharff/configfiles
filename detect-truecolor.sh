@@ -1,6 +1,8 @@
-Useful scripts to detect truecolor terminal support:
+#!/bin/bash
 
-From https://gist.github.com/XVilka/8346728
+# Useful scripts to detect truecolor terminal support:
+#
+# From https://gist.github.com/XVilka/8346728
 
 printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
 
