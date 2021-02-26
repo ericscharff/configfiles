@@ -1,0 +1,3 @@
+[submodule "dot_vim/pack/typescript/start/typescript-vim"]
+	path = dot_vim/pack/typescript/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
