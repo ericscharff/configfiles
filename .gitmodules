@@ -1,3 +1,6 @@
 [submodule "dot_vim/pack/typescript/start/typescript-vim"]
 	path = dot_vim/pack/typescript/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "dot_vim/pack/themes/opt/solarized8"]
+	path = dot_vim/pack/themes/opt/solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git
