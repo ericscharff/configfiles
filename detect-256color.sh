@@ -1,37 +1,37 @@
 #!/bin/bash
 
 # Tom Hale, 2016. MIT Licence.
-# Print out 256 colours, with each number printed in its corresponding colour
+# Print out 256 colors, with each number printed in its corresponding color
 # See http://askubuntu.com/questions/821157/print-a-256-color-test-pattern-in-the-terminal/821163#821163
 
 set -eu # Fail on errors or undeclared variables
 
-printable_colours=256
+printable_colors=256
 
-# Return a colour that contrasts with the given colour
+# Return a color that contrasts with the given color
 # Bash only does integer division, so keep it integral
-function contrast_colour {
+function contrast_color {
     local r g b luminance
-    colour="$1"
+    color="$1"
 
-    if (( colour < 16 )); then # Initial 16 ANSI colours
-        (( colour == 0 )) && printf "15" || printf "0"
+    if (( color < 16 )); then # Initial 16 ANSI colors
+        (( color == 0 )) && printf "15" || printf "0"
         return
     fi
 
     # Greyscale # rgb_R = rgb_G = rgb_B = (number - 232) * 10 + 8
-    if (( colour > 231 )); then # Greyscale ramp
-        (( colour < 244 )) && printf "15" || printf "0"
+    if (( color > 231 )); then # Greyscale ramp
+        (( color < 244 )) && printf "15" || printf "0"
         return
     fi
 
-    # All other colours:
-    # 6x6x6 colour cube = 16 + 36*R + 6*G + B  # Where RGB are [0..5]
+    # All other colors:
+    # 6x6x6 color cube = 16 + 36*R + 6*G + B  # Where RGB are [0..5]
     # See http://stackoverflow.com/a/27165165/5353461
 
-    # r=$(( (colour-16) / 36 ))
-    g=$(( ((colour-16) % 36) / 6 ))
-    # b=$(( (colour-16) % 6 ))
+    # r=$(( (color-16) / 36 ))
+    g=$(( ((color-16) % 36) / 6 ))
+    # b=$(( (color-16) % 6 ))
 
     # If luminance is bright, print number in black, white otherwise.
     # Green contributes 587/1000 to human perceived luminance - ITU R-REC-BT.601
@@ -48,25 +48,25 @@ function contrast_colour {
     # (( $luminance > 2500 )) && printf "0" || printf "15"
 }
 
-# Print a coloured block with the number of that colour
-function print_colour {
-    local colour="$1" contrast
-    contrast=$(contrast_colour "$1")
-    printf "\e[48;5;%sm" "$colour"                # Start block of colour
-    printf "\e[38;5;%sm%3d" "$contrast" "$colour" # In contrast, print number
-    printf "\e[0m "                               # Reset colour
+# Print a colored block with the number of that color
+function print_color {
+    local color="$1" contrast
+    contrast=$(contrast_color "$1")
+    printf "\e[48;5;%sm" "$color"                 # Start block of color
+    printf "\e[38;5;%sm%3d" "$contrast" "$color"  # In contrast, print number
+    printf "\e[0m "                               # Reset color
 }
 
-# Starting at $1, print a run of $2 colours
+# Starting at $1, print a run of $2 colors
 function print_run {
     local i
-    for (( i = "$1"; i < "$1" + "$2" && i < printable_colours; i++ )) do
-        print_colour "$i"
+    for (( i = "$1"; i < "$1" + "$2" && i < printable_colors; i++ )) do
+        print_color "$i"
     done
     printf "  "
 }
 
-# Print blocks of colours
+# Print blocks of colors
 function print_blocks {
     local start="$1" i
     local end="$2" # inclusive
@@ -90,7 +90,7 @@ function print_blocks {
     done
 }
 
-print_run 0 16 # The first 16 colours are spread over the whole spectrum
+print_run 0 16 # The first 16 colors are spread over the whole spectrum
 printf "\n"
-print_blocks 16 231 6 6 3 # 6x6x6 colour cube between 16 and 231 inclusive
+print_blocks 16 231 6 6 3 # 6x6x6 color cube between 16 and 231 inclusive
 print_blocks 232 255 12 2 1 # Not 50, but 24 Shades of Grey
