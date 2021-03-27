@@ -1,7 +1,7 @@
 " NOTE - before using, rename dot_vim to .vim (unix) or vimfiles (windows)
 syntax on
 filetype plugin indent on
-set background=dark
+set background=light
 colorscheme solarized8
 set smarttab
 
