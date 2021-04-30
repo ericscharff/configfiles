@@ -4,6 +4,7 @@
 " Last Change:	2001 Aug 08
 
 " It's a very very very simple variant of a syntax file for Oberon - but I think
+"
 " the most important thing is to get a colored view when coding ;)
 
 " For version 5.x: Clear all syntax items
