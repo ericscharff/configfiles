@@ -31,7 +31,7 @@ Backing up involves three steps
 1. Run ssh-agent (to avoid password prompts)
 1. Back up with duplicity to a remote site
 
-In code:
+In bash:
 
 ```
 $ source Applications/python3/bin/activate
