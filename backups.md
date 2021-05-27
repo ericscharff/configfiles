@@ -33,7 +33,7 @@ Backing up involves three steps
 
 In bash:
 
-```
+```bash
 $ source Applications/python3/bin/activate
 $ ssh-agent bash
 $ ssh-add
