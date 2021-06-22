@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Tom Hale, 2016. MIT Licence.
