@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Useful scripts to detect truecolor terminal support.
