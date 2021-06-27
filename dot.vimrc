@@ -16,3 +16,4 @@ set wildmode=longest,list,full
 
 " Support oberon file types
 autocmd BufNewFile,BufRead *.Mod set syntax=oberon
+
