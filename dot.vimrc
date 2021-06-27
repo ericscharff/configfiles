@@ -3,8 +3,8 @@ syntax on
 filetype plugin indent on
 " This could possibly be inherited from terminal settings
 set background=dark
-colorscheme solarized8
 set smarttab
+colorscheme solarized8
 
 " Some handy navigation to current directory
 map ,e :e <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
@@ -16,4 +16,3 @@ set wildmode=longest,list,full
 
 " Support oberon file types
 autocmd BufNewFile,BufRead *.Mod set syntax=oberon
-
