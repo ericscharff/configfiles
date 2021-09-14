@@ -1,6 +1,7 @@
 " NOTE - before using, rename dot_vim to .vim (unix) or vimfiles (windows)
 syntax on
 filetype plugin indent on
+" This could possibly be inherited from terminal settings
 set background=dark
 colorscheme solarized8
 set smarttab
