@@ -19,3 +19,4 @@ function Linecomment()
 	execute "normal ^i/*\<ESC>$a*/\<ESC>"
 endfunction
 command Linecomment call Linecomment()
+"Hello 🂤 🂥 🂦 World
