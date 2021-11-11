@@ -39,13 +39,3 @@ $ ssh-agent bash
 $ ssh-add
 $ duplicity /home/pi sftp://pi@raspberrypi.local/bach_backup
 ```
-
-
-
-
-
-
-
-
-
-End of line.
