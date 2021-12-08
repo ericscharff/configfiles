@@ -21,7 +21,15 @@ $ python3 -m venv /home/pi/Applications/python3
 $ source Applications/python3/bin/activate
 $ pip3 install paramiko
 $ pip3 install duplicity
+
+# Use the duplicity-excludes file
+$ cp dot.duplicity-excludes ~/.duplicity-excludes
 ```
+
+# Excludes
+
+To keep the backup size down, dot files and other large files are skipped. The
+list of those files that are skipped are kept in duplicity excludes.
 
 # Performing a backup
 
@@ -37,5 +45,5 @@ In bash:
 $ source Applications/python3/bin/activate
 $ ssh-agent bash
 $ ssh-add
-$ duplicity /home/pi sftp://pi@raspberrypi.local/bach_backup
+$ duplicity --exclude-filelist /home/pi/.duplicity-excludes /home/pi sftp://pi@raspberrypi.local/bach_backup
 ```
