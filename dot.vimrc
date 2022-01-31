@@ -15,6 +15,7 @@ map ,s :split <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
 " C-w is often use to close a tab
 " C-w is often use to close a tab
 " C-w is often use to close a tab
+" C-w is often use to close a tab
 nnoremap <C-e> <C-w>
 
 " make vim do bash tab completion
