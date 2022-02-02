@@ -12,10 +12,6 @@ map ,t :tabe <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
 map ,s :split <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
 
 " Use ctrl-e as an alternative to ctrl-w for window manpulation.
-" C-w is often use to close a tab
-" C-w is often use to close a tab
-" C-w is often use to close a tab
-" C-w is often use to close a tab
 nnoremap <C-e> <C-w>
 
 " make vim do bash tab completion
