@@ -14,6 +14,9 @@ elseif exists("b:current_syntax")
   finish
 endif
 
+" for extneded obron with no case sensitivity
+syn case ignore
+
 syn keyword	OberonStatement		BEGIN END CODE
 syn keyword	OberonModule		MODULE
 syn keyword	OberonInclude		IMPORT
@@ -28,7 +31,6 @@ syn keyword	OberonDeclaration	CONST VAR TYPE
 syn keyword	OberonTypedef		POINTER ARRAY RECORD
 syn keyword	OberonBoolean		TRUE FALSE
 syn keyword	OberonKeyword		RETURN EXIT
-
 
 " Things which should be marked in comments...
 syn keyword	OberonTodo		contained TODO FIXME XXX BUG
