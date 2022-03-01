@@ -15,7 +15,7 @@ elseif exists("b:current_syntax")
 endif
 
 " for extneded obron with no case sensitivity
-syn case ignore
+"syn case ignore
 
 syn keyword	OberonStatement		BEGIN END CODE
 syn keyword	OberonModule		MODULE
