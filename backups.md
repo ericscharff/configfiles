@@ -1,10 +1,9 @@
 # System backups
 
-Backups use `duplicity` which handles encryption, full, and incremental
-backups.
+Backups use `duplicity` which handles encryption, full, and incremental backups.
 
-The version of duplicity that ships with Raspbian is outdated, so I ended
-up installing my own.
+The version of duplicity that ships with Raspbian is outdated, so I ended up
+installing my own.
 
 # Setup
 
@@ -35,9 +34,9 @@ list of those files that are skipped are kept in duplicity excludes.
 
 Backing up involves three steps
 
-1. Activating the virtualenv (which has duplicity)
-1. Run ssh-agent (to avoid password prompts)
-1. Back up with duplicity to a remote site
+1.  Activating the virtualenv (which has duplicity)
+1.  Run ssh-agent (to avoid password prompts)
+1.  Back up with duplicity to a remote site
 
 In bash:
 
