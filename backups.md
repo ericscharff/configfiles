@@ -28,7 +28,8 @@ $ cp dot.duplicity-excludes ~/.duplicity-excludes
 # Excludes
 
 To keep the backup size down, dot files and other large files are skipped. The
-list of those files that are skipped are kept in duplicity excludes.
+list of those files that are skipped are kept in `$HOME/.duplicity-excludes`.
+The current version of that file is `dot.duplicity-excludes`.
 
 # Performing a backup
 
