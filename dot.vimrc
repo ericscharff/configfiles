@@ -2,8 +2,8 @@
 syntax on
 filetype plugin indent on
 " This could possibly be inherited from terminal settings
-set background=dark
-colorscheme solarized8
+"set background=dark
+"colorscheme solarized8
 set smarttab
 
 " Some handy navigation to current directory
