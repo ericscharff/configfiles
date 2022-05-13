@@ -1,10 +1,5 @@
 #!/bin/bash
 
-
-
-
-
-
 # Useful scripts to detect truecolor terminal support.
 #
 # From https://gist.github.com/XVilka/8346728

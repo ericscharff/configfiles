@@ -1,11 +1,5 @@
 #!/bin/bash
 
-
-
-
-
-
-
 # Tom Hale, 2016. MIT Licence.
 # Print out 256 colors, with each number printed in its corresponding color
 # See http://askubuntu.com/questions/821157/print-a-256-color-test-pattern-in-the-terminal/821163#821163
