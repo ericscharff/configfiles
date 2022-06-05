@@ -30,7 +30,7 @@ This script has several limitations:
 
 # changes.py
 
-This is the newer script. It is written in python, and, with minimal
+This is the newer script. It is written in Python, and, with minimal
 modificaitons, could probably work cross platforms. It creates files like this:
 
 ```
