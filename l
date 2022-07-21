@@ -1,0 +1,10 @@
+backups.md
+detect-256color.sh
+detect-truecolor.sh
+diary_scripts
+dot.duplicity-excludes
+dot.tmux.conf
+dot_vim
+dot.vimrc
+l
+README.md
