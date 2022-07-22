@@ -1,0 +1,991 @@
+backups.md
+detect-256color.sh
+detect-truecolor.sh
+diary_scripts
+dot.duplicity-excludes
+dot.tmux.conf
+dot_vim
+dot.vimrc
+l
+README.md
+commit 21134b29683c40f7f8ee55072f54c964bd4abb80
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Jul 20 18:39:50 2022 -0600
+
+    Add l
+
+commit c4ace037cb213e89cad8811c848b3bdbcc40757f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jul 15 20:36:34 2022 -0600
+
+    Restore Control-J as tmux prefix key
+
+commit df7144b331287aac41d388ba01d8463624b13260
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jul 8 20:13:43 2022 -0600
+
+    Remove unnecessary directories from backups
+
+commit bce508f73076fcd849a92296b7b02b5ca51eec45
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jul 4 08:58:51 2022 -0600
+
+    Keep excludes sorted
+
+commit 0ca0dc94136f5a18b0116403b22941837f37899e
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jul 4 08:58:12 2022 -0600
+
+    Add backup and fun folders to excludes
+
+commit 5defaf80421b153f827a9043c5e993b8e94916ea
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jun 23 19:13:39 2022 -0600
+
+    bin exclusion no longer needed
+
+commit fd36f2751f765a061c444f2c7c98243911b4e2dd
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Jun 22 08:38:50 2022 -0600
+
+    Add exclusion for .bin
+
+commit d047f36247893cd84575fdfb7724a4ffc0d3578d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jun 14 21:42:56 2022 -0600
+
+    Fun folder removed from duplicity excludes
+    
+    This folder was moved inside Archives/
+
+commit 8715bba4bb5df1c8e82dc7cb5ba5d4a4b9f255d5
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jun 5 07:58:41 2022 -0600
+
+    Update diary script to Python 3
+
+commit 30295600089797b8c95e515573fb008bb438b97f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri May 20 18:52:35 2022 -0600
+
+    Remove files
+    
+    These were intended for another repository
+
+commit a29457afafae0ed1f4ee406c18b61ba295b2e95a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri May 20 18:52:10 2022 -0600
+
+    Add puzzle patterns and SWTPC
+
+commit 58aa8e7937a432b37351bf9fd461f8bc65396070
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu May 19 18:18:01 2022 -0600
+
+    Remove trailing whitespace
+
+commit 3f20d8b0f60d6bf449fba923458475500350f4c4
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu May 19 18:17:39 2022 -0600
+
+    Trailing whitespace
+
+commit 063063ebed3f2d001b09c0f38d759ca2e43a8cbc
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri May 13 15:38:50 2022 -0600
+
+    Temporarily disable solarized theme
+    
+    This isn't working well with my new terminal emulator
+
+commit 17addc36cf6b68920a9591fc7f214310be1687b6
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu May 12 19:14:53 2022 -0600
+
+    Restore original versions of detect scripts and tmux conf
+
+commit 8aa79b4e72faf63e7c5578b6917a1059afedefb6
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu May 12 19:14:20 2022 -0600
+
+    Swap back
+
+commit 4ce75fe7269b6c78508d06ea593c7232f2886e81
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu May 12 19:13:10 2022 -0600
+
+    Swap
+
+commit a0b49b807951104d250c3459166f43416cbdb1c0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Apr 29 15:38:50 2022 -0600
+
+    Improve backup instructions
+
+commit f2ebe6c5523dd2434d94655f9cda79649e132b72
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Apr 18 18:46:32 2022 -0600
+
+    Swap
+
+commit 5dacffcb77a96612c3595f4827f30b31d561f6d7
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Apr 18 18:46:18 2022 -0600
+
+    Swap
+
+commit 196999bc65ad197c0aba6c0e05c614695fabb90f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Mar 30 08:52:07 2022 -0600
+
+    Experiment with new prefix
+
+commit 0e0b921e2314d0ad97b612917be8ad6c3bca4c94
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Mar 13 15:38:50 2022 -0600
+
+    Auto-format markdown
+
+commit d702c10d2c1a7c99812a27b12e908231ddb02f50
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Mar 1 06:36:51 2022 -0700
+
+    Remove case insensitive checks for Oberon
+    
+    This wasn't quite right because PrOCEDURE would match, and it shouldn't.
+
+commit f8f959ed44bba3b00681df4b49e03d7e11641f08
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 24 06:50:34 2022 -0700
+
+    Make Oberon keywords case insensitive
+    
+    This is useful because a recent compiler extension allows lower case
+    keywords.
+
+commit c92103e8dd8ec9d12b9dd48b28b3ad8c2c4b43c0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 3 15:38:50 2022 -0600
+
+    Remove duplicates
+
+commit 8b1afa7fe8c1d7ed3eb749830f22131f68687eb4
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 3 15:37:50 2022 -0600
+
+    Duplicate
+
+commit 6f77b7386ed66c093cc536568d897a0d807afcf9
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Feb 2 18:38:03 2022 -0700
+
+    Remove duplicates
+
+commit 8ac78ccb86f4086018ba34d9533bfb8983100237
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Feb 2 18:37:52 2022 -0700
+
+    Duplicate
+
+commit 5588633aa494977057cd27ffc9300f29cf218398
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Feb 1 18:48:26 2022 -0700
+
+    Remove duplicates
+
+commit 0a2ea6f7e7b8b9a82358d8bbe689057309cbbb05
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jan 31 15:37:50 2022 -0600
+
+    Duplicate
+
+commit 042f60e94c78ec6fd0067db76c9259bd46831b69
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Jan 29 15:37:50 2020 -0600
+
+    Duplicate
+
+commit ef0f474aa5a1cfa78f58128cd1e3b9d5eb50e72f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Jan 29 08:43:41 2022 -0700
+
+    Duplicate
+
+commit de336aa3388d4baea83e3832ed44ea778a13a379
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jan 28 18:22:58 2022 -0700
+
+    Updated comment
+
+commit e4666dbb0b5ca75b3c8955b8126f6970cc3be3f4
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jan 27 18:33:50 2022 -0700
+
+    Use ctrl-e as an alternative to ctrl-w for window manpulation.
+    
+    This is useful when using ssh-in-a-tab.
+
+commit daf99c5450fbb28531d26a83a4a2dde33b2ecf8f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jan 6 14:32:25 2022 -0700
+
+    Linux
+
+commit 72258e331cbdd8e3aad41a4d29c24b78f5cf0a49
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Dec 20 07:43:31 2021 -0700
+
+    Remove scratch file
+
+commit 1727a5458aaff37b8f1f01b86915d262f6302a0b
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 22 15:37:50 2020 -0600
+
+    YouTube video about Amiga trackers
+
+commit d7fcab9560694ed36b9f1bdeb15fdf345b8bd7c7
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Dec 7 19:51:15 2021 -0700
+
+    Add duplicity excludes
+    
+    This is used to reduce backup size, by leaving out large files that are
+    backed up elsewhere.
+
+commit f1c26bf372fae4876253a30f1f7709dc570d64c6
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Nov 12 20:07:42 2021 -0700
+
+    Restore missing README.md
+
+commit 3276f61479b3eb30a7c848007be50adab96272aa
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Nov 12 20:07:22 2021 -0700
+
+    Blank
+
+commit 89fb4a0752046572ab69c1550ed6f2072f7099dd
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Nov 10 21:03:25 2021 -0700
+
+    Revert end of line
+
+commit 4c435adc9899db6699f3e4ed3cc96017645294ea
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Nov 9 18:57:54 2021 -0700
+
+    End of line
+
+commit 6bac17369aa51c8cb8417d7827d8584fd7ab46ef
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Oct 30 17:05:43 2021 -0600
+
+    Formatting
+
+commit b95f1bf01dbcdb3683a35ec37551c5fc620ebd49
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Oct 5 20:53:08 2021 -0600
+
+    Remove high UTF-8 characters
+
+commit 0dc6f9e0fcda51056f775c6f91c069259aa10a39
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Oct 4 20:47:46 2021 -0600
+
+    Attempt a larger font size
+    
+    The playing cards were tiny to read at the normal font size.
+
+commit 621a7fd0614d9fc44065c3651debdede9231526d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Oct 3 20:52:03 2021 -0600
+
+    Experiment with high unicode characters
+    
+    In this case, playing cards
+
+commit afe0159c04497df812e8b4464aa65192c3b250f4
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Sep 20 19:21:38 2021 -0600
+
+    Restore broken .tmux.conf
+
+commit e2b1dcce69bdc9b33c8b7729d03d3896aac66083
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Sep 19 15:37:50 2021 -0600
+
+    .
+
+commit c7edfa388edc36df5f3da513fae912126c18864d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Sep 17 22:09:00 2021 -0600
+
+    Revert tmux tweak
+
+commit c7a7bfcf15924dd07e28a046dbc3c67002c3f6da
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Sep 16 16:37:50 2021 -0600
+
+    tmux tweak
+
+commit d5f1004fb61f0417b96fef4a4eb5cb9e43c91884
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Sep 13 20:49:46 2021 -0600
+
+    background could be derived from term
+
+commit 625a302f12514f406c601c6fba6654939688e6ae
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Sep 13 20:49:00 2021 -0600
+
+    Add a function to comment out a line
+
+commit de2c3f1bf8f03f7023c52ecf7a65d3df9289ff25
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Aug 10 21:09:38 2021 -0600
+
+    Restore original README.md
+
+commit cb900688139f927c83b2dbfefcccc93835a0f909
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Aug 9 21:00:32 2021 -0600
+
+    Automated README.md update
+
+commit dc2eabfd66f00b6d04153d60e284794d04f1f980
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Aug 8 21:42:55 2021 -0600
+
+    Scripted README.md update
+
+commit 8cc49c3a2d077644c27ac4c3e5a18b0d9ac0ffec
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Aug 7 21:28:41 2021 -0600
+
+    Updated README.md
+
+commit 1f10df8e638d53f3cc01712eb22a6bc4a72c2db4
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Aug 7 21:26:46 2021 -0600
+
+    Updated README.md
+
+commit 985bbad2bcf7e788c3816860a097afe03c50b2f1
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jul 5 21:37:11 2021 -0600
+
+    vim testing
+
+commit 60eab4832ce8465fdec4fb594ad4372740406e62
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jul 4 22:50:35 2021 -0600
+
+    vim testing
+
+commit 3c253d8a8e8557e5a114ac6d1d5e6b8f8c4e385c
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Jul 3 16:37:50 2021 -0600
+
+    Extra blank line
+
+commit 4532a2f8342c1700da41d015038289a29c06ee7a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jul 2 07:53:28 2021 -0600
+
+    vim testing
+
+commit b73cc1f164e593c0ce506d636917ccc62f6dc780
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jul 2 07:53:06 2021 -0600
+
+    vim testing
+
+commit e47e96da9cd99557723b311632c41ace2a657648
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jul 1 08:25:10 2021 -0600
+
+    Updated README.md
+
+commit 6282524269fbb2d16ae9c25c16359d4fd46b2213
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jul 1 08:24:49 2021 -0600
+
+    Updated for testing
+
+commit df1d5c451702359afb40a36dbca83ce123d3d26d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Jun 30 08:03:38 2021 -0600
+
+    Remove test lines
+
+commit 725b62e51ba4e64134892aa75fbeaea5fbd33127
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jun 29 16:37:50 2021 -0600
+
+    Add testing lines
+
+commit 7c1b596e434d4253dbcc918ca3cb2c6b85f3367b
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:49:13 2021 -0600
+
+    remove line testing
+
+commit e561d1c7d95091cf9b3646e5ce16c6ed18b3ef09
+Merge: 10a8370 f589cc3
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:48:47 2021 -0600
+
+    Merge branch 'master' of github.com:ericscharff/configfiles
+
+commit f589cc35ef8cb6a8a4be966327fbb532d2ce3907
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:48:25 2021 -0600
+
+    remove one line
+
+commit 0f532f0cc3908c611961521fdde7c2d69cb2958a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:48:07 2021 -0600
+
+    quote 300 lines
+
+commit 10a837066ce6654598998a6e1f8b85ee6fe151b5
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:47:29 2021 -0600
+
+    unquote 994
+
+commit b30f5e97c3961c577fd566cafda279ffb11bc9d8
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:46:53 2021 -0600
+
+    quote 800 lines
+
+commit 3570aab7ab620a466bd65c1414392777712f770f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:46:26 2021 -0600
+
+    quote 900 lines
+
+commit 98bd515735b5bab44f060d154f2ff96b7273ae88
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jun 28 13:44:43 2021 -0600
+
+    Merge testing
+
+commit 806c0274cfa603c5b32f3f7b182f8f3297715fc7
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jun 27 08:23:01 2021 -0600
+
+    Resture merge conflict items
+
+commit a1bdb1b3f4c4b79c1c9fe7009f078dd73617c7c8
+Merge: f4c7545 1ec9dad
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jun 27 08:22:31 2021 -0600
+
+    Merge branch 'master' of github.com:ericscharff/configfiles
+
+commit f4c75458d4bb008201b589056a1c218aab188a24
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jun 27 08:21:06 2021 -0600
+
+    blanks
+
+commit 1ec9dad3046c705a6f5cc46a842439379704fdc9
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jun 27 08:20:25 2021 -0600
+
+    Remove dotfiles
+
+commit d351346f49b455a87773efc7eb3e7ec9528b0b9a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jun 22 15:18:58 2021 -0600
+
+    Removed incorrect header before shebang
+
+commit 95751133bad96be8cf1ddf41411c36daa6b18fdc
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jun 22 15:18:37 2021 -0600
+
+    detect tweaks
+
+commit d28b32fb72bb61de7cb013c9adc52e9cb39822ae
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jun 18 17:02:15 2021 -0600
+
+    Remove header comments
+
+commit aeb412dfe038f44d59f34521a4df48009c10f014
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Jun 18 17:01:54 2021 -0600
+
+    Header comments
+
+commit 2a5977dcee76508fd9e98dc7b11a108cd4337d9d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Jun 2 23:06:42 2021 -0600
+
+    tmux and README fixes
+
+commit d097fee73612f6f6df623a58d2138f3e1f5ae3e3
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Jun 2 23:06:04 2021 -0600
+
+    Suffix
+
+commit 637f4effbcc5abc878c9829d04ceb86532daa17a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jun 1 20:00:08 2021 -0600
+
+    Diary scripts
+
+commit ffaff8c29bc6265d8f1dce5026dba17d214b7f4e
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jun 1 19:59:47 2021 -0600
+
+    blanks
+
+commit 85a918d6b1a3febd7f571b359c7c81427d7fe797
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon May 31 16:35:08 2021 -0600
+
+    Remove incorrectly removed dot.tmux.conf
+
+commit 33fd0eb8bb816d8d0f89e43cb0d6d3412dd9ecac
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun May 30 16:32:50 2021 -0600
+
+    rm
+
+commit 2e1a23196b9f9caa5b4b58dade98e21ee23557e5
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed May 26 19:08:20 2021 -0600
+
+    Syntax highlighting
+
+commit c106f33fd0fe9dcfc331a4f73e4f1d759bbd0783
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu May 13 10:19:43 2021 -0600
+
+    in bash
+
+commit 9ad08a6a1ac48daae63450a7b09c31f28ddcb5bd
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Apr 30 16:32:10 2021 -0600
+
+    Remove undesired whitespace tweaks
+
+commit 878015721a83440cc8e11dc7fabf17947a55d52e
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Apr 30 16:31:22 2021 -0600
+
+    Add oberon file type support for vim
+
+commit 714b26548fde3b7fa38703c3d22d433bd85fd0bf
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Apr 7 20:01:07 2021 -0600
+
+    Explain use of dot. prefix
+
+commit 2ceab2d768520bd72d61a113f0e18b9805042a5a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Mar 27 11:20:37 2021 -0600
+
+    Switch back to dark theme
+    
+    This worked well, but only when the terminal doesn't switch abruptly
+    back between light and dark.
+    
+    It should be investigated whether this can come from whether the
+    terminal itself is by default light or dark.
+
+commit 220223ecfa1c81479d3d8ab48fc664552637a0c7
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Mar 27 07:37:30 2021 -0600
+
+    Experiment a bit with light theme
+    
+    In some lighting in my house, light theme is a lot easier to read.
+
+commit 6ec75209d7ae285514c772c639c5cda6bfb926d5
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Fri Mar 12 21:09:15 2021 -0700
+
+    Change colour to color
+
+commit 8c95c7d407a0044d08ff775551612886ab1a9857
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Mar 11 17:22:24 2021 -0700
+
+    Fix script typo
+
+commit 88717553b9f7313b4b02aff4be45c975d0ce1f6c
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Mar 7 18:54:59 2021 -0700
+
+    Switch to soloarized colorscheme
+    
+    With the recent update to the dot_vim gitmodules, the lite solarized
+    color scheme should work out of the box.
+
+commit 5b3b4927e9ce7f9c1734b023ad9bdb7f00112719
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Mar 7 18:54:18 2021 -0700
+
+    Switched back to default colorscheme
+
+commit 640efc0e5eb072a933322f0383263375c4eeecc4
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Mar 4 16:59:10 2021 -0700
+
+    Fix typo
+
+commit 4c419c3c466360ada7f401eb3421c080b4fae8c0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Mar 3 17:36:08 2021 -0700
+
+    Re-add solarized8 and typescript-vim
+    
+    I don't think the order matters, but now they match how they were
+    before.
+
+commit 55d384b8021b807364267fa3ef42efd6cfcbdb29
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Mar 3 17:34:57 2021 -0700
+
+    Empty gitmodules
+
+commit d39ed57a907d5e0003b906f96def55265a4e9d8a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Mar 3 17:34:13 2021 -0700
+
+    Removes solarized8
+
+commit 734bfa5b425430fa1f21a317a13af52bcef2047e
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Mar 3 17:33:02 2021 -0700
+
+    Remove typescript-vim submodule
+
+commit 0989b7d8eb5aa69c6217766983f52711616f0769
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 25 18:11:29 2021 -0700
+
+    Add solarized to dot_vim configuration
+
+commit 1fab7931dc27d403e79911d9c6ecab2fcb22ef4c
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 25 18:10:17 2021 -0700
+
+    Add submodule for typescript
+
+commit 3cf27f16a1fe6aedf4ed5b76868cccd1d17b3a1a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Feb 24 17:13:37 2021 -0700
+
+    README.md update
+
+commit bd5e738bc330fffea11a3ddcae51719528b4bce0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Feb 16 07:44:43 2021 -0700
+
+    Convert detect scripts to shell scripts.
+    
+    Now, the detection scripts can be run directly from the command line
+    for testing.
+
+commit b311ee2d92eadfdea919532dfafeafbac53a867e
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 11 18:03:46 2021 -0700
+
+    Add oberon syntax highlighting
+
+commit 3001089f3cd357223943b880118a8755983b6f68
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Feb 9 07:57:25 2021 -0700
+
+    Give credit for truecolor scripts
+
+commit c779c485c0990773fa988483691c2c4a175cde16
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Feb 9 07:56:11 2021 -0700
+
+    Revert solarized color theme
+    
+    It did not work properly in PuTTY
+
+commit 1f32ad1feec679977f1c18fb54b3b03f0821e687
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Feb 9 07:55:30 2021 -0700
+
+    Switch to solarized scheme
+
+commit 4310e8e9f02f53c2cbac261406538d29ed281754
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Feb 8 20:44:53 2021 -0700
+
+    Bash syntax hilighting
+
+commit cb7f4f57e6d18441daa27f9a9d5900c0e44aecd0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Feb 7 07:56:36 2021 -0700
+
+    Escape chars not necessary in literal quotes
+
+commit ed26604c8a8917fd2ef20a96c915ecbffbfdedbe
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Feb 6 08:27:29 2021 -0700
+
+    Reformat README files
+
+commit 3be528ca7692a31c14b0eca7f9f6ddb7e2c14278
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 4 18:20:30 2021 -0700
+
+    Migrate blockquotes to backticks
+
+commit 1a0e70e05fbd2d60f9c065cf04ecffd3cecd4006
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Feb 4 18:18:24 2021 -0700
+
+    Switch to simpler form of headings
+    
+    This was inherited from asciidoc, but this is easier to type
+
+commit 50a17ed7a950bf011b448a3571ad0f9d9acfcdaa
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Feb 3 20:48:53 2021 -0700
+
+    Fix literal string
+    
+    The underscores in this message were meant to appear in the output
+
+commit 1e55286b4cb7e118ff6ff1d972568b5232a196dc
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Wed Feb 3 20:47:10 2021 -0700
+
+    Rename README.mkd to README.md
+    
+    The formatting of this is likely not correct anyway.
+
+commit 3d2e66f7d255082c0628995a461e11056f0fba99
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Feb 2 07:16:52 2021 -0700
+
+    Reverted comment fix
+
+commit 256db80632ba66511091f435a11cfd383e7e8cac
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Feb 1 07:11:19 2021 -0700
+
+    Comment update
+
+commit 13efcf491c3f701712a1781d1f73d9805adb3db6
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jan 26 14:11:05 2021 -0700
+
+    Fix typo
+
+commit 5ac765be4a3f7e8c497ddf68771c7c454ea403a1
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Tue Jan 26 14:09:17 2021 -0700
+
+    Add notes about performing backups
+
+commit 803d1dca8226bae619c88d913e8a99fd149134b3
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 24 17:06:04 2021 -0700
+
+    Add note about using .gitmodules
+    
+    gitmodules are useful for installing vim plugins in pack
+    format.
+
+commit f14d0d070e2a294838ba29701b20756fdaa9459e
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 17 16:24:33 2021 -0700
+
+    Add a script to detect 256 color
+    
+    Useful when setting up terminals
+    
+    Taken from
+    curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/
+
+commit b9dccca1c4735ba3b812064f52808dd09dfc8168
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 17 16:21:43 2021 -0700
+
+    Add a script to detect truecolor
+    
+    Taken from https://gist.github.com/XVilka/8346728
+    
+    Useful in new environments to make sure true color terminals are working
+    correctly.
+
+commit 825d44b6d527459dd3505d3a4a33c77d8c71361c
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 10 10:13:04 2021 -0700
+
+    Make naming consistent
+
+commit 59fd9a77bf2aa0ee878670c3bbf1432c1238bada
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 10 10:12:25 2021 -0700
+
+    Add barebones .tmux.conf
+
+commit 59e24a31eb73e844d325623ba6e9f7c6047a8b2d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Jan 9 19:00:23 2021 -0700
+
+    Clarify README
+
+commit 44d87c0f2cb7916a3a3999bf55e6acf8e4629298
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jan 7 22:20:26 2021 -0700
+
+    README.md tweaks
+
+commit 5803a4e36ed6decdfea007911bd90bcffeafe92b
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jan 7 22:19:52 2021 -0700
+
+    Remove spurrious blank lines
+
+commit 48576a6b341c1d162ac2f22361c24250f6b7a440
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Thu Jan 7 22:18:04 2021 -0700
+
+    Fix typo in README.md
+
+commit e3746afcda84c053b63a47a568f2320786a0c2c5
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jan 4 17:08:20 2021 -0700
+
+    Revert accidental whitespace tweaks
+
+commit 9502d3df7e7039c84bf50879b6f57eab4fe50cb0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jan 4 17:06:21 2021 -0700
+
+    Update vim scripts
+
+commit 65f6bf13bcb178f9443b86b40428a87cc4d83934
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jan 4 17:05:28 2021 -0700
+
+    Updated diary scripts
+
+commit 346ba1d60e72d38a894be8bb382860af8c53ed9a
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Jan 4 17:03:14 2021 -0700
+
+    Added README
+
+commit 691dcb516fd8abbb6838f6ab8d712bb2ca21f925
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 18 10:53:22 2015 -0500
+
+    Rename README.mkd to README.md
+
+commit 1dac76b71da15a4fa95f93ff132dedee527cf6a5
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Mar 23 20:37:13 2014 -0400
+
+    Tiny note about future VIM
+
+commit 0957b822d5d1e925575c52b664f49055ca398ba0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Sep 22 21:38:58 2013 -0600
+
+    Set reminder to update repo again
+
+commit 62dc3c63d0ad327b70fe8066bc5bba43f94a6a08
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sat Dec 1 11:21:56 2012 -0700
+
+    End sentence properly
+
+commit 014b3a8e9a76d99b4b89d9a1399f9d26bf016c81
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 20:12:18 2012 -0700
+
+    Update env to python 2.6
+
+commit e1363877613b7dae1da3de70c69f767671d16984
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 18:45:30 2012 -0700
+
+    Added python diary script
+
+commit 8de3d36a9dd5d4c1d4ca9df1528d30c52df6fc42
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 18:24:28 2012 -0700
+
+    Rename scripts to diary_scripts
+
+commit fd2ba31a6657fc519e7f3e640407e06c9c6e5caa
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 18:22:53 2012 -0700
+
+    Updated scripts
+
+commit b7cafaba3e74fb091cd879fe1c812201123c14fd
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 17:29:58 2012 -0700
+
+    Readme no longer needed
+
+commit d00e8612a6fbad65a93579a6df7293e783b4d456
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 17:27:38 2012 -0700
+
+    Switched to markdown based config file
+
+commit 8ea3c83fb96731891372b72b66ca24b3e88a946d
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 29 17:23:37 2012 -0700
+
+    Revamped and simplified personal.vim
+
+commit 59df313326ba6c308a91e0913b45c5384f28e9be
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 22 20:57:10 2012 -0700
+
+    Reverted but added note to learn mouse settings
+
+commit 0dd294231f6f9600fcbb2b32428135c60fe93b9f
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 22 20:56:36 2012 -0700
+
+    Disable mouse mode but enable other
+
+commit de288b2d75d9b0094e314fa3800b55da888e81a0
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Sun Jan 22 20:56:08 2012 -0700
+
+    Enable mouse mode
+
+commit b2be60147ab7099cbc452c5f2626e3dffd9826c6
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Sep 13 14:37:15 2010 -0600
+
+    Added TODO regarding 256 color mode
+    
+    This config file currently assumes that a 256 color terminal is
+    available, and that a 256 color colorscheme be used.  This should
+    probably be conditional.
+
+commit b693f17e8357dca77091b236742dd64f8c02e938
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Sep 13 14:36:57 2010 -0600
+
+    Added .vimrc
+
+commit 0095360dd4742e30349adbf5aa16483e8a25a8c8
+Author: Eric Scharff <eric.scharff@gmail.com>
+Date:   Mon Sep 13 14:36:20 2010 -0600
+
+    Personal configuration files
