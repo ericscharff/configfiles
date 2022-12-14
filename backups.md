@@ -18,8 +18,10 @@ $ python3 -m venv /home/pi/Applications/python3
 
 # Install duplicity into venv
 $ source Applications/python3/bin/activate
-$ pip3 install paramiko
-$ pip3 install duplicity
+$ pip install --upgrade pip
+$ pip install setuptools
+$ pip install paramiko
+$ pip install duplicity
 
 # Use the duplicity-excludes file
 $ cp dot.duplicity-excludes ~/.duplicity-excludes
