@@ -50,4 +50,3 @@ $ ssh-agent bash
 $ ssh-add
 $ duplicity --exclude-filelist /home/pi/.duplicity-excludes /home/pi sftp://pi@raspberrypi.local/bach_backup
 ```
-
