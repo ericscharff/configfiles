@@ -1,0 +1,366 @@
+
+Start-Date: 2022-12-10  11:14:36
+Commandline: packagekit role='install-packages'
+Install: mythes-en-us:armhf (1:7.1.0~rc3-3), hyphen-en-us:armhf (2.8.8-7), libreoffice-help-en-us:armhf (1:7.0.4-4+rpi1+deb11u3)
+End-Date: 2022-12-10  11:14:41
+
+Start-Date: 2022-12-10  11:16:35
+Commandline: packagekit role='update-packages'
+Install: libva-wayland2:armhf (2.10.0-1)
+Upgrade: libntfs-3g883:armhf (1:2017.3.23AR.3-4+deb11u2, 1:2017.3.23AR.3-4+deb11u3), vlc-plugin-qt:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libvlc5:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), lxplug-ejecter:armhf (0.20, 0.21), python3-kms++:armhf (0~git20211110~105525+2236a8c-1, 0~git20221104~171243+adc05b6-1), bind9-host:armhf (1:9.16.27-1~deb11u1, 1:9.16.33-1~deb11u1), raspberrypi-bootloader:armhf (1:1.20220830-1, 1:1.20221104-1), libgssapi-krb5-2:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), vlc-data:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), dbus-user-session:armhf (1.12.20-2, 1.12.24-0+deb11u1), firmware-brcm80211:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), rpi-eeprom:armhf (13.16-1, 15.0-1), ntfs-3g:armhf (1:2017.3.23AR.3-4+deb11u2, 1:2017.3.23AR.3-4+deb11u3), xserver-xorg-core:armhf (2:1.20.11-1+rpt1+deb11u2, 2:1.20.11-1+rpt1+deb11u3), libmutter-7-0:armhf (1:3.38.6-2~deb11u2+rpt5, 1:3.38.6-2~deb11u2+rpt6), libvlccore9:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libmaven-shared-utils-java:armhf (3.3.0-1, 3.3.0-1+deb11u1), vlc:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), raspi-config:armhf (20220920, 20221018), libexpat1:armhf (2.2.10-2+deb11u3, 2.2.10-2+deb11u5), vlc-bin:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), firmware-atheros:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), arandr:armhf (0.1.10-1.1+rpt20, 0.1.10-1.1+rpt21), vlc-l10n:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), lxplug-updater:armhf (0.12, 0.13), libpixman-1-0:armhf (0.40.0-1+rpt1, 0.40.0-1.1~deb11u1+rpt1), libavdevice58:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), ffmpeg:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), libdbus-1-3:armhf (1.12.20-2, 1.12.24-0+deb11u1), raspberrypi-ui-mods:armhf (1.20220810, 1.20221130), libkrb5support0:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), gir1.2-gtk-3.0:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), libxml2:armhf (2.9.10+dfsg-6.7+deb11u2, 2.9.10+dfsg-6.7+deb11u3), mutter-common:armhf (1:3.38.6-2~deb11u2+rpt5, 1:3.38.6-2~deb11u2+rpt6), python3-picamera2:armhf (0.3.3-1, 0.3.7-1), libkms++0:armhf (0~git20211110~105525+2236a8c-1, 0~git20221104~171243+adc05b6-1), libpostproc55:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), isc-dhcp-common:armhf (4.4.1-2.3, 4.4.1-2.3+deb11u1), vlc-plugin-samba:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), dbus-x11:armhf (1.12.20-2, 1.12.24-0+deb11u1), libc6:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), locales:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libkrb5-3:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), lxplug-magnifier:armhf (0.13, 0.14), libcamera-tools:armhf (0~git20220826+3fad116f-1, 0~git20221130+0684c373-1), libavcodec58:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), xserver-common:armhf (2:1.20.11-1+rpt1+deb11u2, 2:1.20.11-1+rpt1+deb11u3), xwayland:armhf (2:1.20.11-1+rpt1+deb11u2, 2:1.20.11-1+rpt1+deb11u3), isc-dhcp-client:armhf (4.4.1-2.3, 4.4.1-2.3+deb11u1), firmware-realtek:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), rp-prefapps:armhf (0.43, 0.44), agnostics:armhf (0.10, 0.12), vlc-plugin-notify:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), rp-bookshelf:armhf (0.18, 0.19), libk5crypto3:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), firmware-libertas:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), bluez-firmware:armhf (1.2-4+rpt8, 1.2-4+rpt9), libavutil56:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), lxplug-netman:armhf (0.3, 0.4), thonny:armhf (3.3.14-1+rpt1, 4.0.1-1~bpo11+1~rpt1), firmware-misc-nonfree:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), libswscale5:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), libjavascriptcoregtk-4.0-18:armhf (2.34.6-1~deb11u1+rpi1, 2.38.2-1~deb11u1+rpi1), mutter:armhf (1:3.38.6-2~deb11u2+rpt5, 1:3.38.6-2~deb11u2+rpt6), vlc-plugin-access-extra:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libbluetooth3:armhf (5.55-3.1+rpt1, 5.55-3.1+rpt2), vlc-plugin-skins2:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), vcdbg:armhf (1:1.20220830-1, 1:1.20221104-1), libc-dev-bin:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libcamera0:armhf (0~git20220826+3fad116f-1, 0~git20221130+0684c373-1), vlc-plugin-video-splitter:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libc-l10n:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libgtk-3-0:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), bind9-libs:armhf (1:9.16.27-1~deb11u1, 1:9.16.33-1~deb11u1), libcamera-apps:armhf (0~git20220830+1bf0cca-1, 0~git20221201+9c5d319-1), libc-bin:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libc-devtools:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libswresample3:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), dhcpcd5:armhf (1:8.1.2-1+rpt7, 1:8.1.2-1+rpt9), vlc-plugin-video-output:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), gtk-update-icon-cache:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), libgtk-3-common:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), libc6-dbg:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libc6-dev:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libksba8:armhf (1.5.0-3, 1.5.0-3+deb11u1), libwebkit2gtk-4.0-37:armhf (2.34.6-1~deb11u1+rpi1, 2.38.2-1~deb11u1+rpi1), bluez:armhf (5.55-3.1+rpt1, 5.55-3.1+rpt2), libexpat1-dev:armhf (2.2.10-2+deb11u3, 2.2.10-2+deb11u5), libavformat58:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), raspberrypi-kernel:armhf (1:1.20220830-1, 1:1.20221104-1), libavresample4:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), python3-libcamera:armhf (0~git20220826+3fad116f-1, 0~git20221130+0684c373-1), dbus:armhf (1.12.20-2, 1.12.24-0+deb11u1), raspberrypi-sys-mods:armhf (20220915, 20221019), libvlc-bin:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libuv1:armhf (1.40.0-1, 1.40.0-2), vlc-plugin-base:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), vlc-plugin-visualization:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), linux-libc-dev:armhf (1:1.20220830-1, 1:1.20221104-1), libavfilter7:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2)
+End-Date: 2022-12-10  11:19:11
+
+Start-Date: 2022-12-10  13:55:27
+Commandline: apt install universal-ctags
+Requested-By: eric (1000)
+Install: universal-ctags:armhf (0+git20200824-1.1)
+End-Date: 2022-12-10  13:55:30
+
+Start-Date: 2022-12-10  13:55:42
+Commandline: apt remove --purge universal-ctags
+Requested-By: eric (1000)
+Purge: universal-ctags:armhf (0+git20200824-1.1)
+End-Date: 2022-12-10  13:55:44
+
+Start-Date: 2022-12-10  13:56:19
+Commandline: apt install flex bison
+Requested-By: eric (1000)
+Install: bison:armhf (2:3.7.5+dfsg-1), libsigsegv2:armhf (2.13-1, automatic), flex:armhf (2.6.4-8), libfl-dev:armhf (2.6.4-8, automatic), m4:armhf (1.4.18-5, automatic), libfl2:armhf (2.6.4-8, automatic)
+End-Date: 2022-12-10  13:56:22
+
+Start-Date: 2022-12-10  13:57:19
+Commandline: apt install vim
+Requested-By: eric (1000)
+Install: vim:armhf (2:8.2.2434-3+deb11u1), vim-runtime:armhf (2:8.2.2434-3+deb11u1, automatic)
+End-Date: 2022-12-10  13:57:24
+
+Start-Date: 2022-12-10  13:57:47
+Commandline: apt install gitk
+Requested-By: eric (1000)
+Install: tcl:armhf (8.6.11+1, automatic), gitk:armhf (1:2.30.2-1), tcl8.6:armhf (8.6.11+dfsg-1, automatic), tk:armhf (8.6.11+1, automatic), tk8.6:armhf (8.6.11-2, automatic)
+End-Date: 2022-12-10  13:57:49
+
+Start-Date: 2022-12-10  13:57:58
+Commandline: apt install git-gui
+Requested-By: eric (1000)
+Install: git-gui:armhf (1:2.30.2-1)
+End-Date: 2022-12-10  13:57:59
+
+Start-Date: 2022-12-10  13:58:20
+Commandline: apt install git-doc
+Requested-By: eric (1000)
+Install: git-doc:armhf (1:2.30.2-1)
+End-Date: 2022-12-10  13:58:22
+
+Start-Date: 2022-12-10  13:58:35
+Commandline: apt install subversion
+Requested-By: eric (1000)
+Install: libapr1:armhf (1.7.0-6+deb11u1, automatic), libserf-1-1:armhf (1.3.9-10, automatic), libsvn1:armhf (1.14.1-3+deb11u1, automatic), libaprutil1:armhf (1.6.1-5, automatic), libutf8proc2:armhf (2.5.0-1, automatic), subversion:armhf (1.14.1-3+deb11u1)
+End-Date: 2022-12-10  13:58:38
+
+Start-Date: 2022-12-10  13:58:52
+Commandline: apt install mercurial
+Requested-By: eric (1000)
+Install: mercurial-common:armhf (5.6.1-4+rpi1, automatic), mercurial:armhf (5.6.1-4+rpi1)
+End-Date: 2022-12-10  13:59:00
+
+Start-Date: 2022-12-10  13:59:13
+Commandline: apt install cmake
+Requested-By: eric (1000)
+Install: libjsoncpp24:armhf (1.9.4-4, automatic), librhash0:armhf (1.4.1-2, automatic), cmake-data:armhf (3.18.4-2+rpt1+rpi1+deb11u1, automatic), cmake:armhf (3.18.4-2+rpt1+rpi1+deb11u1)
+End-Date: 2022-12-10  13:59:18
+
+Start-Date: 2022-12-10  14:07:50
+Commandline: apt install tmux
+Requested-By: eric (1000)
+Install: tmux:armhf (3.1c-1+deb11u1), libutempter0:armhf (1.2.1-2, automatic)
+End-Date: 2022-12-10  14:07:52
+
+Start-Date: 2022-12-10  21:45:21
+Commandline: apt install gettext
+Requested-By: eric (1000)
+Install: gettext:armhf (0.21-4)
+End-Date: 2022-12-10  21:45:23
+
+Start-Date: 2022-12-10  21:47:53
+Commandline: apt install librsync-dev
+Requested-By: eric (1000)
+Install: libb2-1:armhf (0.98.1-1.1, automatic), librsync-dev:armhf (2.3.1-1), librsync2:armhf (2.3.1-1, automatic), libpopt-dev:armhf (1.18-2, automatic)
+End-Date: 2022-12-10  21:47:55
+
+Start-Date: 2022-12-10  22:56:09
+Commandline: apt install libssl-dev
+Requested-By: eric (1000)
+Install: libssl-dev:armhf (1.1.1n-0+deb11u3+rpt1)
+End-Date: 2022-12-10  22:56:10
+
+Start-Date: 2022-12-11  10:57:08
+Commandline: apt-get dist-upgrade
+Requested-By: eric (1000)
+Upgrade: libopenexr25:armhf (2.5.4-2, 2.5.4-2+deb11u1)
+End-Date: 2022-12-11  10:57:10
+
+Start-Date: 2022-12-12  07:36:35
+Commandline: apt upgrade
+Requested-By: eric (1000)
+Upgrade: vlc-plugin-qt:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), libvlc5:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-data:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), libvlccore9:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-bin:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-l10n:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-samba:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-notify:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-access-extra:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-skins2:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-video-splitter:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-video-output:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), libvlc-bin:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-base:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-visualization:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1)
+End-Date: 2022-12-12  07:36:44
+
+Start-Date: 2022-12-12  07:37:59
+Commandline: apt install libfuse-dev
+Requested-By: eric (1000)
+Install: libselinux1-dev:armhf (3.1-3, automatic), libsepol1-dev:armhf (3.1-1, automatic), libpcre2-32-0:armhf (10.36-2+deb11u1, automatic), libfuse-dev:armhf (2.9.9-5), libpcre2-dev:armhf (10.36-2+deb11u1, automatic)
+End-Date: 2022-12-12  07:38:04
+
+Start-Date: 2022-12-12  20:34:44
+Commandline: apt install imagemagick
+Requested-By: eric (1000)
+Install: libnetpbm10:armhf (2:10.0-15.4, automatic), netpbm:armhf (2:10.0-15.4, automatic), libheif1:armhf (1.11.0-1, automatic), imagemagick:armhf (8:6.9.11.60+dfsg-1.3), gsfonts:armhf (1:8.11+urwcyr1.0.7~pre44-4.5, automatic), libwmf0.2-7:armhf (0.2.8.4-17, automatic), libmagickcore-6.q16-6-extra:armhf (8:6.9.11.60+dfsg-1.3, automatic), libmagickwand-6.q16-6:armhf (8:6.9.11.60+dfsg-1.3, automatic), imagemagick-6.q16:armhf (8:6.9.11.60+dfsg-1.3, automatic), libmagickcore-6.q16-6:armhf (8:6.9.11.60+dfsg-1.3, automatic), libjxr-tools:armhf (1.1-6, automatic), imagemagick-6-common:armhf (8:6.9.11.60+dfsg-1.3, automatic), libjxr0:armhf (1.1-6, automatic), liblqr-1-0:armhf (0.4.2-2.1, automatic)
+End-Date: 2022-12-12  20:34:55
+
+Start-Date: 2022-12-15  18:50:24
+Commandline: apt install ucblogo
+Requested-By: eric (1000)
+Install: libwxgtk3.0-gtk3-0v5:armhf (3.0.5.1+dfsg-2, automatic), libwxbase3.0-0v5:armhf (3.0.5.1+dfsg-2, automatic), ucblogo:armhf (6.2.1-2)
+End-Date: 2022-12-15  18:50:28
+
+Start-Date: 2022-12-16  17:22:42
+Commandline: apt install xdelta3
+Requested-By: eric (1000)
+Install: xdelta3:armhf (3.0.11-dfsg-1)
+End-Date: 2022-12-16  17:22:44
+
+Start-Date: 2022-12-19  11:21:29
+Commandline: apt upgrade
+Requested-By: eric (1000)
+Upgrade: libnftables1:armhf (0.9.8-3.1, 0.9.8-3.1+deb11u1), tzdata:armhf (2021a-1+deb11u5, 2021a-1+deb11u8), libtasn1-6:armhf (4.16.0-2, 4.16.0-2+deb11u1), libbluray2:armhf (1:1.2.1-4+deb11u1, 1:1.2.1-4+deb11u2), raspi-config:armhf (20221018, 20221214), libvncclient1:armhf (0.9.13+dfsg-2, 0.9.13+dfsg-2+deb11u1), base-files:armhf (11.1+rpi1+deb11u5, 11.1+rpi1+deb11u6), bluez-firmware:armhf (1.2-4+rpt9, 1.2-4+rpt10), distro-info-data:armhf (0.51+deb11u2, 0.51+deb11u3), nano:armhf (5.4-2+deb11u1, 5.4-2+deb11u2), libpq5:armhf (13.8-0+deb11u1, 13.9-0+deb11u1), nftables:armhf (0.9.8-3.1, 0.9.8-3.1+deb11u1)
+End-Date: 2022-12-19  11:21:38
+
+Start-Date: 2022-12-20  22:21:58
+Commandline: apt upgrade
+Requested-By: eric (1000)
+Upgrade: xserver-xorg-core:armhf (2:1.20.11-1+rpt1+deb11u3, 2:1.20.11-1+rpt1+deb11u4), xserver-common:armhf (2:1.20.11-1+rpt1+deb11u3, 2:1.20.11-1+rpt1+deb11u4), xwayland:armhf (2:1.20.11-1+rpt1+deb11u3, 2:1.20.11-1+rpt1+deb11u4)
+End-Date: 2022-12-20  22:22:01
+
+Start-Date: 2022-12-24  15:09:55
+Commandline: apt upgrade -y
+Requested-By: eric (1000)
+Upgrade: raspinfo:armhf (20190624-1, 20221220-1), libksba8:armhf (1.5.0-3+deb11u1, 1.5.0-3+deb11u2)
+End-Date: 2022-12-24  15:09:58
+
+Start-Date: 2022-12-24  15:11:59
+Commandline: apt-get install -y lsb-release git dialog wget gcc g++ build-essential unzip xmlstarlet python3-pyudev ca-certificates libasound2-dev libudev-dev libibus-1.0-dev libdbus-1-dev fcitx-libs-dev libsndio-dev libx11-dev libxcursor-dev libxext-dev libxi-dev libxinerama-dev libxkbcommon-dev libxrandr-dev libxss-dev libxt-dev libxv-dev libxxf86vm-dev libgl1-mesa-dev libegl1-mesa-dev libgles2-mesa-dev libgl1-mesa-dev libglu1-mesa-dev libdrm-dev libgbm-dev devscripts debhelper dh-autoreconf libraspberrypi-dev libpulse-dev
+Requested-By: eric (1000)
+Install: dput:armhf (1.1.0, automatic), x11proto-scrnsaver-dev:armhf (2020.1-1, automatic), libsub-exporter-perl:armhf (0.987-1, automatic), libblkid-dev:armhf (2.36.1-8+deb11u1, automatic), lintian:armhf (2.104.0, automatic), debhelper:armhf (13.3.4), libxml-namespacesupport-perl:armhf (1.12-1.1, automatic), libtimedate-perl:armhf (2.3300-2, automatic), libhtml-tagset-perl:armhf (3.20-4, automatic), libglib2.0-dev-bin:armhf (2.66.8-1, automatic), libdrm-dev:armhf (2.4.104-1+rpi1), libgles2-mesa-dev:armhf (20.3.5-1+rpt4+rpi1), libglu1-mesa-dev:armhf (9.0.1-1), equivs:armhf (2.3.1, automatic), libpcre32-3:armhf (2:8.39-13, automatic), libvariable-magic-perl:armhf (0.62-1+b3, automatic), libglx-dev:armhf (1.3.2-1, automatic), libegl-dev:armhf (1.3.2-1, automatic), libnet-ssleay-perl:armhf (1.88-3+b1, automatic), libnet-domain-tld-perl:armhf (1.75-1.1, automatic), libgles-dev:armhf (1.3.2-1, automatic), libreadonly-perl:armhf (2.050-3, automatic), libtime-duration-perl:armhf (1.21-1, automatic), libmoox-struct-perl:armhf (0.020-1, automatic), libsereal-decoder-perl:armhf (4.018+ds-1+b1, automatic), libdevel-size-perl:armhf (0.83-1+b3, automatic), libconst-fast-perl:armhf (0.014-1.1, automatic), libauthen-sasl-perl:armhf (2.1600-1.1, automatic), libfcitx-utils0:armhf (1:4.2.9.8-3, automatic), gir1.2-fcitx-1.0:armhf (1:4.2.9.8-3, automatic), fcitx-config-gtk:armhf (0.4.10-3, automatic), libtypes-serialiser-perl:armhf (1.01-1, automatic), libio-socket-ssl-perl:armhf (2.069-1, automatic), libwww-robotrules-perl:armhf (6.02-1, automatic), liblist-someutils-perl:armhf (0.58-1, automatic), libparams-validate-perl:armhf (1.30-1+b1, automatic), libhtml-form-perl:armhf (6.07-1, automatic), liblwp-protocol-https-perl:armhf (6.10-1, automatic), dwz:armhf (0.13+20210201-1, automatic), libwww-perl:armhf (6.52-1, automatic), libtype-tiny-xs-perl:armhf (0.022-1, automatic), dialog:armhf (1.3-20201126-1), libtry-tiny-perl:armhf (0.30-1, automatic), libmount-dev:armhf (2.36.1-8+deb11u1, automatic), libpath-tiny-perl:armhf (0.118-1, automatic), libfcgi-perl:armhf (0.79+ds-2, automatic), libxrender-dev:armhf (1:0.9.10-1, automatic), libglib2.0-dev:armhf (2.66.8-1, automatic), pristine-tar:armhf (1.49, automatic), libfile-chdir-perl:armhf (0.1008-1.1, automatic), pixz:armhf (1.0.7-1, automatic), libnamespace-autoclean-perl:armhf (0.29-1, automatic), libexporter-tiny-perl:armhf (1.002002-1, automatic), libhash-fieldhash-perl:armhf (0.15-1+b3, automatic), libclass-inspector-perl:armhf (1.36-1, automatic), dctrl-tools:armhf (2.24-3, automatic), libpod-parser-perl:armhf (1.63-2, automatic), libaliased-perl:armhf (0.34-1.1, automatic), libxss-dev:armhf (1:1.2.3-1), libdrm-freedreno1:armhf (2.4.104-1+rpi1, automatic), libhttp-negotiate-perl:armhf (6.01-1, automatic), fcitx-module-kimpanel:armhf (1:4.2.9.8-3, automatic), libmouse-perl:armhf (2.5.10-1+b2, automatic), libfont-afm-perl:armhf (1.20-3, automatic), libre2-9:armhf (20210201+dfsg-1, automatic), libarray-intspan-perl:armhf (2.004-1, automatic), libsub-quote-perl:armhf (2.006006-1, automatic), libsort-key-perl:armhf (1.33-2+b3, automatic), libgbm-dev:armhf (20.3.5-1+rpt4+rpi1), fcitx5-module-quickphrase-editor:armhf (1.2.5-1+b2, automatic), automake:armhf (1:1.16.3-2, automatic), libxrandr-dev:armhf (2:1.5.1-1), pbzip2:armhf (1.1.13-1, automatic), fcitx:armhf (1:4.2.9.8-3, automatic), libsoap-lite-perl:armhf (1.27-1, automatic), libmime-tools-perl:armhf (5.509-1, automatic), librole-tiny-perl:armhf (2.002004-1, automatic), licensecheck:armhf (3.1.1-2, automatic), libarchive-zip-perl:armhf (1.68-1, automatic), libstrictures-perl:armhf (2.000006-1, automatic), libxfixes-dev:armhf (1:5.0.3-2, automatic), fcitx-module-dbus:armhf (1:4.2.9.8-3, automatic), liblist-moreutils-perl:armhf (0.430-2, automatic), x11proto-xf86vidmode-dev:armhf (2020.1-1, automatic), libencode-locale-perl:armhf (1.05-1.1, automatic), libmoox-aliases-perl:armhf (0.001006-1.1, automatic), libconvert-binhex-perl:armhf (1.125-1, automatic), libfile-which-perl:armhf (1.23-1, automatic), libhttp-tiny-multipart-perl:armhf (0.08-1.1, automatic), libfile-touch-perl:armhf (0.11-1, automatic), libregexp-pattern-license-perl:armhf (3.4.0-1, automatic), libnumber-compare-perl:armhf (0.03-1.1, automatic), libstring-shellquote-perl:armhf (1.04-1, automatic), libdata-dump-perl:armhf (1.23-1.1, automatic), libpresage1v5:armhf (0.9.1-2.2+b1, automatic), x11proto-randr-dev:armhf (2020.1-1, automatic), liblwp-mediatypes-perl:armhf (6.04-1, automatic), fcitx-modules:armhf (1:4.2.9.8-3, automatic), libsub-override-perl:armhf (0.09-2, automatic), libb-hooks-endofscope-perl:armhf (0.24-1.1, automatic), libudev-dev:armhf (247.3-7+rpi1+deb11u1), libdevel-callchecker-perl:armhf (0.008-1+b2, automatic), libhtml-tree-perl:armhf (5.07-2, automatic), po-debconf:armhf (1.0.21+nmu1, automatic), libjson-perl:armhf (4.03000-1, automatic), libmailtools-perl:armhf (2.21-1, automatic), libfile-dirlist-perl:armhf (0.05-2, automatic), xmlstarlet:armhf (1.6.1-2.1), libdynaloader-functions-perl:armhf (0.003-1.1, automatic), libdebhelper-perl:armhf (13.3.4, automatic), libxinerama-dev:armhf (2:1.1.4-2), libtext-glob-perl:armhf (0.11-1, automatic), libgitlab-api-v4-perl:armhf (0.26-1, automatic), libclass-xsaccessor-perl:armhf (1.19-3+b17, automatic), libsub-install-perl:armhf (0.928-1.1, automatic), libglvnd-dev:armhf (1.3.2-1, automatic), libmarkdown2:armhf (2.2.6-1, automatic), libgl1-mesa-dev:armhf (20.3.5-1+rpt4+rpi1), libxi-dev:armhf (2:1.7.10-1), im-config:armhf (0.46-1+deb11u1, automatic), libdata-validate-domain-perl:armhf (0.10-1.1, automatic), libregexp-pattern-perl:armhf (0.2.14-1, automatic), libegl1-mesa-dev:armhf (20.3.5-1+rpt4+rpi1), libclass-data-inheritable-perl:armhf (0.08-3, automatic), libfcitx-config4:armhf (1:4.2.9.8-3, automatic), libmoo-perl:armhf (2.004004-1, automatic), liburi-perl:armhf (5.08-1, automatic), presage:armhf (0.9.1-2.2+b1, automatic), libossp-uuid-perl:armhf (1.6.2-1.5+b7, automatic), devscripts:armhf (2.21.3+deb11u1), fcitx-bin:armhf (1:4.2.9.8-3, automatic), libtinyxml2.6.2v5:armhf (2.6.2-4+deb11u1, automatic), libltdl-dev:armhf (2.4.6-15, automatic), libdevel-stacktrace-perl:armhf (2.0400-1, automatic), libexception-class-perl:armhf (1.44-1, automatic), libhttp-cookies-perl:armhf (6.10-1, automatic), libfcgi0ldbl:armhf (2.4.2-2, automatic), libcapture-tiny-perl:armhf (0.48-1, automatic), libtext-markdown-discount-perl:armhf (0.12-1+b1, automatic), libio-html-perl:armhf (1.004-2, automatic), libsndio-dev:armhf (1.5.0-3), libnamespace-clean-perl:armhf (0.27-1, automatic), fcitx-module-lua:armhf (1:4.2.9.8-3, automatic), autoconf:armhf (2.69-14, automatic), libffi-dev:armhf (3.3-6, automatic), libfont-ttf-perl:armhf (1.06-1.1, automatic), libtype-tiny-perl:armhf (1.012001-2, automatic), libsereal-encoder-perl:armhf (4.018+ds-1+b1, automatic), gir1.2-ibus-1.0:armhf (1.5.23-2, automatic), libsys-cpuaffinity-perl:armhf (1.13~03-1, automatic), autopoint:armhf (0.21-4, automatic), libiterator-perl:armhf (0.03+ds1-1.1, automatic), lzip:armhf (1.22-3, automatic), lzop:armhf (1.04-2, automatic), libnet-http-perl:armhf (6.20-1, automatic), libibus-1.0-dev:armhf (1.5.23-2), libstring-copyright-perl:armhf (0.003006-1, automatic), libimport-into-perl:armhf (1.002005-1, automatic), fcitx-module-x11:armhf (1:4.2.9.8-3, automatic), libxmlrpc-lite-perl:armhf (0.717-4, automatic), libcommon-sense-perl:armhf (3.75-1+b4, automatic), libterm-readkey-perl:armhf (2.38-1+b3, automatic), libiterator-util-perl:armhf (0.02+ds1-1.1, automatic), libgetopt-long-descriptive-perl:armhf (0.105-1, automatic), libio-stringy-perl:armhf (2.111-3, automatic), libipc-system-simple-perl:armhf (1.30-1, automatic), libhtml-format-perl:armhf (2.12-1.1, automatic), libcontextual-return-perl:armhf (0.004014-2, automatic), libfile-find-rule-perl:armhf (0.34-1, automatic), libpod-constants-perl:armhf (0.19-2, automatic), libdistro-info-perl:armhf (1.0, automatic), libmodule-implementation-perl:armhf (0.09-1.1, automatic), fcitx-frontend-gtk2:armhf (1:4.2.9.8-3, automatic), fcitx-frontend-gtk3:armhf (1:4.2.9.8-3, automatic), libpresage-data:armhf (0.9.1-2.2, automatic), x11proto-input-dev:armhf (2020.1-1, automatic), libipc-run-perl:armhf (20200505.0-1, automatic), fcitx-config-common:armhf (0.4.10-3, automatic), python3-unidiff:armhf (0.5.5-2, automatic), libjson-maybexs-perl:armhf (1.004003-1, automatic), fcitx-data:armhf (1:4.2.9.8-3, automatic), diffstat:armhf (1.64-1, automatic), libhttp-date-perl:armhf (6.05-1, automatic), libxcursor-dev:armhf (1:1.2.0-2), libopengl0:armhf (1.3.2-1, automatic), libnumber-range-perl:armhf (0.12-1.1, automatic), libxdelta2:armhf (1.1.3-9.3, automatic), t1utils:armhf (1.41-4, automatic), python3-pyudev:armhf (0.22.0-2), libtext-xslate-perl:armhf (3.5.8-1+b1, automatic), uuid-dev:armhf (2.36.1-8+deb11u1, automatic), liblist-compare-perl:armhf (0.55-1, automatic), libfile-basedir-perl:armhf (0.08-1, automatic), python3-gpg:armhf (1.14.0-1+b1, automatic), autotools-dev:armhf (20180224.1+nmu1, automatic), libparams-classify-perl:armhf (0.015-1+b3, automatic), libhtml-parser-perl:armhf (3.75-1+b1, automatic), fcitx-libs-dev:armhf (1:4.2.9.8-3), libsub-identify-perl:armhf (0.14-1+b3, automatic), libxml-sax-base-perl:armhf (1.09-1.1, automatic), fcitx-frontend-all:armhf (1:4.2.9.8-3, automatic), libsys-hostname-long-perl:armhf (1.5-2, automatic), libtool:armhf (2.4.6-15, automatic), libfile-homedir-perl:armhf (1.006-1, automatic), perl-openssl-defaults:armhf (5, automatic), libdata-optlist-perl:armhf (0.110-1.1, automatic), libpcrecpp0v5:armhf (2:8.39-13, automatic), fcitx-ui-classic:armhf (1:4.2.9.8-3, automatic), liblist-utilsby-perl:armhf (0.11-1, automatic), libunicode-utf8-perl:armhf (0.62-1+b2, automatic), libdata-dpath-perl:armhf (0.58-1, automatic), libmodule-runtime-perl:armhf (0.016-1, automatic), libwant-perl:armhf (0.29-1+b5, automatic), libparams-util-perl:armhf (1.102-1+b1, automatic), libgl-dev:armhf (1.3.2-1, automatic), libxml-sax-perl:armhf (1.02+dfsg-1, automatic), libpcre16-3:armhf (2:8.39-13, automatic), libtask-weaken-perl:armhf (1.06-1, automatic), libgettextpo0:armhf (0.21-4, automatic), dh-autoreconf:armhf (20), libre-engine-re2-perl:armhf (0.14-1, automatic), libmail-sendmail-perl:armhf (0.80-1.1, automatic), libxext-dev:armhf (2:1.3.3-1.1), libpackage-stash-xs-perl:armhf (0.29-1+b2, automatic), libtime-moment-perl:armhf (0.44-1+b3, automatic), python3-xdg:armhf (0.27-2, automatic), x11proto-xext-dev:armhf (2020.1-1, automatic), libfcitx-gclient1:armhf (1:4.2.9.8-3, automatic), fcitx-frontend-qt5:armhf (1.2.5-1+b2, automatic), libdrm-exynos1:armhf (2.4.104-1+rpi1, automatic), debian-keyring:armhf (2021.07.26, automatic), libref-util-xs-perl:armhf (0.117-1+b3, automatic), libconfig-tiny-perl:armhf (2.26-1, automatic), libpackage-stash-perl:armhf (0.39-1, automatic), libfcitx-core0:armhf (1:4.2.9.8-3, automatic), libxkbcommon-dev:armhf (1.0.3-2), libio-pty-perl:armhf (1:1.15-2, automatic), libfcitx-qt5-1:armhf (1.2.5-1+b2, automatic), libemail-address-xs-perl:armhf (1.04-1+b4, automatic), libclone-perl:armhf (0.45-1+b1, automatic), liblist-moreutils-xs-perl:armhf (0.430-2, automatic), dh-strip-nondeterminism:armhf (1.12.0-1, automatic), libstring-escape-perl:armhf (2010.002-2, automatic), libyaml-libyaml-perl:armhf (0.82+repack-1+b1, automatic), libb-hooks-op-check-perl:armhf (0.22-1+b4, automatic), libgit-wrapper-perl:armhf (0.048-1, automatic), libdbus-1-dev:armhf (1.12.24-0+deb11u1), libref-util-perl:armhf (0.204-1, automatic), intltool-debian:armhf (0.35.0+20060710.5, automatic), libpulse-dev:armhf (14.2-2+rpt1), libfile-stripnondeterminism-perl:armhf (1.12.0-1, automatic), libxv-dev:armhf (2:1.0.11-1), libopengl-dev:armhf (1.3.2-1, automatic), python3-magic:armhf (2:0.4.20-3, automatic), libhtml-html5-entities-perl:armhf (0.004-1.1, automatic), libxxf86vm-dev:armhf (1:1.1.4-1+b2), libhttp-message-perl:armhf (6.28-1, automatic), liblog-any-adapter-screen-perl:armhf (0.140-1, automatic), libjson-xs-perl:armhf (4.030-1+b1, automatic), libsub-exporter-progressive-perl:armhf (0.001013-1, automatic), libfile-listing-perl:armhf (6.14-1, automatic), libfcgi-bin:armhf (2.4.2-2, automatic), xdelta:armhf (1.1.3-9.3, automatic), libsort-versions-perl:armhf (1.62-1, automatic), libobject-id-perl:armhf (0.1.2-2.1, automatic), libxml-parser-perl:armhf (2.46-2, automatic), libio-prompter-perl:armhf (0.004015-1, automatic), libfcitx-qt5-data:armhf (1.2.5-1, automatic), libtext-levenshteinxs-perl:armhf (0.03-4+b7, automatic), liblog-any-perl:armhf (1.709-1, automatic), libdrm-tegra0:armhf (2.4.104-1+rpi1, automatic), patchutils:armhf (0.4.2-1, automatic), libdrm-etnaviv1:armhf (2.4.104-1+rpi1, automatic), liblist-someutils-xs-perl:armhf (0.58-2+b1, automatic), libibus-1.0-5:armhf (1.5.23-2, automatic), libio-sessiondata-perl:armhf (1.03-1.1, automatic), libxml-libxml-perl:armhf (2.0134+dfsg-2+b1, automatic), libipc-run3-perl:armhf (0.048-2, automatic), libio-string-perl:armhf (1.08-3.1, automatic), libcpanel-json-xs-perl:armhf (4.25-1+b1, automatic), libarchive-cpio-perl:armhf (0.10-1.1, automatic), libdata-messagepack-perl:armhf (1.00-4+b1, automatic), libpcre3-dev:armhf (2:8.39-13, automatic), libperlio-gzip-perl:armhf (0.19-1+b6, automatic), libclass-method-modifiers-perl:armhf (2.13-1, automatic), wdiff:armhf (1.2.2-2, automatic), libnet-smtp-ssl-perl:armhf (1.04-1, automatic), x11proto-xinerama-dev:armhf (2020.1-1, automatic), libpath-iterator-rule-perl:armhf (1.014-1, automatic), libsub-name-perl:armhf (0.26-1+b1, automatic), libxml-sax-expat-perl:armhf (0.51-1, automatic), python3-debian:armhf (0.1.39, automatic), libasound2-dev:armhf (1.2.4-1.1+rpt2), libhttp-daemon-perl:armhf (6.12-1+deb11u1, automatic), libapt-pkg-perl:armhf (0.1.39, automatic), libproc-processtable-perl:armhf (0.59-2+b1, automatic)
+End-Date: 2022-12-24  15:13:36
+
+Start-Date: 2022-12-24  15:27:34
+Commandline: apt-get install -y libjpeg62-turbo-dev libpng-dev
+Requested-By: eric (1000)
+Install: libjpeg62-turbo-dev:armhf (1:2.0.6-4)
+End-Date: 2022-12-24  15:27:35
+
+Start-Date: 2022-12-24  15:28:23
+Commandline: apt-get install -y libmpg123-dev libvorbis-dev libflac-dev
+Requested-By: eric (1000)
+Install: libflac-dev:armhf (1.3.3-2+deb11u1), libsyn123-0:armhf (1.26.4-1, automatic), libvorbis-dev:armhf (1.3.7-1), libogg-dev:armhf (1.3.4-0.1, automatic), libmpg123-dev:armhf (1.26.4-1), libout123-0:armhf (1.26.4-1, automatic)
+End-Date: 2022-12-24  15:28:25
+
+Start-Date: 2022-12-24  15:29:43
+Commandline: apt install -y libmpg123-dev libpng-dev zlib1g-dev libasound2-dev libvorbis-dev libflac-dev libpcap-dev automake bison flex subversion libjpeg-dev portaudio19-dev texinfo xa65 dos2unix
+Requested-By: eric (1000)
+Install: libtext-unidecode-perl:armhf (1.30-1, automatic), tex-common:armhf (6.16, automatic), libjpeg-dev:armhf (1:2.0.6-4), texinfo:armhf (6.7.0.dfsg.2-6), libpcap0.8-dev:armhf (1.10.0-2, automatic), libjack0:armhf (1:0.125.0-3+b1, automatic), libportaudiocpp0:armhf (19.6.0-1.1, automatic), libportaudio2:armhf (19.6.0-1.1, automatic), xa65:armhf (2.3.11-0.1), libjack-dev:armhf (1:0.125.0-3+b1, automatic), jackd1:armhf (1:0.125.0-3+b1, automatic), libpcap-dev:armhf (1.10.0-2), libzita-alsa-pcmi0:armhf (0.3.2-2, automatic), portaudio19-dev:armhf (19.6.0-1.1), libzita-resampler1:armhf (1.8.0-2, automatic)
+Remove: libjack-jackd2-0:armhf (1.9.17~dfsg-1), sc3-plugins-server:armhf (3.9.1~repack-4), sonic-pi-server:armhf (3.2.2~repack-7+rpt1), qjackctl:armhf (0.9.1-1), sonic-pi:armhf (3.2.2~repack-7+rpt1), supercollider-server:armhf (1:3.11.2+repack-1+rpi1), jackd2:armhf (1.9.17~dfsg-1), jackd:armhf (5+nmu1)
+End-Date: 2022-12-24  15:29:54
+
+Start-Date: 2022-12-24  15:58:41
+Commandline: apt install libsdl2-image-dev libsdl2-dev
+Requested-By: eric (1000)
+Install: libsdl2-image-2.0-0:armhf (2.0.5+dfsg1-2, automatic), libsdl2-image-dev:armhf (2.0.5+dfsg1-2), libwayland-bin:armhf (1.18.0-2~exp1.1, automatic), libwayland-dev:armhf (1.18.0-2~exp1.1, automatic), libsdl2-dev:armhf (2.0.14+dfsg2-3+deb11u1)
+End-Date: 2022-12-24  15:58:44
+
+Start-Date: 2022-12-10  11:14:36
+Commandline: packagekit role='install-packages'
+Install: mythes-en-us:armhf (1:7.1.0~rc3-3), hyphen-en-us:armhf (2.8.8-7), libreoffice-help-en-us:armhf (1:7.0.4-4+rpi1+deb11u3)
+End-Date: 2022-12-10  11:14:41
+
+Start-Date: 2022-12-10  11:16:35
+Commandline: packagekit role='update-packages'
+Install: libva-wayland2:armhf (2.10.0-1)
+Upgrade: libntfs-3g883:armhf (1:2017.3.23AR.3-4+deb11u2, 1:2017.3.23AR.3-4+deb11u3), vlc-plugin-qt:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libvlc5:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), lxplug-ejecter:armhf (0.20, 0.21), python3-kms++:armhf (0~git20211110~105525+2236a8c-1, 0~git20221104~171243+adc05b6-1), bind9-host:armhf (1:9.16.27-1~deb11u1, 1:9.16.33-1~deb11u1), raspberrypi-bootloader:armhf (1:1.20220830-1, 1:1.20221104-1), libgssapi-krb5-2:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), vlc-data:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), dbus-user-session:armhf (1.12.20-2, 1.12.24-0+deb11u1), firmware-brcm80211:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), rpi-eeprom:armhf (13.16-1, 15.0-1), ntfs-3g:armhf (1:2017.3.23AR.3-4+deb11u2, 1:2017.3.23AR.3-4+deb11u3), xserver-xorg-core:armhf (2:1.20.11-1+rpt1+deb11u2, 2:1.20.11-1+rpt1+deb11u3), libmutter-7-0:armhf (1:3.38.6-2~deb11u2+rpt5, 1:3.38.6-2~deb11u2+rpt6), libvlccore9:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libmaven-shared-utils-java:armhf (3.3.0-1, 3.3.0-1+deb11u1), vlc:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), raspi-config:armhf (20220920, 20221018), libexpat1:armhf (2.2.10-2+deb11u3, 2.2.10-2+deb11u5), vlc-bin:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), firmware-atheros:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), arandr:armhf (0.1.10-1.1+rpt20, 0.1.10-1.1+rpt21), vlc-l10n:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), lxplug-updater:armhf (0.12, 0.13), libpixman-1-0:armhf (0.40.0-1+rpt1, 0.40.0-1.1~deb11u1+rpt1), libavdevice58:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), ffmpeg:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), libdbus-1-3:armhf (1.12.20-2, 1.12.24-0+deb11u1), raspberrypi-ui-mods:armhf (1.20220810, 1.20221130), libkrb5support0:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), gir1.2-gtk-3.0:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), libxml2:armhf (2.9.10+dfsg-6.7+deb11u2, 2.9.10+dfsg-6.7+deb11u3), mutter-common:armhf (1:3.38.6-2~deb11u2+rpt5, 1:3.38.6-2~deb11u2+rpt6), python3-picamera2:armhf (0.3.3-1, 0.3.7-1), libkms++0:armhf (0~git20211110~105525+2236a8c-1, 0~git20221104~171243+adc05b6-1), libpostproc55:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), isc-dhcp-common:armhf (4.4.1-2.3, 4.4.1-2.3+deb11u1), vlc-plugin-samba:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), dbus-x11:armhf (1.12.20-2, 1.12.24-0+deb11u1), libc6:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), locales:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libkrb5-3:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), lxplug-magnifier:armhf (0.13, 0.14), libcamera-tools:armhf (0~git20220826+3fad116f-1, 0~git20221130+0684c373-1), libavcodec58:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), xserver-common:armhf (2:1.20.11-1+rpt1+deb11u2, 2:1.20.11-1+rpt1+deb11u3), xwayland:armhf (2:1.20.11-1+rpt1+deb11u2, 2:1.20.11-1+rpt1+deb11u3), isc-dhcp-client:armhf (4.4.1-2.3, 4.4.1-2.3+deb11u1), firmware-realtek:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), rp-prefapps:armhf (0.43, 0.44), agnostics:armhf (0.10, 0.12), vlc-plugin-notify:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), rp-bookshelf:armhf (0.18, 0.19), libk5crypto3:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), firmware-libertas:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), bluez-firmware:armhf (1.2-4+rpt8, 1.2-4+rpt9), libavutil56:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), lxplug-netman:armhf (0.3, 0.4), thonny:armhf (3.3.14-1+rpt1, 4.0.1-1~bpo11+1~rpt1), firmware-misc-nonfree:armhf (1:20210315-3+rpt7, 1:20221012-1~bpo11+1+rpt1), libswscale5:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), libjavascriptcoregtk-4.0-18:armhf (2.34.6-1~deb11u1+rpi1, 2.38.2-1~deb11u1+rpi1), mutter:armhf (1:3.38.6-2~deb11u2+rpt5, 1:3.38.6-2~deb11u2+rpt6), vlc-plugin-access-extra:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libbluetooth3:armhf (5.55-3.1+rpt1, 5.55-3.1+rpt2), vlc-plugin-skins2:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), vcdbg:armhf (1:1.20220830-1, 1:1.20221104-1), libc-dev-bin:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libcamera0:armhf (0~git20220826+3fad116f-1, 0~git20221130+0684c373-1), vlc-plugin-video-splitter:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libc-l10n:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libgtk-3-0:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), bind9-libs:armhf (1:9.16.27-1~deb11u1, 1:9.16.33-1~deb11u1), libcamera-apps:armhf (0~git20220830+1bf0cca-1, 0~git20221201+9c5d319-1), libc-bin:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libc-devtools:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libswresample3:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), dhcpcd5:armhf (1:8.1.2-1+rpt7, 1:8.1.2-1+rpt9), vlc-plugin-video-output:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), gtk-update-icon-cache:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), libgtk-3-common:armhf (3.24.24-4+rpt4+deb11u2, 3.24.24-4+rpt9+deb11u2), libc6-dbg:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libc6-dev:armhf (2.31-13+rpt2+rpi1+deb11u4, 2.31-13+rpt2+rpi1+deb11u5), libksba8:armhf (1.5.0-3, 1.5.0-3+deb11u1), libwebkit2gtk-4.0-37:armhf (2.34.6-1~deb11u1+rpi1, 2.38.2-1~deb11u1+rpi1), bluez:armhf (5.55-3.1+rpt1, 5.55-3.1+rpt2), libexpat1-dev:armhf (2.2.10-2+deb11u3, 2.2.10-2+deb11u5), libavformat58:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), raspberrypi-kernel:armhf (1:1.20220830-1, 1:1.20221104-1), libavresample4:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2), python3-libcamera:armhf (0~git20220826+3fad116f-1, 0~git20221130+0684c373-1), dbus:armhf (1.12.20-2, 1.12.24-0+deb11u1), raspberrypi-sys-mods:armhf (20220915, 20221019), libvlc-bin:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), libuv1:armhf (1.40.0-1, 1.40.0-2), vlc-plugin-base:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), vlc-plugin-visualization:armhf (3.0.17.4-0+deb11u1+rpi1+rpt3, 3.0.18-0+deb11u1+rpi1), linux-libc-dev:armhf (1:1.20220830-1, 1:1.20221104-1), libavfilter7:armhf (7:4.3.4-0+deb11u1+rpt3, 7:4.3.5-0+deb11u1+rpt2)
+End-Date: 2022-12-10  11:19:11
+
+Start-Date: 2022-12-10  13:55:27
+Commandline: apt install universal-ctags
+Requested-By: eric (1000)
+Install: universal-ctags:armhf (0+git20200824-1.1)
+End-Date: 2022-12-10  13:55:30
+
+Start-Date: 2022-12-10  13:55:42
+Commandline: apt remove --purge universal-ctags
+Requested-By: eric (1000)
+Purge: universal-ctags:armhf (0+git20200824-1.1)
+End-Date: 2022-12-10  13:55:44
+
+Start-Date: 2022-12-10  13:56:19
+Commandline: apt install flex bison
+Requested-By: eric (1000)
+Install: bison:armhf (2:3.7.5+dfsg-1), libsigsegv2:armhf (2.13-1, automatic), flex:armhf (2.6.4-8), libfl-dev:armhf (2.6.4-8, automatic), m4:armhf (1.4.18-5, automatic), libfl2:armhf (2.6.4-8, automatic)
+End-Date: 2022-12-10  13:56:22
+
+Start-Date: 2022-12-10  13:57:19
+Commandline: apt install vim
+Requested-By: eric (1000)
+Install: vim:armhf (2:8.2.2434-3+deb11u1), vim-runtime:armhf (2:8.2.2434-3+deb11u1, automatic)
+End-Date: 2022-12-10  13:57:24
+
+Start-Date: 2022-12-10  13:57:47
+Commandline: apt install gitk
+Requested-By: eric (1000)
+Install: tcl:armhf (8.6.11+1, automatic), gitk:armhf (1:2.30.2-1), tcl8.6:armhf (8.6.11+dfsg-1, automatic), tk:armhf (8.6.11+1, automatic), tk8.6:armhf (8.6.11-2, automatic)
+End-Date: 2022-12-10  13:57:49
+
+Start-Date: 2022-12-10  13:57:58
+Commandline: apt install git-gui
+Requested-By: eric (1000)
+Install: git-gui:armhf (1:2.30.2-1)
+End-Date: 2022-12-10  13:57:59
+
+Start-Date: 2022-12-10  13:58:20
+Commandline: apt install git-doc
+Requested-By: eric (1000)
+Install: git-doc:armhf (1:2.30.2-1)
+End-Date: 2022-12-10  13:58:22
+
+Start-Date: 2022-12-10  13:58:35
+Commandline: apt install subversion
+Requested-By: eric (1000)
+Install: libapr1:armhf (1.7.0-6+deb11u1, automatic), libserf-1-1:armhf (1.3.9-10, automatic), libsvn1:armhf (1.14.1-3+deb11u1, automatic), libaprutil1:armhf (1.6.1-5, automatic), libutf8proc2:armhf (2.5.0-1, automatic), subversion:armhf (1.14.1-3+deb11u1)
+End-Date: 2022-12-10  13:58:38
+
+Start-Date: 2022-12-10  13:58:52
+Commandline: apt install mercurial
+Requested-By: eric (1000)
+Install: mercurial-common:armhf (5.6.1-4+rpi1, automatic), mercurial:armhf (5.6.1-4+rpi1)
+End-Date: 2022-12-10  13:59:00
+
+Start-Date: 2022-12-10  13:59:13
+Commandline: apt install cmake
+Requested-By: eric (1000)
+Install: libjsoncpp24:armhf (1.9.4-4, automatic), librhash0:armhf (1.4.1-2, automatic), cmake-data:armhf (3.18.4-2+rpt1+rpi1+deb11u1, automatic), cmake:armhf (3.18.4-2+rpt1+rpi1+deb11u1)
+End-Date: 2022-12-10  13:59:18
+
+Start-Date: 2022-12-10  14:07:50
+Commandline: apt install tmux
+Requested-By: eric (1000)
+Install: tmux:armhf (3.1c-1+deb11u1), libutempter0:armhf (1.2.1-2, automatic)
+End-Date: 2022-12-10  14:07:52
+
+Start-Date: 2022-12-10  21:45:21
+Commandline: apt install gettext
+Requested-By: eric (1000)
+Install: gettext:armhf (0.21-4)
+End-Date: 2022-12-10  21:45:23
+
+Start-Date: 2022-12-10  21:47:53
+Commandline: apt install librsync-dev
+Requested-By: eric (1000)
+Install: libb2-1:armhf (0.98.1-1.1, automatic), librsync-dev:armhf (2.3.1-1), librsync2:armhf (2.3.1-1, automatic), libpopt-dev:armhf (1.18-2, automatic)
+End-Date: 2022-12-10  21:47:55
+
+Start-Date: 2022-12-10  22:56:09
+Commandline: apt install libssl-dev
+Requested-By: eric (1000)
+Install: libssl-dev:armhf (1.1.1n-0+deb11u3+rpt1)
+End-Date: 2022-12-10  22:56:10
+
+Start-Date: 2022-12-11  10:57:08
+Commandline: apt-get dist-upgrade
+Requested-By: eric (1000)
+Upgrade: libopenexr25:armhf (2.5.4-2, 2.5.4-2+deb11u1)
+End-Date: 2022-12-11  10:57:10
+
+Start-Date: 2022-12-12  07:36:35
+Commandline: apt upgrade
+Requested-By: eric (1000)
+Upgrade: vlc-plugin-qt:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), libvlc5:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-data:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), libvlccore9:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-bin:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-l10n:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-samba:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-notify:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-access-extra:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-skins2:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-video-splitter:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-video-output:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), libvlc-bin:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-base:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1), vlc-plugin-visualization:armhf (3.0.18-0+deb11u1+rpi1, 3.0.18-0+rpt1+deb11u1)
+End-Date: 2022-12-12  07:36:44
+
+Start-Date: 2022-12-12  07:37:59
+Commandline: apt install libfuse-dev
+Requested-By: eric (1000)
+Install: libselinux1-dev:armhf (3.1-3, automatic), libsepol1-dev:armhf (3.1-1, automatic), libpcre2-32-0:armhf (10.36-2+deb11u1, automatic), libfuse-dev:armhf (2.9.9-5), libpcre2-dev:armhf (10.36-2+deb11u1, automatic)
+End-Date: 2022-12-12  07:38:04
+
+Start-Date: 2022-12-12  20:34:44
+Commandline: apt install imagemagick
+Requested-By: eric (1000)
+Install: libnetpbm10:armhf (2:10.0-15.4, automatic), netpbm:armhf (2:10.0-15.4, automatic), libheif1:armhf (1.11.0-1, automatic), imagemagick:armhf (8:6.9.11.60+dfsg-1.3), gsfonts:armhf (1:8.11+urwcyr1.0.7~pre44-4.5, automatic), libwmf0.2-7:armhf (0.2.8.4-17, automatic), libmagickcore-6.q16-6-extra:armhf (8:6.9.11.60+dfsg-1.3, automatic), libmagickwand-6.q16-6:armhf (8:6.9.11.60+dfsg-1.3, automatic), imagemagick-6.q16:armhf (8:6.9.11.60+dfsg-1.3, automatic), libmagickcore-6.q16-6:armhf (8:6.9.11.60+dfsg-1.3, automatic), libjxr-tools:armhf (1.1-6, automatic), imagemagick-6-common:armhf (8:6.9.11.60+dfsg-1.3, automatic), libjxr0:armhf (1.1-6, automatic), liblqr-1-0:armhf (0.4.2-2.1, automatic)
+End-Date: 2022-12-12  20:34:55
+
+Start-Date: 2022-12-15  18:50:24
+Commandline: apt install ucblogo
+Requested-By: eric (1000)
+Install: libwxgtk3.0-gtk3-0v5:armhf (3.0.5.1+dfsg-2, automatic), libwxbase3.0-0v5:armhf (3.0.5.1+dfsg-2, automatic), ucblogo:armhf (6.2.1-2)
+End-Date: 2022-12-15  18:50:28
+
+Start-Date: 2022-12-16  17:22:42
+Commandline: apt install xdelta3
+Requested-By: eric (1000)
+Install: xdelta3:armhf (3.0.11-dfsg-1)
+End-Date: 2022-12-16  17:22:44
+
+Start-Date: 2022-12-19  11:21:29
+Commandline: apt upgrade
+Requested-By: eric (1000)
+Upgrade: libnftables1:armhf (0.9.8-3.1, 0.9.8-3.1+deb11u1), tzdata:armhf (2021a-1+deb11u5, 2021a-1+deb11u8), libtasn1-6:armhf (4.16.0-2, 4.16.0-2+deb11u1), libbluray2:armhf (1:1.2.1-4+deb11u1, 1:1.2.1-4+deb11u2), raspi-config:armhf (20221018, 20221214), libvncclient1:armhf (0.9.13+dfsg-2, 0.9.13+dfsg-2+deb11u1), base-files:armhf (11.1+rpi1+deb11u5, 11.1+rpi1+deb11u6), bluez-firmware:armhf (1.2-4+rpt9, 1.2-4+rpt10), distro-info-data:armhf (0.51+deb11u2, 0.51+deb11u3), nano:armhf (5.4-2+deb11u1, 5.4-2+deb11u2), libpq5:armhf (13.8-0+deb11u1, 13.9-0+deb11u1), nftables:armhf (0.9.8-3.1, 0.9.8-3.1+deb11u1)
+End-Date: 2022-12-19  11:21:38
+
+Start-Date: 2022-12-20  22:21:58
+Commandline: apt upgrade
+Requested-By: eric (1000)
+Upgrade: xserver-xorg-core:armhf (2:1.20.11-1+rpt1+deb11u3, 2:1.20.11-1+rpt1+deb11u4), xserver-common:armhf (2:1.20.11-1+rpt1+deb11u3, 2:1.20.11-1+rpt1+deb11u4), xwayland:armhf (2:1.20.11-1+rpt1+deb11u3, 2:1.20.11-1+rpt1+deb11u4)
+End-Date: 2022-12-20  22:22:01
+
+Start-Date: 2022-12-24  15:09:55
+Commandline: apt upgrade -y
+Requested-By: eric (1000)
+Upgrade: raspinfo:armhf (20190624-1, 20221220-1), libksba8:armhf (1.5.0-3+deb11u1, 1.5.0-3+deb11u2)
+End-Date: 2022-12-24  15:09:58
+
+Start-Date: 2022-12-24  15:11:59
+Commandline: apt-get install -y lsb-release git dialog wget gcc g++ build-essential unzip xmlstarlet python3-pyudev ca-certificates libasound2-dev libudev-dev libibus-1.0-dev libdbus-1-dev fcitx-libs-dev libsndio-dev libx11-dev libxcursor-dev libxext-dev libxi-dev libxinerama-dev libxkbcommon-dev libxrandr-dev libxss-dev libxt-dev libxv-dev libxxf86vm-dev libgl1-mesa-dev libegl1-mesa-dev libgles2-mesa-dev libgl1-mesa-dev libglu1-mesa-dev libdrm-dev libgbm-dev devscripts debhelper dh-autoreconf libraspberrypi-dev libpulse-dev
+Requested-By: eric (1000)
+Install: dput:armhf (1.1.0, automatic), x11proto-scrnsaver-dev:armhf (2020.1-1, automatic), libsub-exporter-perl:armhf (0.987-1, automatic), libblkid-dev:armhf (2.36.1-8+deb11u1, automatic), lintian:armhf (2.104.0, automatic), debhelper:armhf (13.3.4), libxml-namespacesupport-perl:armhf (1.12-1.1, automatic), libtimedate-perl:armhf (2.3300-2, automatic), libhtml-tagset-perl:armhf (3.20-4, automatic), libglib2.0-dev-bin:armhf (2.66.8-1, automatic), libdrm-dev:armhf (2.4.104-1+rpi1), libgles2-mesa-dev:armhf (20.3.5-1+rpt4+rpi1), libglu1-mesa-dev:armhf (9.0.1-1), equivs:armhf (2.3.1, automatic), libpcre32-3:armhf (2:8.39-13, automatic), libvariable-magic-perl:armhf (0.62-1+b3, automatic), libglx-dev:armhf (1.3.2-1, automatic), libegl-dev:armhf (1.3.2-1, automatic), libnet-ssleay-perl:armhf (1.88-3+b1, automatic), libnet-domain-tld-perl:armhf (1.75-1.1, automatic), libgles-dev:armhf (1.3.2-1, automatic), libreadonly-perl:armhf (2.050-3, automatic), libtime-duration-perl:armhf (1.21-1, automatic), libmoox-struct-perl:armhf (0.020-1, automatic), libsereal-decoder-perl:armhf (4.018+ds-1+b1, automatic), libdevel-size-perl:armhf (0.83-1+b3, automatic), libconst-fast-perl:armhf (0.014-1.1, automatic), libauthen-sasl-perl:armhf (2.1600-1.1, automatic), libfcitx-utils0:armhf (1:4.2.9.8-3, automatic), gir1.2-fcitx-1.0:armhf (1:4.2.9.8-3, automatic), fcitx-config-gtk:armhf (0.4.10-3, automatic), libtypes-serialiser-perl:armhf (1.01-1, automatic), libio-socket-ssl-perl:armhf (2.069-1, automatic), libwww-robotrules-perl:armhf (6.02-1, automatic), liblist-someutils-perl:armhf (0.58-1, automatic), libparams-validate-perl:armhf (1.30-1+b1, automatic), libhtml-form-perl:armhf (6.07-1, automatic), liblwp-protocol-https-perl:armhf (6.10-1, automatic), dwz:armhf (0.13+20210201-1, automatic), libwww-perl:armhf (6.52-1, automatic), libtype-tiny-xs-perl:armhf (0.022-1, automatic), dialog:armhf (1.3-20201126-1), libtry-tiny-perl:armhf (0.30-1, automatic), libmount-dev:armhf (2.36.1-8+deb11u1, automatic), libpath-tiny-perl:armhf (0.118-1, automatic), libfcgi-perl:armhf (0.79+ds-2, automatic), libxrender-dev:armhf (1:0.9.10-1, automatic), libglib2.0-dev:armhf (2.66.8-1, automatic), pristine-tar:armhf (1.49, automatic), libfile-chdir-perl:armhf (0.1008-1.1, automatic), pixz:armhf (1.0.7-1, automatic), libnamespace-autoclean-perl:armhf (0.29-1, automatic), libexporter-tiny-perl:armhf (1.002002-1, automatic), libhash-fieldhash-perl:armhf (0.15-1+b3, automatic), libclass-inspector-perl:armhf (1.36-1, automatic), dctrl-tools:armhf (2.24-3, automatic), libpod-parser-perl:armhf (1.63-2, automatic), libaliased-perl:armhf (0.34-1.1, automatic), libxss-dev:armhf (1:1.2.3-1), libdrm-freedreno1:armhf (2.4.104-1+rpi1, automatic), libhttp-negotiate-perl:armhf (6.01-1, automatic), fcitx-module-kimpanel:armhf (1:4.2.9.8-3, automatic), libmouse-perl:armhf (2.5.10-1+b2, automatic), libfont-afm-perl:armhf (1.20-3, automatic), libre2-9:armhf (20210201+dfsg-1, automatic), libarray-intspan-perl:armhf (2.004-1, automatic), libsub-quote-perl:armhf (2.006006-1, automatic), libsort-key-perl:armhf (1.33-2+b3, automatic), libgbm-dev:armhf (20.3.5-1+rpt4+rpi1), fcitx5-module-quickphrase-editor:armhf (1.2.5-1+b2, automatic), automake:armhf (1:1.16.3-2, automatic), libxrandr-dev:armhf (2:1.5.1-1), pbzip2:armhf (1.1.13-1, automatic), fcitx:armhf (1:4.2.9.8-3, automatic), libsoap-lite-perl:armhf (1.27-1, automatic), libmime-tools-perl:armhf (5.509-1, automatic), librole-tiny-perl:armhf (2.002004-1, automatic), licensecheck:armhf (3.1.1-2, automatic), libarchive-zip-perl:armhf (1.68-1, automatic), libstrictures-perl:armhf (2.000006-1, automatic), libxfixes-dev:armhf (1:5.0.3-2, automatic), fcitx-module-dbus:armhf (1:4.2.9.8-3, automatic), liblist-moreutils-perl:armhf (0.430-2, automatic), x11proto-xf86vidmode-dev:armhf (2020.1-1, automatic), libencode-locale-perl:armhf (1.05-1.1, automatic), libmoox-aliases-perl:armhf (0.001006-1.1, automatic), libconvert-binhex-perl:armhf (1.125-1, automatic), libfile-which-perl:armhf (1.23-1, automatic), libhttp-tiny-multipart-perl:armhf (0.08-1.1, automatic), libfile-touch-perl:armhf (0.11-1, automatic), libregexp-pattern-license-perl:armhf (3.4.0-1, automatic), libnumber-compare-perl:armhf (0.03-1.1, automatic), libstring-shellquote-perl:armhf (1.04-1, automatic), libdata-dump-perl:armhf (1.23-1.1, automatic), libpresage1v5:armhf (0.9.1-2.2+b1, automatic), x11proto-randr-dev:armhf (2020.1-1, automatic), liblwp-mediatypes-perl:armhf (6.04-1, automatic), fcitx-modules:armhf (1:4.2.9.8-3, automatic), libsub-override-perl:armhf (0.09-2, automatic), libb-hooks-endofscope-perl:armhf (0.24-1.1, automatic), libudev-dev:armhf (247.3-7+rpi1+deb11u1), libdevel-callchecker-perl:armhf (0.008-1+b2, automatic), libhtml-tree-perl:armhf (5.07-2, automatic), po-debconf:armhf (1.0.21+nmu1, automatic), libjson-perl:armhf (4.03000-1, automatic), libmailtools-perl:armhf (2.21-1, automatic), libfile-dirlist-perl:armhf (0.05-2, automatic), xmlstarlet:armhf (1.6.1-2.1), libdynaloader-functions-perl:armhf (0.003-1.1, automatic), libdebhelper-perl:armhf (13.3.4, automatic), libxinerama-dev:armhf (2:1.1.4-2), libtext-glob-perl:armhf (0.11-1, automatic), libgitlab-api-v4-perl:armhf (0.26-1, automatic), libclass-xsaccessor-perl:armhf (1.19-3+b17, automatic), libsub-install-perl:armhf (0.928-1.1, automatic), libglvnd-dev:armhf (1.3.2-1, automatic), libmarkdown2:armhf (2.2.6-1, automatic), libgl1-mesa-dev:armhf (20.3.5-1+rpt4+rpi1), libxi-dev:armhf (2:1.7.10-1), im-config:armhf (0.46-1+deb11u1, automatic), libdata-validate-domain-perl:armhf (0.10-1.1, automatic), libregexp-pattern-perl:armhf (0.2.14-1, automatic), libegl1-mesa-dev:armhf (20.3.5-1+rpt4+rpi1), libclass-data-inheritable-perl:armhf (0.08-3, automatic), libfcitx-config4:armhf (1:4.2.9.8-3, automatic), libmoo-perl:armhf (2.004004-1, automatic), liburi-perl:armhf (5.08-1, automatic), presage:armhf (0.9.1-2.2+b1, automatic), libossp-uuid-perl:armhf (1.6.2-1.5+b7, automatic), devscripts:armhf (2.21.3+deb11u1), fcitx-bin:armhf (1:4.2.9.8-3, automatic), libtinyxml2.6.2v5:armhf (2.6.2-4+deb11u1, automatic), libltdl-dev:armhf (2.4.6-15, automatic), libdevel-stacktrace-perl:armhf (2.0400-1, automatic), libexception-class-perl:armhf (1.44-1, automatic), libhttp-cookies-perl:armhf (6.10-1, automatic), libfcgi0ldbl:armhf (2.4.2-2, automatic), libcapture-tiny-perl:armhf (0.48-1, automatic), libtext-markdown-discount-perl:armhf (0.12-1+b1, automatic), libio-html-perl:armhf (1.004-2, automatic), libsndio-dev:armhf (1.5.0-3), libnamespace-clean-perl:armhf (0.27-1, automatic), fcitx-module-lua:armhf (1:4.2.9.8-3, automatic), autoconf:armhf (2.69-14, automatic), libffi-dev:armhf (3.3-6, automatic), libfont-ttf-perl:armhf (1.06-1.1, automatic), libtype-tiny-perl:armhf (1.012001-2, automatic), libsereal-encoder-perl:armhf (4.018+ds-1+b1, automatic), gir1.2-ibus-1.0:armhf (1.5.23-2, automatic), libsys-cpuaffinity-perl:armhf (1.13~03-1, automatic), autopoint:armhf (0.21-4, automatic), libiterator-perl:armhf (0.03+ds1-1.1, automatic), lzip:armhf (1.22-3, automatic), lzop:armhf (1.04-2, automatic), libnet-http-perl:armhf (6.20-1, automatic), libibus-1.0-dev:armhf (1.5.23-2), libstring-copyright-perl:armhf (0.003006-1, automatic), libimport-into-perl:armhf (1.002005-1, automatic), fcitx-module-x11:armhf (1:4.2.9.8-3, automatic), libxmlrpc-lite-perl:armhf (0.717-4, automatic), libcommon-sense-perl:armhf (3.75-1+b4, automatic), libterm-readkey-perl:armhf (2.38-1+b3, automatic), libiterator-util-perl:armhf (0.02+ds1-1.1, automatic), libgetopt-long-descriptive-perl:armhf (0.105-1, automatic), libio-stringy-perl:armhf (2.111-3, automatic), libipc-system-simple-perl:armhf (1.30-1, automatic), libhtml-format-perl:armhf (2.12-1.1, automatic), libcontextual-return-perl:armhf (0.004014-2, automatic), libfile-find-rule-perl:armhf (0.34-1, automatic), libpod-constants-perl:armhf (0.19-2, automatic), libdistro-info-perl:armhf (1.0, automatic), libmodule-implementation-perl:armhf (0.09-1.1, automatic), fcitx-frontend-gtk2:armhf (1:4.2.9.8-3, automatic), fcitx-frontend-gtk3:armhf (1:4.2.9.8-3, automatic), libpresage-data:armhf (0.9.1-2.2, automatic), x11proto-input-dev:armhf (2020.1-1, automatic), libipc-run-perl:armhf (20200505.0-1, automatic), fcitx-config-common:armhf (0.4.10-3, automatic), python3-unidiff:armhf (0.5.5-2, automatic), libjson-maybexs-perl:armhf (1.004003-1, automatic), fcitx-data:armhf (1:4.2.9.8-3, automatic), diffstat:armhf (1.64-1, automatic), libhttp-date-perl:armhf (6.05-1, automatic), libxcursor-dev:armhf (1:1.2.0-2), libopengl0:armhf (1.3.2-1, automatic), libnumber-range-perl:armhf (0.12-1.1, automatic), libxdelta2:armhf (1.1.3-9.3, automatic), t1utils:armhf (1.41-4, automatic), python3-pyudev:armhf (0.22.0-2), libtext-xslate-perl:armhf (3.5.8-1+b1, automatic), uuid-dev:armhf (2.36.1-8+deb11u1, automatic), liblist-compare-perl:armhf (0.55-1, automatic), libfile-basedir-perl:armhf (0.08-1, automatic), python3-gpg:armhf (1.14.0-1+b1, automatic), autotools-dev:armhf (20180224.1+nmu1, automatic), libparams-classify-perl:armhf (0.015-1+b3, automatic), libhtml-parser-perl:armhf (3.75-1+b1, automatic), fcitx-libs-dev:armhf (1:4.2.9.8-3), libsub-identify-perl:armhf (0.14-1+b3, automatic), libxml-sax-base-perl:armhf (1.09-1.1, automatic), fcitx-frontend-all:armhf (1:4.2.9.8-3, automatic), libsys-hostname-long-perl:armhf (1.5-2, automatic), libtool:armhf (2.4.6-15, automatic), libfile-homedir-perl:armhf (1.006-1, automatic), perl-openssl-defaults:armhf (5, automatic), libdata-optlist-perl:armhf (0.110-1.1, automatic), libpcrecpp0v5:armhf (2:8.39-13, automatic), fcitx-ui-classic:armhf (1:4.2.9.8-3, automatic), liblist-utilsby-perl:armhf (0.11-1, automatic), libunicode-utf8-perl:armhf (0.62-1+b2, automatic), libdata-dpath-perl:armhf (0.58-1, automatic), libmodule-runtime-perl:armhf (0.016-1, automatic), libwant-perl:armhf (0.29-1+b5, automatic), libparams-util-perl:armhf (1.102-1+b1, automatic), libgl-dev:armhf (1.3.2-1, automatic), libxml-sax-perl:armhf (1.02+dfsg-1, automatic), libpcre16-3:armhf (2:8.39-13, automatic), libtask-weaken-perl:armhf (1.06-1, automatic), libgettextpo0:armhf (0.21-4, automatic), dh-autoreconf:armhf (20), libre-engine-re2-perl:armhf (0.14-1, automatic), libmail-sendmail-perl:armhf (0.80-1.1, automatic), libxext-dev:armhf (2:1.3.3-1.1), libpackage-stash-xs-perl:armhf (0.29-1+b2, automatic), libtime-moment-perl:armhf (0.44-1+b3, automatic), python3-xdg:armhf (0.27-2, automatic), x11proto-xext-dev:armhf (2020.1-1, automatic), libfcitx-gclient1:armhf (1:4.2.9.8-3, automatic), fcitx-frontend-qt5:armhf (1.2.5-1+b2, automatic), libdrm-exynos1:armhf (2.4.104-1+rpi1, automatic), debian-keyring:armhf (2021.07.26, automatic), libref-util-xs-perl:armhf (0.117-1+b3, automatic), libconfig-tiny-perl:armhf (2.26-1, automatic), libpackage-stash-perl:armhf (0.39-1, automatic), libfcitx-core0:armhf (1:4.2.9.8-3, automatic), libxkbcommon-dev:armhf (1.0.3-2), libio-pty-perl:armhf (1:1.15-2, automatic), libfcitx-qt5-1:armhf (1.2.5-1+b2, automatic), libemail-address-xs-perl:armhf (1.04-1+b4, automatic), libclone-perl:armhf (0.45-1+b1, automatic), liblist-moreutils-xs-perl:armhf (0.430-2, automatic), dh-strip-nondeterminism:armhf (1.12.0-1, automatic), libstring-escape-perl:armhf (2010.002-2, automatic), libyaml-libyaml-perl:armhf (0.82+repack-1+b1, automatic), libb-hooks-op-check-perl:armhf (0.22-1+b4, automatic), libgit-wrapper-perl:armhf (0.048-1, automatic), libdbus-1-dev:armhf (1.12.24-0+deb11u1), libref-util-perl:armhf (0.204-1, automatic), intltool-debian:armhf (0.35.0+20060710.5, automatic), libpulse-dev:armhf (14.2-2+rpt1), libfile-stripnondeterminism-perl:armhf (1.12.0-1, automatic), libxv-dev:armhf (2:1.0.11-1), libopengl-dev:armhf (1.3.2-1, automatic), python3-magic:armhf (2:0.4.20-3, automatic), libhtml-html5-entities-perl:armhf (0.004-1.1, automatic), libxxf86vm-dev:armhf (1:1.1.4-1+b2), libhttp-message-perl:armhf (6.28-1, automatic), liblog-any-adapter-screen-perl:armhf (0.140-1, automatic), libjson-xs-perl:armhf (4.030-1+b1, automatic), libsub-exporter-progressive-perl:armhf (0.001013-1, automatic), libfile-listing-perl:armhf (6.14-1, automatic), libfcgi-bin:armhf (2.4.2-2, automatic), xdelta:armhf (1.1.3-9.3, automatic), libsort-versions-perl:armhf (1.62-1, automatic), libobject-id-perl:armhf (0.1.2-2.1, automatic), libxml-parser-perl:armhf (2.46-2, automatic), libio-prompter-perl:armhf (0.004015-1, automatic), libfcitx-qt5-data:armhf (1.2.5-1, automatic), libtext-levenshteinxs-perl:armhf (0.03-4+b7, automatic), liblog-any-perl:armhf (1.709-1, automatic), libdrm-tegra0:armhf (2.4.104-1+rpi1, automatic), patchutils:armhf (0.4.2-1, automatic), libdrm-etnaviv1:armhf (2.4.104-1+rpi1, automatic), liblist-someutils-xs-perl:armhf (0.58-2+b1, automatic), libibus-1.0-5:armhf (1.5.23-2, automatic), libio-sessiondata-perl:armhf (1.03-1.1, automatic), libxml-libxml-perl:armhf (2.0134+dfsg-2+b1, automatic), libipc-run3-perl:armhf (0.048-2, automatic), libio-string-perl:armhf (1.08-3.1, automatic), libcpanel-json-xs-perl:armhf (4.25-1+b1, automatic), libarchive-cpio-perl:armhf (0.10-1.1, automatic), libdata-messagepack-perl:armhf (1.00-4+b1, automatic), libpcre3-dev:armhf (2:8.39-13, automatic), libperlio-gzip-perl:armhf (0.19-1+b6, automatic), libclass-method-modifiers-perl:armhf (2.13-1, automatic), wdiff:armhf (1.2.2-2, automatic), libnet-smtp-ssl-perl:armhf (1.04-1, automatic), x11proto-xinerama-dev:armhf (2020.1-1, automatic), libpath-iterator-rule-perl:armhf (1.014-1, automatic), libsub-name-perl:armhf (0.26-1+b1, automatic), libxml-sax-expat-perl:armhf (0.51-1, automatic), python3-debian:armhf (0.1.39, automatic), libasound2-dev:armhf (1.2.4-1.1+rpt2), libhttp-daemon-perl:armhf (6.12-1+deb11u1, automatic), libapt-pkg-perl:armhf (0.1.39, automatic), libproc-processtable-perl:armhf (0.59-2+b1, automatic)
+End-Date: 2022-12-24  15:13:36
+
+Start-Date: 2022-12-24  15:27:34
+Commandline: apt-get install -y libjpeg62-turbo-dev libpng-dev
+Requested-By: eric (1000)
+Install: libjpeg62-turbo-dev:armhf (1:2.0.6-4)
+End-Date: 2022-12-24  15:27:35
+
+Start-Date: 2022-12-24  15:28:23
+Commandline: apt-get install -y libmpg123-dev libvorbis-dev libflac-dev
+Requested-By: eric (1000)
+Install: libflac-dev:armhf (1.3.3-2+deb11u1), libsyn123-0:armhf (1.26.4-1, automatic), libvorbis-dev:armhf (1.3.7-1), libogg-dev:armhf (1.3.4-0.1, automatic), libmpg123-dev:armhf (1.26.4-1), libout123-0:armhf (1.26.4-1, automatic)
+End-Date: 2022-12-24  15:28:25
+
+Start-Date: 2022-12-24  15:29:43
+Commandline: apt install -y libmpg123-dev libpng-dev zlib1g-dev libasound2-dev libvorbis-dev libflac-dev libpcap-dev automake bison flex subversion libjpeg-dev portaudio19-dev texinfo xa65 dos2unix
+Requested-By: eric (1000)
+Install: libtext-unidecode-perl:armhf (1.30-1, automatic), tex-common:armhf (6.16, automatic), libjpeg-dev:armhf (1:2.0.6-4), texinfo:armhf (6.7.0.dfsg.2-6), libpcap0.8-dev:armhf (1.10.0-2, automatic), libjack0:armhf (1:0.125.0-3+b1, automatic), libportaudiocpp0:armhf (19.6.0-1.1, automatic), libportaudio2:armhf (19.6.0-1.1, automatic), xa65:armhf (2.3.11-0.1), libjack-dev:armhf (1:0.125.0-3+b1, automatic), jackd1:armhf (1:0.125.0-3+b1, automatic), libpcap-dev:armhf (1.10.0-2), libzita-alsa-pcmi0:armhf (0.3.2-2, automatic), portaudio19-dev:armhf (19.6.0-1.1), libzita-resampler1:armhf (1.8.0-2, automatic)
+Remove: libjack-jackd2-0:armhf (1.9.17~dfsg-1), sc3-plugins-server:armhf (3.9.1~repack-4), sonic-pi-server:armhf (3.2.2~repack-7+rpt1), qjackctl:armhf (0.9.1-1), sonic-pi:armhf (3.2.2~repack-7+rpt1), supercollider-server:armhf (1:3.11.2+repack-1+rpi1), jackd2:armhf (1.9.17~dfsg-1), jackd:armhf (5+nmu1)
+End-Date: 2022-12-24  15:29:54
+
+Start-Date: 2022-12-24  15:58:41
+Commandline: apt install libsdl2-image-dev libsdl2-dev
+Requested-By: eric (1000)
+Install: libsdl2-image-2.0-0:armhf (2.0.5+dfsg1-2, automatic), libsdl2-image-dev:armhf (2.0.5+dfsg1-2), libwayland-bin:armhf (1.18.0-2~exp1.1, automatic), libwayland-dev:armhf (1.18.0-2~exp1.1, automatic), libsdl2-dev:armhf (2.0.14+dfsg2-3+deb11u1)
+End-Date: 2022-12-24  15:58:44
+
+Start-Date: 2022-12-30  20:29:24
+Commandline: apt install libbsd-dev
+Requested-By: eric (1000)
+Install: libbsd-dev:armhf (0.11.3-1), libmd-dev:armhf (1.0.3-3, automatic)
+End-Date: 2022-12-30  20:29:27
