@@ -1,5 +1,0 @@
-
-Start-Date: 2022-12-10  11:14:36
-Commandline: packagekit role='install-packages'
-Install: mythes-en-us:armhf (1:7.1.0~rc3-3), hyphen-en-us:armhf (2.8.8-7), libreoffice-help-en-us:armhf (1:7.0.4-4+rpi1+deb11u3)
-End-Date: 2022-12-10  11:14:41
