@@ -1,1 +1,1 @@
-1
+alias e='vim'
