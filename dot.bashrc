@@ -111,6 +111,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-export EDITOR=vim
 . "$HOME/.cargo/env"
+export PATH=$HOME/Applications/node-v20.11.1-linux-arm64/bin:$PATH
