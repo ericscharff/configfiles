@@ -1,1 +1,2 @@
-alias e='vim'
+export EDITOR=vim
+alias e=vim
