@@ -1,22 +1,22 @@
-" NOTE - before using, rename dot_vim to .vim (unix) or vimfiles (windows)
-syntax on
-filetype plugin indent on
-set smarttab
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
 
-" Some handy navigation to current directory
-map ,e :e <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
-map ,t :tabe <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
-map ,s :split <C-R>=escape(expand("%:p:h"), " ") . "/" <CR>
+let mapleader = ','
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
-" Use ctrl-e as an alternative to ctrl-w for window manpulation.
-" This is useful when using ssh-in-a-tab
-nnoremap <C-e> <C-w>
+" OSC (clipboard) features
+nmap <leader>c <Plug>OSCYankOperator
+nmap <leader>cc <leader>c_
+vmap <leader>c <Plug>OSCYankVisual
 
-" make vim do bash tab completion
-set wildmode=longest,list,full
+"==================="
+" Window Navigation "
+"==================="
 
-" Comment out a line
-function Linecomment()
-	execute "normal ^i/*\<ESC>$a*/\<ESC>"
-endfunction
-command Linecomment call Linecomment()
+" Use Ctrl-J/K/L/H to move around, not needing the Ctrl-W prefix
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
