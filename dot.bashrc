@@ -111,5 +111,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-. "$HOME/.cargo/env"
-export PATH=$HOME/Applications/node-v20.11.1-linux-arm64/bin:$PATH
+
+withrust() {
+  source "$HOME/.cargo/env"
+}
+
+withnode() {
+  export PATH=$HOME/Applications/node-v20.11.1-linux-arm64/bin:$PATH
+}
