@@ -1,3 +1,5 @@
+Note that these instructions worked on a chromebook, but not on a Raspberry Pi, at least when logging in with ssh.
+
 From
 [Stack Overflow](https://unix.stackexchange.com/questions/339840/how-to-start-and-use-ssh-agent-as-systemd-service)
 
