@@ -1,0 +1,3231 @@
+Dan Simpson's Ultima VII Walkthrough
+
+(this came from
+  https://bootstrike.com/Ultima7bg/Online/u7walk3.php
+ another walkthrough is available at
+  https://wiki.ultimacodex.com/wiki/Ultima_VII_walkthrough
+)
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+     ..................................................................
+     :      __   __  __    __    __                      __  __ __ __ :
+     :     / /  / / / / __/ /_  /_/                     / / / // // / :
+     :    / /  / / / / /_  __/ __  ___ ____   ______   / / / // // /  :
+     :   / /  / / / /   / /   / / / __'__  / / __   /  | |/ // // /   :
+     :  / /__/ / / /   / /   / / / / // / / / /_/  /   | ' // // /    :
+     :  \_____/ /_/   /_/   /_/ /_/    /_/ /___ /_/    |__//_//_/     :
+     :  ==========================================    ==========      :
+     :                   T h e  B l a c k  G a t e                    :
+     ..................................................................
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+                       Ultima 7: Part One, the Black Gate
+                                FAQ/Walkthrough
+
+                                April 18, 2009
+                                 Version  2.7
+
+
+                        Written by:  Dan Simpson
+                             Email:  dsimpson.faqs@gmail.com
+
+
+                                Email Policy:
+                                ¯¯¯¯¯¯¯¯¯¯¯¯¯
+         If you are going to email me about this game, please put
+         Ultima 7 as the subject.  Or the Black Gate.  Also please
+         realize that I am not hiding cheats or any other information,
+         i.e. everything I know about Ultima 7 is in this guide.
+
+         If you see any mistakes, or have anything that you want to add
+         please email me!  I will, of course, give you full credit for
+         your addition, and be eternally grateful to you.
+
+
+______________________________________Notes____________________________________
+The most recent version of this FAQ can be found at:
+   http://www.gamefaqs.com/
+
+If you are a webmaster and wish to post this on your web page, please email
+me first.  And if you do post this FAQ on your site, please make an attempt
+to keep it up to date.  There is nothing worse than getting emails from
+people who saw an old version asking about things that are already in the
+newer versions.  Well, maybe there are worse things, but it IS annoying!
+
+This FAQ looks best in Courier New at about 9 points.
+
+Exult - http://exult.sourceforge.net/ - an open source engine for Ultima 7 and
+        Serpent Isle, supports both Windows and Unix.
+
+This Document is Copyright 1999-2009 by Dan Simpson
+Ultima 7 is Copyright by Origin and/or Electronic Arts
+
+I am not affiliated with Origin, Electronic Arts, or anyone who had anything
+to do with the creation of this game.  This FAQ may be posted on any site so
+long as NOTHING IS CHANGED and you EMAIL ME telling me that you are posting
+it.  You may not charge for, or in any way profit from this FAQ.
+_______________________________________________________________________________
+
+__________________
+What's New in 2.7:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Added the tax dodging nudist sub-plot solution from Linda. Added xp
+    rewards from Johan Vestergaard Paulsen. Linda Shaw sent in the location
+    of the key for the chest south of Trinsic and the Skeleton Key. Added some
+    notes from Matthew Orrte. Added Marzo Sette Torres Jr's note on the Death
+    Scythe.
+
+  For a complete Version History, check out the Final Words Section at the end
+  of the FAQ.
+
+
++=============================================================================+
+| Table of Contents:                                                          |
++=============================================================================+
+  |
+  |   i.    Introduction
+  |   ii.   Britannia
+  |   iii.  Items
+  |   iv.   Spells
+  |   v.    Companions
+  |   vi.   Trainers
+  |   vii.  The Fine Art of Stealing
+  |   viii. General Strategies
+  |
+  |  Walkthrough:
+  |
+  |   1.    Trinsic,                  "That is one -bleeping- dead blacksmith."
+  |   2.    Britain,                                         "I know the Game!"
+  |   3.    Cove,                                           "I bring you LOVE!"
+  |   4.    Minoc,       "You'd almost think these two murders were related..."
+  |   5.    Paws, Jhelom, and Elizabeth and Abraham
+  |   6.    Back to Britain,           "No, I'm not just joining to spy on you"
+  |   7.    Vesper, Moonglow, Terfin, and the Meditation Retreat
+  |   8.    Yew,                 "Look at all those cuddly Ewoks...I mean Emps"
+  |   9.    Serpent's Hold,                                       "Make it so!"
+  |   10.   New Magincia,                    "Hey... there's a *NEW* Magincia!"
+  |   11.   Skara Brae,   "Don't you need _Questions_ to Life and Death first?"
+  |   12.   Alagner's Notebook and the Time Lord
+  |   13.   The Tetrahedron,         "Stone Harpies are the Devil, I tells ya!"
+  |   14.   The Sphere,                        "It's a small Sphere after all!"
+  |   15.   The Cube,          "Oh no, the worst enemy of them all...the Borg!"
+  |   16.   Buccaneer's Den,   "Gasp!  Look at all the incriminating Evidence!"
+  |   17.   The Black Gate
+  |
+  |  Subplots: (there are 24 subplots, broken down as follows)
+  |
+  |   a.    Paws:            3 subplots
+  |   b.    Britain:         3
+  |   c.    Cove:            1
+  |   d.    Minoc:           1
+  |   e.    Jhelom:          1
+  |   f.    Vesper:          2
+  |   g.    Moonglow:        4
+  |   h.    Terfin:          1
+  |   i.    Yew:             4
+  |   j.    Serpent's Hold:  2
+  |   k.    New Magincia:    1
+  |   l.    Buccaneer's Den: 1
+  |
+  |  Appendices:
+  |   A.    Isle of Fire Walkthrough
+  |   B.    Orb of the Moons
+  |   C.    Almanac
+  |   D.    Secret Locations
+  |   E.    Cheating
+  |   F.    Monsters
+  |   G.    Keyboard Commands
+  |   H.    Gameplay Issues
+  |   I.    Online Resources
+  '-> J.    Final Words...
+
+
++=============================================================================+
+| i. Introduction, "That exploding butterfly _can't_ be a good sign..."       |
++=============================================================================+
+
+  Two Hundred years have passed in Britannia since the time of the False
+  Prophet.  Years that have been marked by peace, not by turmoil.  The people
+  have flourished, and the land has prospered.  A new organization called the
+  "Fellowship" has begun teaching the citizens of Britannia to "Trust they
+  Brother."  It seems the need for the hero known as the Avatar, is long gone.
+
+  Yet not all is well in the land of Britannia.  Magic has mysteriously
+  vanished, and all the practicers of its arcane art have gone insane.  And
+  those who question this new fellowship, are found brutally murdered.  Who is
+  this "Guardian", and what does he want?  Who is behind this new "Fellowship"?
+  And what is his connection to these happenings?
+
+  Only one thing is for sure.  A Red Moongate summons you, back to Britannia
+  and back to adventure the likes of which to shake your soul to its core.
+
+
+  Ultima 7 (part 1 of 2), can be a very large and confusing game.  It has
+  numerous subquests, sideplots, and small diversions.  Taken as a whole, this
+  is a very huge game.  The main plot, however, is very simple and easy to
+  Walkthrough.  However, to get the most enjoyment out of the game, explore it
+  all on your own, do all those little sidequests (truly that is the SPICE of
+  life), and refer to this only if you are truly stumped.
+
+  If you are playing the SNES version of Ultima 7, please do yourself a favor,
+  and throw that piece of garbage away.  It is by far the WORST game port that
+  I have ever seen.  So throw it away, and go buy the Ultima 7 Complete, or the
+  Ultima Collection to play the actual game the way it was meant to be played.
+
+
++=============================================================================+
+| ii. Britannia                                                               |
++=============================================================================+
+
+  Britannia is divided up into several main groups:  Towns, Dungeons, and
+  general geographic areas.  A more thorough reference on the towns can be
+  found in the Appendix "C. Almanac".
+
+  Quick Reference on Locations: (for the copy protection)
+
+  TOWNS:
+     Name:                 Location: (lat, long)
+     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯       ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+     Britain            -  (0, 0)
+     Buccaneer's Den    -  (60S, 60E)
+     Cove               -  (0, 60E)
+     Empath Abbey       -  (90N, 60W)
+     Jhelom             -  (120S, 60W)
+     Lycaeum            -  (60S, 180E)
+     Minoc              -  (90N, 60E)
+     Moonglow           -  (60S, 180E)
+     New Magincia       -  (90S, 120E)
+     Paws               -  (0, 0)
+     Serpent's Hold     -  (150S, 60E)
+     Skara Brae         -  (30S, 60W)
+     Spektran           -  (120S, 90E)
+     Terfin             -  (150S, 120E)
+     Trinsic            -  (90S, 0)
+     Vesper             -  (0, 120E)
+     Yew                -  (90N, 60W)
+
+  DUNGEONS:
+     Ambrosia           -  (93N, 187E)
+     Covetous           -  (58N, 95E)
+     Deceit             -  (2N, 177E)
+     Despise            -  (8N, 30W)
+     Destard            -  (70S, 23W)
+     Isle of the Avatar -  (150S, 180E)
+     Wrong              -  (60N, 22E)
+
+  GEOGRAPHIC AREAS:
+     Great Forest       -  (60N, 30W)
+     Fens of Dead       -  (60, 0)
+     Blood Marsh        -  (30, 90)
+     Bog of Desolation  -  (30, 30)
+     Spiritwood         -  (60, 30)
+     Serpents Spine     -  (0, 30) or (30, 0)
+     Dagger Isle        -  (0, 0)
+
+
++=============================================================================+
+| iii. Items, "Magic Sword, Hoe of Destruction... decisions, decisions..."    |
++=============================================================================+
+
+  Weapons: (as sorted, best to worst)
+    * - indicates 2 handed
+    Note: a max of 3 locations will be listed, after that you're on your own!
+
+    Name:              Damage:       Location: (Sextant Coord.)
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯     ¯¯¯¯¯¯¯       ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Demon Sword           ???        Isle of Fire
+    Glass Sword (breaks)  127        (23S, 43W),(25N, 178E),(48N, 137E)
+    *Death Scythe          50        (53S, 64W),(45S, 154E)
+    *Juggernaut Hammer     25        (157S, 53E),(88S, 55E),(176S, 188E)
+    *Hoe of Destruction    20        Macks Shed
+    *Firedoom Staff        20        (7N, 50W),(60S, 69E),(136S, 165E)
+    Powderkeg (explodes)   16        by Cannons
+    *2-Handed Sword        11            ***
+    Lighting Whip          10        (23N, 36W),(55N, 144E),(62S, 78E)
+    Halberd                10            ***
+    Magic Axe               8        (157S, 53E),(23S, 76W),(23N, 15E)
+    Fire Sword              8        (100S, 12W),(5S, 24W),(128S, 3W)
+    *Scythe                 7        Farms
+    Magebane                7        (16 N, 38 E),(18N, 12W),(157S, 53E)
+    Sword of Defense    6 (3 Def.)   (128S, 3W),(143S, 173E),(74S, 62E)
+    Magic Sword             6        (157S, 53E),(5S, 24W),(77N, 196E)
+    Custom Sword            6        Trainers
+    Sword                   6            ***
+    Serpentine Sword        6        De Snel's
+    *Shovel                 6        Farms
+    Shears                  6            ***
+    Fellowship Staff        6            ***
+    Great Dagger            5            ***
+    Morningstar             5            ***
+    Pick                    4        Mines
+    Throwing Axe            4            ***
+    Decorative Sword        4            ***
+    Whip                    4            ***
+    Hammer                  4            ***
+    Torch                   3            ***
+    Sling                   3        Spark starts with
+    *Rake                   2        Farms
+    Main Gauche             2            ***
+    Pitchfork               2        Farms
+    Magic Boomerang         2        (158S, 142E),(2N, 21E)
+    Knife                   2        Kitchens
+    *Hoe                    2        Farms
+    Cleaver                 2            ***
+    Club                    2            ***
+    Boomerang               1            ***
+    Poison Dagger      1 + poison    Pirates
+    Serpentine Dagger       1        De Snel's
+    Dagger                  1            ***
+
+    Note:  The Death Scythe. It has two effects which most people don't seem to
+           know: curse and magebane. Given the amount of damage it does, it is
+           rather hard to see them in effect, though. (Marzo Sette Torres Jr)
+
+  Missile Weapons: (not sorted)
+    Name:              Damage:       Location:
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯     ¯¯¯¯¯¯¯       ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Bow                     8            ***
+      Arrow            same as bow       ***
+      Burst Arrow       bow +2           ***
+      Magic Arrow          +4        cast "enchant" on arrows
+      Tseramed Arrow       +1        Tseramed, in Yew
+    Magic Bow              12        (48N, 74W),(46N, 7E),(85S, 126E)
+    Crossbow               10        Iolo starts with
+      Bolt             same as           ***
+      Magic Bolt           +2        cast "enchant" on bolts
+    Triple Crossbow        28            ***
+    Blowgun                 1            ***
+    Cannon                 90        Britain, Serpents Hold
+    Musket                  9        Lord British, Museum
+    Fire Wand              10        (84S, 67E),(20S, 37W),(68N, 30W)
+    Lightning Wand          8        (79S, 89E),(7N, 50W),(18N, 6W)
+
+  Armor: There are 6 places of the body to protect, namely, head, neck, torso,
+         hands, legs, and feet.  Armor only decreases the likelihood of your
+         getting hit, it does not reduce the damage if you do get hit.
+    Sorted from BEST to WORST
+    Name:             Defense:   |  Name:            Defense:
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯   |  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯
+    Magic Armor            5     |  Sword of Defense      3
+    Magic Helm             4     |  Chain Armor           2
+    Magic Leggings         4     |  Chain Coif            2
+    Magic Helm             4     |  Chain Leggings        2
+    Magic Shield           4     |  Gauntlets             2
+    Plate Armor            4     |  Greaves               2
+    Great Helm             4     |  Scale Armor           2
+    Antique Armor          3     |  Spiked/Wooden Shield  2
+    Crested Helm           3     |  Buckler               1
+    Curved Heater          3     |  Kidney Belt           1
+    Decorative Shield      3     |  Leather (anything)    1
+    Gorget                 3     |  Protection Ring       1
+    Plate Leggings         3     |
+    Magic Gauntlets        3     |
+
+  Note:  All magic weapons and armors are LIGHTER than their normal
+         counterpart.
+
+  Reagents: (only the BEST priced seller is listed, if its a tie then both are,
+             for the complete list, look in the "C. Almanac" section under each
+             Apothecaries town)
+
+    Name:             Location:        Best Seller:          Price:
+    ¯¯¯¯¯             ¯¯¯¯¯¯¯¯¯        ¯¯¯¯¯¯¯¯¯¯¯¯          ¯¯¯¯¯¯
+    Black Pearl   -   Cove             -  Rudyom             -    5
+    Blood Moss    -   Terfin           -  Sarpling           -    2
+    Garlic        -   Moonglow, Terfin -  Mariah, Sarpling   -    1
+    Ginseng       -   Terfin           -  Sarpling           -    1
+    Mandrake Root -   Cove, Yew        -  Rudyom, Nicodemus  -    5
+    Nightshade    -   Yew              -  Nicodemus          -    5
+    Spider Silk   -   Yew              -  Nicodemus          -    3
+    Sulfurous Ash -   Terfin           -  Sarpling           -    3
+
+    You can also gather your own reagants (free):
+          Sulfurous Ash near Destard. (95S, 19W)
+          Spider Silk in the forest at (49N, 72W)
+          Nightshade around mushrooms at (47N, 61W)
+    Note: These aren't guaranteed to be there, but usually are.
+          (and if anyone can find any others please email me about it!)
+
+    Note: Wis-Sur also sells Blood Moss, Spider Silk, Sulfurous Ash, Mandrake
+          Root, and Black Pearls, but at expensive prices.  You can haggle,
+          however.
+
+  Potions:
+  ¯¯¯¯¯¯¯¯
+    Name:    Effect:          Best Seller:     Price:
+    ¯¯¯¯¯    ¯¯¯¯¯¯¯          ¯¯¯¯¯¯¯¯¯¯¯¯     ¯¯¯¯¯¯
+    Black  - Invisibility   - Mariah              90
+    Blue   - Sleep          - Kessler             15
+    Orange - Awaken         - Wis-Sur             10
+    Purple - Protection     - Kessler             15
+    White  - Light          - Kessler             50
+    Yellow - Healing        - Kessler            150
+    Red    - Cure (poison)  - Kessler, Wis-Sur   150
+    Green  - Poison         - Kessler             15
+
+    Apothecaries:  Kessler (Britain), Mariah (Moonglow), Wis-Sur (Vesper)
+    Note:  Kessler buys silver serpent venom at 50 gold a vial
+
+
++=============================================================================+
+| iv. Spells, "What does Armageddon do?... oops."                             |
++=============================================================================+
+
+  Not every spell in this game is useful.  Most are completely useless.  Some
+  are merely fun.  Others you will use so often you'll wish your spell book had
+  a "Last 10" spells section.
+
+  Which spells you can cast depends on your level.  Level 6 can cast circle 6,
+  Level 7 can cast circle 7, etc.  The circle number also indicates how much
+  mana a spell costs.  Circle 7 costs 7 mana, etc.
+
+  Each Mage sells their spells based on the circle the spell is in, with a 6th
+  circle spell costing more than a 1st.  Notice how Mariah's costs are random?
+  She's quite insane.  It is recommended that you buy only the cheapest spell,
+  as the cost adds up quickly.
+
+  There are 8 spells per circle and there are 8 circles (9 circles if you count
+  "Linear Spells") for a total of 64 standard spells (+8 linear).
+
+  The Mages:  (how many spells they have at the optimal price)
+    Nystul    (5 spells):  Britain - Lord British's castle
+    Rudyom    (19 spells): Cove - his own house
+    Nicodemus (21 spells): Yew - house with giant chess set
+    Mariah    (23 spells): Moonglow - Lycaeum
+    Wis-Sur   (4 spells):  Terfin (Gargoyle)
+    Note: Some of Nicodemus' and Rudyom's spells overlap
+
+  Symbols used in Spellbook below:
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Reagants:  GN - Ginseng
+             GR - Garlic
+             BM - Blood Moss
+             NS - Nightshade
+             SA - Sulfurous Ash
+             SS - Spider Silk
+             MR - Mandrake Root
+             BP - Black Pearl
+
+  Mages:     R - Rudyom
+             Ny - Nystul
+             Ni - Nicodemus
+             W - Wis-Sur
+             M - Mariah
+
+  * - indicates you start with this spell
+
+  ______________
+  Linear Spells: (the linear spells are automatically in each spellbook)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+   *Awaken    -- No reagents are needed for any linear spell --
+   *Douse
+   *Fireworks
+   *Glimmer
+   *Help
+   *Ignite
+   *Thunder
+   *Weather
+  _____________
+  First Circle: (165 gold)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Name:               Reagents:                  Mages(cost):
+    -----               ---------                  ------------
+    Awaken All           GN, GR                     R(25)
+    Create Food          GN, GR, MR                 Ny(35), M(60)
+   *Cure                 GN, GR                     Ni(25), R(25), M(80)
+    Detect Trap          SS, NS                     Ni(25), R(25), M(100)
+    Great Douse          GR, SS                     W(30), Ny(35)
+    Great Ignite         SA, SS                     Ni(25), W(30)
+   *Light                SA                         R(25), W(30), Ny(35), M(40)
+    Locate               NS                         Ni(25), W(30), Ny(35)
+  ______________
+  Second Circle: (320)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Destroy Trap         SA, BM                     Ni(45), R(45), W(50), M(100
+    Enchant              BP, MR                     Ni(45), W(50), Ny(55)
+   *Fire Blast           SA, BP                     R(45), W(50)
+    Great Light          SA, MR                     R(45), W(50)
+    Mass Cure            MR, GR, GN                 Ny(55)
+    Protection           SA, GN, GR                 Ni(45), Ny(55), M(80)
+    Telekinesis          BM, MR, BP                 R(45), Ny(55), M(60)
+    Wizard Eye           BM, NS, MR, SA, BP, SS     M(40), Ni(45)
+  _____________
+  Third Circle: (485)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Curse                SA, NS, GR                 R(65), W(70)
+   *Heal                 GN, GR, SS                 M(40), R(65), Ny(85)
+    Paralyze             SS, NS                     Ni(65), R(65), W(70)
+    Peer                 NS, MR                     M(60), Ni(65)
+    Poison               NS, BM, BP                 Ni(65), R(65), W(70)
+    Protect All          SA, GN, GR, MR             Ny(85), M(100)
+    Sleep                NS, SS, BP                 M(80), Ny(85)
+    Swarm                (none)                     Ni(65), W(70), Ny(85)
+  ______________
+  Fourth Circle: (620)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Conjure              SS, MR                     W(90), Ny(95)
+    Lightning            BP, SA, MR                 R(85), W(90)
+    Mark                 MR, BP, BM                 M(40), Ni(85), R(85)
+    Mass Curse           SA, NS, GR, MR             W(90), Ny(95)
+    Recall               MR, BP, BM                 M(60), Ni(85), R(85)
+    Reveal               SA, BM                     W(90), Ny(95)
+    Seance               BM, MR, NS, SS, SA         M(80), R(85)
+    Unlock Magic         SA, BM                     Ny(95), Ni(85), M(100)
+      (Note: although Nicodemus sells Unlock Magic, you need the spell to even
+       get into his house, so you can't buy it from him)
+  _____________
+  Fifth Circle: (740)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Charm                BP, NS, SS                 M(60), R(115)
+    Dance                MR, GR, BM                 M(100), R(115)
+    Dispel Field         GR, BP, SA, SS             Ni(115), W(120), Ny(125)
+    Explosion            MR, SA, BP, BM             Ni(115), R(115), W(120)
+    Fire Field           BP, SA, SS                 M(80), W(120), Ny(125)
+    Great Heal           GN, SS, MR, GR             R(115), Ny(125)
+    Invisibility         NS, BM                     M(40), Ni(115), Ny(125)
+    Mass Sleep           GN, NS, SS                 Ni(115), W(120)
+  _____________
+  Sixth Circle: (820)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Cause Fear           NS, MR, GR                 M(80), Ny(145)
+    Clone                SA, SS, BM, GN, NS, MR     M(40), R(135), W(140)
+    Fire Ring            SA, BP, MR, SS             Ni(135), W(140), Ny(145)
+    Flame Strike         SA, BP, BM                 Ny(145)
+    Magic Storm          MR, NS, SA, BM             M(100), R(135)
+    Poison Field         NS, SS, BP                 Ni(135), R(135)
+    Sleep Field          GN, SS, BP                 M(60), R(135), Ny(145)
+    Tremor               BM, SA, MR                 Ni(135), W(140)
+  _______________
+  Seventh Circle: (900)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Create Gold          MR, SS                     R(155)
+    Death Bolt           BP, NS, SA                 Ni(155), Ny(165)
+    Delayed Blast        MR, SA, BP, BM, SS         Ni(155), R(155)
+    Energy Field         MR, BP, SS, SA             M(100), Ni(155), Ny(165)
+    Energy Mist          MR, NS, SA, BM             M(60), Ni(155), Ny(165)
+    Mass Charm           BP, NS, SS, MR             R(155)
+    Mass Might           BP, MR, GN                 M(40), Ny(165)
+    Restoration          GN, GR, SA, MR             M(80), R(155)
+  _____________
+  Eight Circle: (1020)
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Armageddon           All Reagants Needed        R(185)
+    Death Vortex         MR, NS, SA, BM             Ni(185), Ny(195)
+    Invisibility         MR, NS, BP, BM             M(100), Ny(195)
+    Mass Death           GR, GN, MR, BM, NS         Ni(185), Ny(195)
+    Resurrection         GR, GN, SS, SA             M(40), R(185)
+    Summon               MR, GR, BM                 Ni(185), R(185)
+    Swordstrike          BP, MR, NS                 M(80), Ni(185), R(185)
+    Time Stop            MR, BM, GR                 M(60), Ny(195)
+                                       =======================================
+                                       Cheapest Total of All Spells: 5070 gold
+                                       or an Average of 84.5 gold per spell
+
+
+  Some Notes on Spells:
+  =====================
+
+  Necessary Spells: (cannot pass game without these!)
+  -----------------
+    Seance        - to talk to anyone in Skara Brae you need this (4-M-80)
+    Unlock Magic  - to get into Nicodemus' house you will need to open his door
+                    which is magically locked (4-Ny-95)
+
+  Very Useful Spells: (you'll really want these, trust me)
+  -------------------
+    Cure and Mass Cure - You'll find yourself poisoned at the worst times, and
+                         sometimes it is just completely inconvenient to go
+                         back to Lord British, and you'll need to save Jaana
+                         for more serious ailments. (start with cure, 2-Ny-55)
+    Telekinesis - Allows you to move things without being near them. (2-R-45)
+    Mark and Recall - No point in having one without the other.  Allows all
+                      sorts of teleportation to spots that you choose, unlike
+                      the orb of moons which takes you to predetermined spots.
+                      (4-M-40, 4-M-60)
+    Restoration - The spell that heals everyone completely.  Very nice (7-M-80)
+    Resurrection - Because Jaana and Lord British can't do it all the time.
+                   Plus what do you do if Jaana dies?  (8-M-40)
+
+  Other Spells:
+  -------------
+    Only the really useful spells are covered above, as for the rest you can
+    gauge your needs and decide if you really need them.  Death Vortex is
+    really nice (cast it on yourself and run around, anything that attacks you
+    will die), as is Mass Death, but it's usually just as easy to fight on your
+    own.
+
+  Armageddon:
+  -----------
+  For a good time (save it before you do this), cast Armageddon.  Everyone on
+  the planet will die.  Except Lord British and Batlin.  Go talk to them, and
+  hear what they have to say.
+
+
++=============================================================================+
+| v. Companions, "But you look so OLD, Iolo!"                                 |
++=============================================================================+
+
+  STANDARD COMPANIONS:
+
+  Iolo - Bard - your old buddy, comes equipped with a crossbow, a few bolts,
+         leather armor, and his trusty lute.
+         STR 18, DEX 19, INT 20, COMBAT 19
+         Trinsic (his home is in Yew, however)
+
+  Shamino - Ranger - another old buddy, now a barfly with aspirations of
+         marriage comes equipped with a sword, and gives you your pocketwatch.
+         STR 18, DEX 21, INT 19, COMBAT 16
+         Britain
+
+  Dupre - Paladin/Knight - the final old buddy, also a barfly, but now knighted
+         found drunk and with a large bar tab in New Magincia.
+         STR 21, DEX 20, INT 18, COMBAT 18
+         Jhelom
+
+  VERY USEFUL COMPANIONS:
+
+  Spark - annoying brat - this little kid had the misfortune of having his
+         father killed, so somehow guilt-trips his way into your party.  He
+         isn't very strong, however, he is fast.
+
+         Note: Spark starts at level 1 instead of 3, which means he has 6 more
+               training points than everyone else, making him one of the
+               strongest companions. (from Matthew Orrte)
+
+         STR 14, DEX 22, INT 18, COMBAT 10
+         Trinsic
+
+  Jaana - Healer - Jaana spends her time in Cove as the healer, and is
+         currently in love with Cove's mayor.  Can heal people, cure poison,
+         and cast Resurrection on dead companions.  Comes with a hawk.
+         STR 13, DEX 16, INT 18, COMBAT 8
+         Cove
+
+  Sentri - Trainer - Can train your people (Dex +1) for free, and is also a
+         good strong fighter.  Also has a room full of armor.
+         STR 18, DEX 20, INT 18, COMBAT 16
+         Britain
+
+  Tseramed - Archer - Fairly good archer, comes with a special kind of sleep
+         arrow.  Hates the Fellowship on a personal level.  A good member to
+         have in the party.  Don't say your name as "Fellowship" or he'll never
+         join your party.
+         STR 16, DEX 17, INT 18, COMBAT 12
+         Yew
+
+  ALMOST COMPLETELY USELESS:
+
+  Julia - Tinker - Julia is a very weak character, and doesn't come with much
+         in the way of equipment.
+         STR 12, DEX 14, INT 18, COMBAT 8
+         Minoc
+
+  Katrina - Shepherd - Katrina is the weakest character of them all (IMHO), and
+         she comes with very little equipment, not even a sack.
+         STR 11, 15, INT 18, COMBAT 8
+         New Magincia
+
+  Recommended Party: (in order of when you get them)
+    Iolo, Spark, Shamino, Sentri, Jaana, Tseramed, and Dupre
+
+  You can have a maximum of 7 other people in your party at the same time.
+  However, if you do it wrong, you can only have 5 other people in your party.
+  The trick?  Get 5 non-standard people in your party, then ask one of the
+  standard members to join.  Then you can get the full 7.
+
+
++=============================================================================+
+| vi. Trainers, "But how does 1 hour of training make me STRONGER?"           |
++=============================================================================+
+
+  As sorted by Skill/Cost:
+
+  Name:      City:      Skills Increased:           Cost: (Skill/Cost)
+  ¯¯¯¯¯¯¯    ¯¯¯¯¯¯     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯           ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Karenna  - Minoc    - Dex +1, Combat +1         - 20 gold (10)
+  Jakher   - Minoc    - Str +1, Int +1            - 20 gold (10)
+  Zaksam   - Vesper   - Combat +2, Str +1         - 40 gold (13.3)
+  Menion   - S. Hold  - Str +2, Combat +1         - 45 gold (15)
+  Bradman  - Yew      - Dex +2                    - 30 gold (15)
+  Perrin   - Yew      - Int +2, Magic +1          - 45 gold (15)
+  Inforlem - Terfin   - Str +1, Dex +1, Combat +1 - 50 gold (16.6)
+                        Int +2, Magic +1          - 50 gold (16.6)
+  Jillian  - Moonglow - Int +1, Magic +1          - 35 gold (17.5)
+  Penni    - Yew      - Str +1, Combat +1         - 35 gold (17.5)
+  Rayburt  - Cove     - Int +1, Dex +1, Combat +1 - 60 gold (20)
+  De Snel  - Jhelom   - Combat +2                 - 40 gold (20)
+  Markus   - Trinsic  - Combat +1                 - 20 gold (20)
+  Zella    - Britain  - Dex +1, Combat +1         - 45 gold (22.5)
+  Chad     - Moonglow - Dex +1, Combat +1         - 45 gold (22.5)
+  Denby    - Britain  - Dex +1, Int +1, Magic +1  - 75 gold (25)
+  Sentri   - Britain  - Dex +1                    - 30 gold (30)
+  Lucky    - B. Den   - Int +1                    - 35 gold (35)
+
+
+  Best Trainers: (with the best listed first)
+    Magic and Int - Perrin,  Inforlem, Jillian
+    Strength      - Menion, Jakher, Zaksam
+    Dex           - Sentri (if in party), Karenna, Bradman
+    Combat        - Karenna, Zaksam, Inforlem
+    Good Mix      - Inforlem, Rayburt
+
+  Note:  The Forge of Virtue MAXIMIZES the Avatar's stats, so if you have that
+         add-on, don't train yourself too much.
+
+         Also note that once you maximize one stat, then you can't train with
+         anyone who advances that stat, even if you want to learn something
+         else that they teach.
+
+
++=============================================================================+
+| vii. The Fine Art of Stealing                                               |
++=============================================================================+
+
+  So ... you wanna be a Thief Avatar, but you're always getting caught by
+  either the guards, or your guilty Companions.  Well here's a very simple
+  trick to Minimizing your risk while stealing things:
+
+      Open a container.  Move the item directly into the Container.
+
+  That's it.  Open up your backpack and put the purloined goods directly in, or
+  open a drawer and take things directly onto yourself.  Guards can even be
+  standing right next to you and they won't even care.  However, sometimes
+  odd things can happen when you swipe things like this.  It isn't very common,
+  but your Companions will still complain about it, and sometimes leave the
+  party.  (If they do leave, talk to them again, and apologize; but if they
+  leave again, they may not join ever again)  One way to try to neutralize that
+  is to steal things using them.  Put the stolen goods directly into their
+  backpack.  They can't complain about you stealing things, when they are the
+  ones that are actually doing it.
+
+  Never ever move things.  Either take it or leave it there.  Sometimes even if
+  a container is opened, if you move an item, the owner of the item will still
+  yell "Do not touch that!"  So if you're going to steal it, just take it.
+  Don't move it.
+
+  _________________
+  Robbing the Bank:
+  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    Need some money?  Sick of all those rich Britannian citizens arrogantly
+    strutting about as though they are better than you?  Well go rob the bank!
+    First off, find the Mint woman's house, and kill her in her sleep (you may
+    want to leave your party outside for this part).  Search her body and take
+    the keys.  Use the keys to open the Mint, take all the money (you will
+    probably want your party for the actual robbing) and the gold bars and
+    nuggets.  If the guards start attacking you, cast the "Help" spell to get
+    out of there (the guards will forget about you).  Now get the corpse, bring
+    it to Lord British, and have him resurrect her.  She'll go back to the
+    Mint. Go talk to her there, and exchange your stolen gold bars, for gold.
+    You'd think she'd recognize her own murderer, or that she essentially just
+    bought back the Mint's own money.  You are now RICH!
+
+    Other people and places to rob.  The jewelry store.  Use similar tactics as
+    the Mint.  At night, go to the jewelry store (it's not like its locked or
+    anything), make sure to not have your party with you, smash the glass and
+    take all the jewels.  If any guards attack you, cast "Help" to get away.
+    Then during the day sell the jewels back to the jeweler.
+
+    The exact same tactic works in the weapons store, and the bow shop.
+
+
++=============================================================================+
+| viii. General Strategies                                                    |
++=============================================================================+
+
+_____________________
+How to Play the Game:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Ultima 7, unlike all the Ultimas before it, is mouse driven.  You barely use
+  the keyboard for anything.  To walk, move the arrow in the direction that you
+  wish to travel, and hold down the right mouse button. (or double right click
+  your destination)  To use something, or to open your inventory, double click
+  the object.  To open your companions inventory, open yours, then open theirs.
+  If you just double click them you will talk to them instead.  You can also
+  use items like food by double clicking.  To pick things up, left click and
+  hold, and drag the item to where you want to put it.  Simple!
+
+________
+Battles:
+¯¯¯¯¯¯¯¯
+  First and foremost your gonna need to survive all those battles that you will
+  find yourself in.
+
+  Step One in this is preparation.  Enter battles with plenty of party members,
+  who are well equipped.  Leather Armor is not well equipped.  Even Chain Armor
+  is not that good.  Try to get all Plate, and Magic when you find it.  Also
+  don't give everyone the same type of weapon, as this will crowd them in one
+  area, and they may hit each other.  Give one person a sword, another a
+  two-handed weapon, another a whip, then a crossbow, and maybe another
+  throwing weapon like a Magic Axe.
+
+  Step Two, you have to recognize which battles to get into.  A level three
+  Avatar is not going to win against a Dragon all by himself (barring using
+  another strategy that we will discuss later).  In the beginning of the game,
+  limit your battles to simple things like Headless, Bandits and maybe a
+  Reaper.  Then you can move on to harder battles like Cyclops, Dragons, etc.
+
+  Ok now you are in a battle, but things aren't going well at all, your party
+  is disorganized, Iolo keeps shooting your own people, and Shamino just ran
+  off in terror.  As long as you know where everyone is, keep fighting.  Stop
+  Shamino right away since anyone who runs away will drop their items in an
+  attempt to lighten their load (maybe to run faster), and quite obviously we
+  don't want that to happen.  Use potions and bandages (while in the paused
+  Inventory mode) on anyone who needs it.  And lastly make sure that the Avatar
+  is actually attacking and not just standing around, since he doesn't actually
+  finish enemies off, just gets them to the point where they run off or
+  collapse.
+
+  If you want to cast spells in a battle, there are 2 ways.  One is to cast the
+  spell directly.  The other way is to equip the Spellbook in your attacking
+  hand and place the marker on the spell you want to cast, then enter combat
+  mode, and attack.  You will then cast your spell as the attack.
+
+  Now for that strategy that I mentioned earlier.  When confronted by a
+  superior foe, and you know that under normal circumstances that you have no
+  chance to win.  Merely feed the Dragon (or whatever) a Blue Potion to put him
+  to sleep.  Hit him, and do it again.  Simple.  Especially since Blue Potions
+  cost only 15 gold and can be used while in Inventory mode (unlike spells), so
+  you won't ever have to get hit.  A couple other things you can do is to use a
+  Poison Potion and a Blue Potion so that the enemy takes damage in his sleep.
+
+  A few other things to remember: Spells.  Remember that you do possess the
+  magic ability.  Some useful spells are, Poison, Curse, Protection, and
+  Paralyze.
+
+______________________________
+Sorting through all the items:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  There are a lot of items in this game.  Innumerable keys, thousands of gold
+  pieces, etc.  It can be quite a mess to look through your inventory.  So...
+  Simplify!  Get one bag, put all your keys in it (in early versions of the
+  game you could "lose" keys when you went to sleep, if that happens to you,
+  just take the bag out of your possession before you go to sleep, and take it
+  back after you wake up.).  Give one party member all of your gold-Iolo works
+  for this, another all your potions and bandage-Jaana is ideal for this, yet
+  another for all your food-Shamino or Dupre.  Keep all PLOT items to yourself,
+  i.e. Rudyom's Wand, Blackrock pieces, etc.  Also keep the sextant and the map
+  to yourself, and have another bag for Reagants.  Also the best place for the
+  Spellbook is in the slot right above the Avatar's weapon.  You don't have to
+  follow my item sorting strategy here, but try to keep things organized. Don't
+  just give things to people then have to search everyone for it later.
+
+  So once you have a lot of items, and you want to sort them properly, but the
+  game keeps saying "won't fit."  This is because every item in the game has a
+  size as well as a weight, it's just that you can't really tell what the size
+  is just by looking at something.  Well there is a good way around this
+  problem.  Firstly, move all gold, food, and whatnot to other NPC's.  If your
+  item still won't fit here's what to do.  Have 2 bags in your backpack and as
+  many items as you can manage, then move your item into one of the bags.  Even
+  if you can't fit the item into your backpack, you may be able to fit it into
+  a bag... that is still in the backpack.
+
+______
+Money:
+¯¯¯¯¯¯
+  One of the best ways to get money is to slay dragon's in the Dungeon Destard.
+  Each dragon is usually full of Gems.  Take all their gems and sell them to
+  the jeweler in Britain.  Best thing is, there are always more dragons
+  whenever you come back, no matter how many you kill.
+
+  Once you get to Minoc, and more specifically, the Mines there, gather all
+  the Silver Serpent Venom you can find, and sell it in Britain at 50 gold a
+  vial.
+
+  A more honest, and less violent, way to get money is to get a part time job
+  in Britain.  There are several available.  You can bake bread, gather
+  pumpkins, or collect eggs.  Other ways involve selling things that you find
+  along the way.  You can sell Gems, Gold bars and nuggets, bags of flour, and
+  mutton, and my favorite Silver Serpent Venom.
+
+  A dishonest (well sorta) way to get money is to gamble for it in Buccaneer's
+  Den. In the House of Games is a Rat Race game, with the usual odds of 4 to 1,
+  that is if you bet 100 and win you get 400, if you lose, you lose all. Since,
+  however, the owners of the Games are in the Fellowship, once you join the
+  Fellowship (and presumably wear your amulet) the odds improve to 6 to 1.
+  Which means that you can place money on all the rats and still make money.
+  For example you put 100 on each rat, the race ends and you lose the 300 on
+  the losing rats, but you gain 600 on the winning rat.  (well technically you
+  only gain 200)  Then spread your winnings on all the rats again, and you will
+  get even more money.  You could start with as little as 4 gold coins and
+  become a millionaire (I really recommend that you don't get too much money,
+  as it makes the game unstable).
+
+  And finally don't forget the various treasure troves around the planet. There
+  are a lot of places that are full of Gems and Gold Bars.
+
+  Nathaniel Dolynchuk has these strategies to add:
+
+    I talked to batlin about getting the package after the initial attempt
+    failed when I had too much stuff (and for some reason NO ONE ELSE in my
+    group took it), selected the package option on the question menu and he
+    gave the box to me.  Immediately after that I spoke to him again the
+    *package* selection on the question menu was still there!  I clicked it
+    again and he said the package message again. I checked my Inventory and saw
+    that he gave me <<<<100 GOLD!!!>>>.  So I did it again and BOOM! another
+    hundred!! I keep on doin this and I keep on getting cash!! cool and easy
+    cash.
+
+    Also, another tip on how to cheat those fellowship loving pirates at the
+    casino.
+
+    At the wheel of virtues, place a bet of one coin on anything and spin.
+    Whether you win or lose doesn't matter.  Then spin the wheel again without
+    anything on the table, wait for the wheel to come to an ALMOST complete
+    stop then quickly open your inventory to stop everything and put money on
+    the color the needle is pointing to on the table (if the needle keeps on
+    going after and goes off the color, just turn on inventory again and put
+    your bet on the appropriate color, THEY WON'T NOTICE!!! HA HA!!).  You can
+    even place a bigger bet that just 100 gold by stacking the gold, doing more
+    than 2 might not give back as much as it should though, but it will be alot
+    none the less.
+
+_____________________
+Infinite Money Cheat: (from Cao Cao)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  To do this, you have to talk to Batlin, then talk about his companions,
+  Elizabeth and Abraham.  Then talk to join fellowship then he will give you a
+  task:  sending a package to the Fellowship head in Minoc.  When he says,
+  "will thou send this package?", say no, remember say NO!!  Talk to him again
+  about the package, and he'll give you the package as well as 100 exp.
+  Somehow if you talk to him again you'll find a word Package, click it and
+  you'll get the 100 exp again and an item.  (the item that you'll get is the
+  last item you take to your backpack and it must have a quantities of a
+  minimal of 2, like 100 golds or 20 magic arrows)  You can do this as many
+  times as you want, not to mention you can get an infinite of magic weapon.
+  (believe me, I give all my character lucky arrows, not to mention infinite
+  ammunition?)  Too bad magic armor can't be doubled.
+
+______________
+Teleportation:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  There are 3 methods to get somewhere without travelling the distance.  One is
+  to cast the Linear Spell "Help" to get back to Lord British, Two is to use
+  the Orb of the Moons (don't bother with the Blue Moongates), and 3 is to use
+  "Mark" and "Recall".  Since later in the game you lose the first 2, it is
+  HIGHLY recommended that you "Mark" several significant places in the game
+  early.  Simply stand in the place you would like to teleport to later, cast
+  mark and click the crosshairs on one of the colored stones.  You can mark any
+  location in the game, and to get back simply cast "Recall" and click on the
+  stone that you "marked."
+
+  Mark and Recall: (just a recommendation)
+    Red    -- Isle of Fire (after you beat it, mark the Isle of the Avatar)
+    Purple -- Lord British's Castle
+    Green  -- Nicodemus' House
+    Yellow -- Alagner's House
+    Orange -- Destard (by the Sphere)
+    White  -- Penumbra's House (Moonglow)
+    Blue   -- Meditation Retreat (by the Cube)
+    Black  -- Buccaneer's Den
+
+  For locations on the Orb of Moons look in Appendix "B. Orb of Moons".
+
+________
+Storage:
+¯¯¯¯¯¯¯¯
+  Once you get the Magic Carpet (see the Britain section below), a good way to
+  store things and keep them with you is to put a chest, barrel, or crate on
+  the Magic Carpet.  Then put items in there (like excess food, etc.) that you
+  don't need right now, but you will later.  For example I put the 4 Blackrock
+  pieces from Rudyom into a Barrel on the carpet, so I had them when I talked
+  to Penumbra the first time.
+
+_____
+Food:
+¯¯¯¯¯
+  Yes, you need to eat in Ultima 7.  The game represents hunger as a number
+  0-31, with 31 being completely full and 0 being starving to death.  The
+  person won't start asking for food until the counter reaches 6.  Below is a
+  chart of how much an item of food will increase your "food level":
+
+     +31: Green Cheese
+      24: Mutton, Ribs, Chicken, Ham
+      16: Beef, Deer Meat
+      12: Sausage
+      9 : Big Cheese
+      8 : Flounder, Potatoes
+      6 : Jerky, Fish n' Chips
+      5 : Fruitcake
+      4 : Bread, Trout, Pumpkin
+      3 : Cake, Banana, Egg
+      2 : Apple, Small Cheese, Carrots, Rolls, Garlic
+      1 : Drinks, Grapes, Leeks
+      0 : Silverleaf, Bucket of Rum (or wine)
+
+  Where to get food for free:  The best places to get food is directly from an
+  animal.  For example in Britain, the place that sells horses has several in
+  its field, and a cow or two.  Kill all the animals to get Ribs and Beef.  In
+  Paws the slaughterhouse has Sheep and Cows, which yield Mutton and Beef.  In
+  the wild there are deer, which leave deer meat.  You should never ever have
+  to buy food.  Especially since you find it everywhere.  Then when you go back
+  to these places later, the animals will have regenerated!
+
+  The Spell "Create Food" will create 1 piece of food for everyone in the party
+  and will deposit that food on the ground by their feet.  The food that is
+  created is random, so it's not always something good.  Could be grapes.
+
+  One odd sidenote about food, is that the Rabbit if killed will give you 1
+  piece of Beef (as in Cow).
+
+
++=============================================================================+
+|                                Walkthrough:                                 |
++=============================================================================+
+
+  Only the main plot is covered here, but I will alert you to the subplots in
+  each area.  For a walkthrough on each subplot, go to that section.
+
+  For complete enjoyment of the game, talk to everyone in the game.  Only the
+  people that you "must" talk to are listed here.
+
+
++=============================================================================+
+| 1. Trinsic, "That is one -bleeping- dead blacksmith!"                       |
++=============================================================================+
+
+Companions: Iolo*, Spark* (an * means you should get this person)
+Items: key*, gold, scroll, medallion (an * means you need to get this item)
+
+When you first get out of the Moongate, you are approached by Iolo, who has
+some disturbing news of a murder.  (if you have the Forge of Virtue, there will
+be a violent earthquake after this)  Investigate the stables, find the key.
+Go to the Blacksmith's house (upper west side, its a 2 story house) open the
+chest and take the gold.  Note that fellowship medallion.  Talk to Spark.
+He'll talk of a man with a Hook.  Go to the infirmary, talk to the guard who
+was on duty at the time, and he'll mention a ship called the Crown Jewel.
+Talk to the shipwright, Gargan, about the Crown Jewel.  And lastly talk to
+the head of the Fellowship about the murder.  Report the mayor your findings,
+go through the little copy protection:
+
+    Latitude of Buccaneer's Den -- 60
+    Longitude of Buccaneer's Den -- 60
+    Latitude of Deep Forest -- 60
+    Latitude of Dagger Isle -- 0
+    Latitude of Skara Brae -- 30
+    Longitude of Skara Brae -- 60
+    Latitude of Spektran -- 120
+    Longitude of Terfin -- 120
+
+(If you ever have to guess here, guess 60!)  The password is revealed to be
+BLACKBIRD.  (100 xp) To leave town, go to any gate, and double click on the
+Winch.  You will automatically tell the guard the password.
+
+______________________________
+Other Things to do in Trinsic:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  If you're a thief then you might want to steal yourself a sextant from the
+  Ship Seller.  He also has Gold Bars, and some lockpicks, which come in handy
+  later.  If you want, go steal some things from the weapons shop (there is a
+  lever behind a shield that opens up the wall for more goodies).  You may also
+  want to take the potions from the Healer's, and the gold from the Fellowship
+  Hall.  There are also 2 gems in the house south of the Fellowship Hall.
+
+  If you're a cheater, and for some reason didn't do the Debug Menu Cheat, then
+  stack crates to form a staircase onto the Blacksmith's roof (not his house,
+  his place of business).  Then go behind the Chimney for a cheater's ransom
+  in items and money.  ** WARNING ** Doing the cheat here can result in a
+  corrupted save game, and/or game errors!
+
+___________________
+Outside of Trinsic:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: 1 Complete set of Magic Armor, 600 gold, Crossbow, Magic Bolts.
+         Sword of Defense, Fire Sword, Swamp Boots, 3 Rings
+
+  Just to the south, and a little to the west, is a locked treasure chest under
+  a tree.  Move the chest into an open area (trust me it makes finding all the
+  items easier) and attack it until it breaks.  Take all the wonderful
+  wonderful items inside. (128S, 4W)  This one is definitely not considered
+  cheating because there are no plot items in the chest.
+
+  Note:  About the chest south of Trinsic at 128S 4W...Slightly below, at
+         130S 1W there is a key.  I found it on a rock, you may have to move
+         the rock a bit.  It opens that chest. (from Linda Shaw)
+
+_____
+Paws:
+¯¯¯¯¯
+  Just north of Trinsic is a little town called "Paws".  Not much here, so
+  don't stop here, continue going north to Britain.
+
+SUBPLOT ALERT: 3 - Who stole the poison?
+                 - What happened to Weston?
+                 - Thurston's Infatuations
+
+________________
+Magic Gauntlets:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  To the west of Paws (74S, 8W) there is a little bit of debris by a stream.
+  Move the debris to find Magic Gauntlets.
+
+
++=============================================================================+
+| 2. Britain, "I know the game!"                                              |
++=============================================================================+
+
+Companions: Shamino*, Sentri*
+Items: Spellbook*, Orb of Moons*, other Lord British equipment
+       Sentri's armor, pocketwatch, Stones of Virtue
+
+First off, go to the Blue Boar pub, talk to Shamino, get your pocketwatch back,
+then ask him to join you.  To the north of the Blue Boar is the museum.  Go in
+get the colored stones, and the Swamp boots.  Then go find Sentri, and ask him
+to join as well.  Find his key in his bedroom, then open up his vault to get
+the armor.
+
+Then go talk to Lord British. (20 xp) Talk to him on every subject you can, and
+be sure to get the Moonstone.  He'll also mention a murder that happened in
+Britain similar to the one you're investigating in Trinsic.  Then head to his
+study to get the key to the storeroom (the study has lots of heads on the
+wall).  Then go through the door on the left side of the Throne Room, to the
+little room all the way to the left, flip the switch.  Go through the north
+wall and go all the way to the right (opening passages with the switches as
+you go).  Find the crate and barrel by the kitchen, and under the barrel is
+a switch.  Flip it.  It opens the room above you.  Go down, left, and up the
+stairs.  The rooms in the top 2 corners have supplies.  Top left has your
+spellbook, top right a set of Plate Armor.
+
+Next go to the Fellowship Hall and talk with Batlin.  He says many things,
+agree to his test, and take the package to deliver to Elynor in Minoc.
+(although he tells you not to, you _can_ open the package with little
+consequence)  Also he tells you that Elizabeth and Abraham are going to
+Minoc on "business." (200 xp for taking the first test of the Fellowship)
+
+______________________________
+Other Things to Do in Britain:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - While still in the Fellowship Hall, use the key in the right room (it glows
+    blue) to open the chest in the left room.  Inside is 48 gold, and a note.
+    Read the note.  If you're a thief, take the gold, and the Yellow Potion in
+    the right room.
+
+  - You can Play The Game, of course! (50 xp) Find Chuckles in Lord British's
+    castle, and talk to him.  Speak with words that only have ONE SYLLABLE,
+    such as "I know the game" and "That would be big of thee".
+
+  - If you're a thief, rob the Mint (as described in the above section, "vii.
+    The Fine Art of Stealing", also rob the jewelry store and sell the jewels
+    back to him.
+
+  - Talk to Willy about women, talk to Charles about Jeanette (Blue Boar), talk
+    to Jeanette about Charles. 20xp (infinite).
+
+  - If you're not a thief, and you want money, you can get a job at the
+    Baker's, or you could gather pumpkins or eggs.  You can also sell Venom to
+    the Apothecary, Mutton to the chefs in the Castle, Jewels to the Jeweler,
+    and Gold to the Mint.  A note on baking bread, you do not have to make
+    dough, you can bake the flour DIRECTLY.  Odd.  (if you are wondering, this
+    is NOT the case in Serpent's Isle, in that one you actually have to make
+    dough.)
+
+  - Try the Strength test out in the Fair here.  If you win you get a stuffed
+    toy.
+
+  - Also be sure to check out the spaceship in Mack's field.  Looks vaguely
+    Wing Commanderish, doesn't it?
+
+SUBPLOT ALERT: 4 - Free Weston
+                 - Where does Patterson go at Night?
+                 - Miranda's Law
+                 - Acting for Avatars
+
+_____________________
+Just West of Britain:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  There are almost always brigands right outside of Britain on the west side.
+  If you want, go here, and get yourself some experience.  They usually wear
+  chain armor. (23 S, 31 W)
+
+_____________
+Magic Carpet:
+¯¯¯¯¯¯¯¯¯¯¯¯¯
+  You can get this item now or later.  But definitely get this!  The magic
+  carpet can fly over seas, mountains, and just about anything!  It is the
+  ultimate Conveyance.  From the west side of Britain, head north, along the
+  east side of the mountains, and follow those mountains until 13 N and 42 W.
+  This will be a river.  Follow the river in on the north bank until you find
+  the carpet.  (8 N, 30 W)  This is also an entrance to Dungeon Despise.
+
+
++=============================================================================+
+| 3. Cove, "I bring you LOVE"                                                 |
++=============================================================================+
+
+Companions: Jaana*
+Items: Rudyom's Wand*, 4 Blackrocks*
+
+Go to the healer's house, talk to Jaana and get her to join.  She is one of the
+best companions in the game.  Also be sure to get her supplies, the bandages,
+and the Yellow Potion. (21 S, 65 E)
+
+Then go talk to Rudyom about Blackrock, (50 xp) and buy some spells as well.
+He has a purple wand called a transmuter, that makes Blackrock explode.  Get
+this.  Also if you want you can take 4 blackrock pieces, you need them later.
+(13 S, 70 E)
+
+SUBPLOT ALERT: 2 - Nastassia's Father
+                 - Miranda's Law
+
+_______________________
+The Hoe of Destruction:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  The hoe of destruction is locked in Farmer Mack's shed.  Unfortunately he
+  lost the key to that shed while fishing on Locke Lake.  Go to the lake find
+  the fish (2 N, 48 E), then you can open his shed and get the Hoe.
+  (22 S, 25 E)
+
+  Note: The door to Mack's shed where the Hoe of Destruction is can be blown
+        open with a powder keg.  Just bring one from Lord British's castle
+        instead of wasting time hunting for the key. (from Matthew Orrte)
+
+_____________
+Cyclops Cave:
+¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Lightning Wand, Ring of Regeneration
+
+  North of Cove (0, 67E) is a cave with Cyclops inside.  Good place to get some
+  experience.  The Cyclops usually have about 2 gold nuggets each.
+
+_____________________
+Forge of Virtue Note:  Now is a good time to go to the Isle of Fire.  To make
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯  things easier, go to Jhelom, get Dupre.  Then equip
+                       Dupre and Jaana.
+
+
++=============================================================================+
+| 4. Minoc, "You'd almost think these two murders were related..."            |
++=============================================================================+
+
+Companions: Julia
+Items: Silver Serpent Venom, Serpentine Dagger*
+
+At the lumber mill just southeast of Minoc (63N, 74E) another brutal murder has
+taken place.  Here the victims were 2 gypsies, Frederico and his wife Tania,
+who were critical of the Fellowship.  The whole town has gathered to gawk like
+slack jawed yokels.  Investigate the murder scene, and note the Serpentine
+Dagger (take it) and the Fellowship Candlestick (don't take it).  You can talk
+to the candlestick maker, Xantha, in the artists guild about it, and then you
+can also talk to Elynor about it.  Everyone in town has a little bit of
+information about the crime.  Also talk to the Pub Owner about Hook.
+
+Now, however, go get rid of the package that Batlin gave you.  Give it to
+Elynor, (77N, 57E) if you opened it she will be mad.  You will also learn that
+the elusive duo, Elizabeth and Abraham have gone to the homeless shelter in
+Paws.
+
+And finally go talk to the Gypsy woman, Margareta and get your fortune told.
+(50 xp) You'll have to head to Yew to comply with the fortune (to talk to a
+wisp), but this walkthrough is going to continue following Elizabeth and
+Abraham.
+
+___________________
+Other Things to Do:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - Go to the Britannian Mining Company, and in the desk find the Blue Key, use
+    that key to open the chest.  Take the Venom (to sell in Britain).  You can
+    also check the book on the table for a reference to Blackrock or "B.R."
+
+  - South of the sawmill is the Minoc Mine, go in and get all the Venom you can
+    carry. (56N, 70E) Now what would a Mining Company need with a body altering
+    drug like Silver Serpent Venom?  It wouldn't be to further exploit their
+    Gargoyle workers would it?  Also in the mine is a Blackrock Lode that you
+    can mine if you want.  It is down through an illusionary wall.
+
+  - There's another mine (abandoned) north of the city.  Feel free to explore
+    it.  (90N, 61E)
+
+  - The Fellowship Hall has 100 gold coins just sitting in a little box.
+
+  - Lastly, in the Artist's Guild, in the North room on the West side, in the
+    2nd barrel is a lot of trash, and a bag.  Open the bag, take the Gold Bar,
+    and the coins, search the dead bunny and get Starbursts (a weapon).
+
+SUBPLOT ALERT: 1 - Owen the Shipwright, Hero or Fraud?
+
+
++=============================================================================+
+| 5. Paws, Jhelom, and Elizabeth and Abraham                                  |
++=============================================================================+
+
+Companion: Dupre* (Jhelom)
+Items: Magic Leggings, Magic Gorget, 3 Gold Bars
+
+Following Elizabeth and Abraham to Paws will reveal only that they aren't there
+having already left for Jhelom.  Go to Jhelom.  The easiest way there is to
+use the Orb of the Moons.  Talk with the Mayor there to discover that they've
+already gone back to Britain.
+
+While in Jhelom, talk to De Snel about the Serpentine Dagger that you found
+back in Minoc.  (50 xp) If you ask for a "demonstration" he'll attack you.
+And be sure to get Dupre into your party.  He's at the pub.
+
+SUBPLOT ALERT: 3 - Paws (as covered in "1. Trinsic")
+               1 - Jhelom - The Honor Flag
+
+____________________________
+Other Things to Do: (Jhelom)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - There are Magic Leggings in the desk at the town hall.
+
+  - There is a Magic Gorget (neck thingie) in the house south of the Library of
+    Scars.
+
+  - In the house above the Library of scars is a Glowing Key.  Get it, and use
+    it to open the locked door in the Library of Scars.  Inside you'll find 3
+    gold bars.
+
+________________
+Caves by Jhelom:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Immediately to the north of the circle of stones (where the orb of moons
+  places you) is a cave. (167S, 66W) Go inside and explore, but beware of traps
+  inside.
+
+  There is another cave to the west of Jhelom. (145S, 75W)  Inside are some
+  Brigands.  There is also a Triple Crossbow here, and some gold nuggets.
+
+
++=============================================================================+
+| 6. Back to Britain, "No, I'm not just joining to spy on you"                |
++=============================================================================+
+
+Talk with Batlin again, and tell him that you have delivered the package. (60
+xp)  Now he'll give you another task.  Go to Dungeon Destard to the west of
+Trinsic and fetch the Fellowship funds in a chest by a Fellowship staff.
+He claims that the dungeon is deserted.  It isn't.  It's full of dragons.
+Lots of Dragons.  Also there are no funds.
+
+Note:  If you haven't done Forge of Virtue... now would be a good time.
+
+________
+Destard:
+¯¯¯¯¯¯¯¯
+  Items: 3 Potions, Reagants, Ring of Invisibility, Ring of Regeneration,
+         Gems, Venom, Gold Bars, Spellbook
+
+  There are 2 entrances to Destard.  One leads to a Unicorn, and a locked chest
+  with Magic Arrows a Ring of Invisibility and some gold.  The other leads to
+  lots of Dragons, and is unfortunately the way you must go. (71S, 23W)
+  Enter and go to the right then down.  You should see the chest, its got a
+  staff right by it.  Open it, and discover that it is devoid of money.
+  The body by it has 3 potions and some reagants.  Take those.  Explore the
+  rest of the cavern if you wish.
+
+  Return to Britain.
+
+_______________________
+Joining the Fellowship:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Talk to Batlin and tell him that there are monsters in Destard, he'll
+  apologize and offer to initiate you at the next meeting at 9 p.m.  Go to the
+  hall at 9 and talk to Batlin then. (the meeting lasts from 9 to 12)  Iolo,
+  Shamino and Dupre will all try to talk you out of joining.  Join anyway.
+  Batlin will then ask you a few questions to prove that you bought the game,
+  er, are loyal to the Fellowship: (he'll ask any 2 of the following)
+
+   - "According to the Traveller's Companion, how many parts of the body should
+      one wish to protect with armor." -- 6
+   - "In the Book of the Fellowship, how many bandits can be seen surrounding
+      on the old man in the illustration on page three?" -- 6
+   - "How many times must Ginseng be reboiled?" -- 40
+   - "How many runes in Brittanian?" -- 31
+   - "On what page is the An Zu spell?" -- 42
+   - "How many Black Pearls?" -- 1
+   - "Where Mandrake Root found?" -- 2
+
+  He will then give you your Fellowship Medallion and you are now in the
+  Fellowship. (500 xp) Goodie.  Don't bother wearing it.  (Tseramed might not
+  like you if you are wearing a symbol of the organization that caused him so
+  much grief.  If you are wondering, you don't ever really need to wear the
+  stupid thing.  You don't really even need to carry it around with you.  The
+  only time where wearing it will help you is in Buccanear's Den at the
+  gambling house, see below.)
+
+
++=============================================================================+
+| 7. Vesper, Moonglow, Terfin, and the Meditation Retreat                     |
++=============================================================================+
+
+In Britain, Batlin tells you that Elizabeth and Abraham have gone on to Vesper.
+So now we're going to chase after them for a bit.  If you'd rather not, skip
+down to "8. Yew"
+
+_______
+Vesper:
+¯¯¯¯¯¯¯
+  The best way to get to Vesper is to Fly on your Magic Carpet.  Or you can
+  walk there.  Once there talk to the Mayor about Elizabeth and Abraham, and
+  you will discover that they have gone to Moonglow.  Feel free to explore the
+  town before going to Moonglow.
+
+_______________________
+Other Things in Vesper:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - The trainers house has some Magic Boots for you to swipe.
+
+  - Go to the Gargoyle side of Vesper and go to the Pub.  The Guardian will
+    tell you to go in and tell them that you are the Avatar.  If you do that
+    the Gargoyles inside will attack you.
+
+  - Also go to Wis-Sur's house, take his Reagants, and talk to him... if he
+    won't talk to you keep trying.  Buy spells from him.
+
+SUBPLOT ALERT: 2 - Blorn's Accusations
+                 - Where does Catherine Go?
+
+_________
+Moonglow:
+¯¯¯¯¯¯¯¯¯
+  Talk to the Fellowship head here about Elizabeth and Abraham, and he will
+  tell you that they have gone on to Terfin.  Be sure to mark a stone by
+  Penumbra's House or by the Lycaeum.
+
+_________________________
+Other Things in Moonglow:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - In the Fellowship Hall take the Gold Bar, and the 87 gold coins.
+
+  - Also make sure to talk to Mariah and get all the spells and reagants from
+    her that you need.
+
+Note:  Don't worry about Penumbra just yet.
+
+SUBPLOT ALERT: 4 - Balayna's Doubts
+                 - Zelda's Affections
+                 - Brion's Orrery
+                 - Morz
+
+_______
+Terfin:
+¯¯¯¯¯¯¯
+  The Fellowship head here will tell you that Elizabeth and Abraham have gone
+  to the Meditation Retreat.
+
+_______________________
+Other Things in Terfin:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - Take the 98 gold in the Fellowship Hall, and the reagants from the
+    Provisioner.  Also take the bandages from the healers.
+
+  - Sarpling here sells some good reagants, and Inforlem is a good trainer.
+
+SUBPLOT ALERT: 1 - Who wants to destroy the Shrine?
+
+___________________
+Meditation Retreat: (roughly 178S, 85E)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Normally you need to be let in, but since we have a flying carpet, we can
+  just fly in.  Talk to Ian, who will tell you that You Know Who has gone on to
+  Buccaneer's Den. Don't go to Buccaneer's Den yet, though.  We're going to Yew
+  next.  Try to get as much info out of Ian as possible. There is a cave behind
+  the Hall here, but again we'll get to that later.  On to Yew!
+
+
++=============================================================================+
+| 8. Yew, "Look at all those cuddly Ewoks...I mean Emps"                      |
++=============================================================================+
+
+Companions: Tseramed*
+Items: Tseramed's Arrows, Honey*
+
+We're in Yew looking for Wisps (remember the Gypsy's prophecy?).  Go to Empath
+Abbey (78N, 59W) and talk there to Taylor the monk about the Wisps.  He will
+reveal that Emps are able to talk to Wisps, but that Emps will only talk to
+you if you are carrying Honey.  Lucky for us there is a Bee Cave here!
+(56N, 54W)  First get the smoke bomb from the monk, Taylor, and then go talk to
+Tseramed about the Bees and get him to join.  Go to the Bee Cave (you can talk
+to the Nudists if you want), go all the way through and get the Honey.  Use
+the Smoke Bomb if you don't want to fight all those Bees.  The best method,
+however, on avoiding the Bees, is to take the honey and teleport away,
+preferably to a Marked Stone somewhere near Yew.
+
+Now go talk to the Emps (56N, 10E), most noticeably the Emp Trellek. (10 xp)
+Talk to him about the Wisps, and he will want to join your party, but needs
+permission from his wife, who in turn needs permission from the elder, Salamon.
+Salamon will give you permission only if you stop Ben the logger from cutting
+Silverleaf trees. (42N, 47W) Do so, and come back. (500 xp) Get permission from
+Salamon, then talk to the wife, she now says she doesn't want Trellek to join.
+Trellek has a solution to all of this, he makes you a Wisp Whistle. (50 xp)
+
+Go to the Wisp Castle (46N, 12W) or talk to any Wisp you can find. (500 xp)
+The Wisp tells you that the Time Lord wishes to talk to you, but if you want
+more information you will have to go to New Magincia and get Alagner's
+notebook.
+
+SUBPLOT ALERT: 4 - Nastassia's Father
+                 - Mysterious Monk
+                 - Flowers for a Healer
+                 - Tax Dodging Nudists
+
+___________________
+Other Things to Do:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - Unlock Nicodemus' house (its magically locked, get Unlock Magic from
+    Nystul), and take anything in his house that seems interesting.  Then buy
+    some spells from him.  Mark a stone by his house (green).
+
+  - Go to Iolo's house not much here, but there is a note from Gwenno that
+    states that she has gone on to Serpent Isle.
+
+______________
+Bloody Shrine:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  At (56N, 32W) there is a shrine with a lot of blood on it, and a Magic
+  Shield.  To the north of it, is a wizards camp, he has some reagants and a
+  lightning wand.
+
+______________
+More Brigands:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  At (47N, 8E) is a camp of Brigands, they have a Magic Armor and a Magic Bow,
+  as well as some other stuff.
+
+
++=============================================================================+
+| 9. Serpent's Hold, "Make it so!"                                            |
++=============================================================================+
+
+We're supposed to go to New Magincia, but for now we're taking a small pit stop
+in the Serpent's Hold.  Again, if you'd rather not, skip down to "10. New
+Magincia".
+
+_______________
+Serpent's Hold: (53E, 165S)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Magic Boots, Magic Sword, Sword of Defense, Fire Sword, Great Dagger
+         Juggernaut Hammer, Magebane, Magic Axe
+
+  Search the bottom right room's chests for some Magic Boots.  In the pub, open
+  the fish (the only one looking up) for a key.  Fly to (177S, 36E) and land
+  (it is possible), now go into the cave.  Go to the right and around all the
+  water to get to the Locked Chest, which opens with the key we found in the
+  fish.  Take the key inside and go back to Serpent's Hold.  Now using that key
+  you can open the door to all those Magical Weapons!
+
+  How do you open the chest in the Hall here?
+
+    Jeff Tham says:  The chest in Serpent's Hold can be opened from the key
+                     found at the 'X' near Vesper (48N, 138E).
+
+  Note: In Serpent's Hold, theres a key to unlock the magic weapons under some
+        clothes on the floor in one of the bedrooms. (from Matthew Ortte)
+
+____________________________________
+Serpent's Hold, The Next Generation:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  You may notice that the cast, I mean residents, of Serpent's Hold all bear a
+  striking resemblance to the cast of Star Trek: The Next Generation.  Don't
+  believe me?  Here's the comparison:
+
+    John Paul -- Jean Luc Picard
+    Richter   -- Cmdr. Riker (2nd in command to John Paul)
+    Denton    -- Data (he looks like the Tin Man, never takes his armor off)
+    Horffe    -- Worf (Horffe is head of security)
+    Tory      -- Counselor Deanna Troi
+    Jordan    -- Giordi La Forge (note how Jordan is blind?)
+    Leigh     -- Dr. Beverly Crusher (Leigh is the healer)
+
+  Talking to them with this in mind it becomes even more obvious (to anyone who
+  watched the show regularly that is).  It is still unclear who Pendaran,
+  Jehanne and Menion are supposed to be.
+
+________________
+Parrot's Island:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Magic Gauntlet, Magic Boots, 4 Glass Swords, Rings, Gold Bars, etc.
+
+  Remember that smart mouthed bird? (if you don't, then go talk to a parrot,
+  and hit him with a gavel)  Well now we're gonna get his treasure!  Fly to the
+  island at (168S, 28E).  Avoid the invisible caltrops (traps), and take all
+  the wonderful treasure inside!
+
+  Note:  If you MOVE the Caltrops, even though this is a very smart thing to
+         do, your party will act as though you are a dirty thief for doing so!
+         So that means that you have to actually TAKE the caltrops to MOVE
+         them.
+
+SUBPLOT ALERT: 2 - Who Defaced Lord British?
+                 - Tory's Baby
+
+
++=============================================================================+
+| 10. New Magincia, "Hey... there's a *NEW* Magincia!"                        |
++=============================================================================+
+
+Companions: Katrina
+
+Alagner has the 2 really big buildings on the north side of the island.  Go
+in the north one and ask for his notebook.  He, of course, wants you to do
+something first.  Prove that you are a seeker of knowledge by learning the
+answers to life and death, from the spirit of the Tortured One in Skara Brae.
+
+SUBPLOT ALERT: 1 - Three Pirates and a Locket
+
+
++=============================================================================+
+| 11. Skara Brae, "Don't you need _Questions_ to Life and Death first?"       |
++=============================================================================+
+
+To get to Skara Brae go to (48S, 42W) and cast Seance, then talk to the
+Ferryman and ask him to take you across.  If he's ever not there, just blow
+the horn to summon him.
+
+Note: Skara Brae is a very awful place.  I got stuck here in some bizarre bug
+      that could have been caused by a great many things.  When I freed
+      everyone from the Liche's power, they still acted like they were in the
+      Black Mass, FOREVER.  I had to go back to a previous save.
+
+Seems all of Skara Brae was killed in an accident caused, or so it would seem,
+by the Tortured One, Caine.  They were trying to rid themselves of the Dread
+Liche Horace, but their plan went awry somehow.  Go talk to Mistress Mordra
+(49S, 62W, and she will sometime wander around in the graveyard), she will
+eventually reveal that it was the Mayor's fault for the fire.  Go talk to the
+Mayor (46S, 63W) and be sure to mention the proportions.
+
+Next go talk to Trent the Smith, (45S, 67W) and take the Music Box.  Now go
+talk to Caine himself (37S, 63W) ask him the Questions of Life and Death, and
+he tells you that he will give you the answers ONLY if you free the town from
+Horace.  Go back to Mordra, and talk to her about Caine, and then the
+ingredients for the potion.  Go to her house and take the 3 potions there and
+the empty vial, then go back to Caine's place, put the 3 potions under the 3
+inlets, and the empty vial on the 1 outlet.  Use the machine and you get a
+glowing blue potion.
+
+Go to Horace's Castle and talk to Rowena (27S, 76W), and then play the Music
+Box that you got from Trent, and she will talk to you again, and give you
+her Wedding Ring. (well actually it kinda falls to the floor)  Take the Ring
+to Trent and agree to help him free his wife, and will now ask for an iron bar
+to finish the cage.  You can find the iron bars in the cemetery, grab one,
+take it back to him, and he will finish the cage.  Take the cage to Mordra, who
+tells you to dip it into the Well of Souls in Horace's Castle.  Do so.  Then
+wait for Midnight to come, put the Soul Cage on Horace, then use the Blue
+Glowing Potion on him.
+
+Horace will be restored to the good man (well...ghost anyway) that he once was
+and he asks you to destroy the Well of Souls, and also to take Rowena back to
+her husband Trent.  Take her to the smithy, and come back to the Castle.  The
+Well of Souls can only be destroyed if someone jumps into it, so ask the Mayor
+to do this who thinks you should ask everyone else in the town first.  Do so.
+Don't forget to ask Caine, Trent, Rowena, and the Ferryman.  Come back to the
+Mayor and he'll finally agree to do it.  Destroy the Well.  Talk to Horace and
+he'll give you the Firedoom Staff.
+
+Go to Caine and get the answer to Life and Death (there is no answer). (700 xp)
+
+___________________
+Other Things to Do:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - Mistress Mordra has a chest full of Reagants, worth taking.
+
+  - The Skeleton guards in Horace's Castle have Magic Axe's.
+
+__________
+The Crypt:
+¯¯¯¯¯¯¯¯¯¯
+  Here's another bushel of treasures, you can decide for yourself if this one
+  is cheating or not.  Go to (53S, 65W) and notice the statue to the left of
+  the Crypt.  On the left side of the statue is a lever (you can BARELY see
+  it), flick the lever and the wall on the crypt will open.  Inside is a
+  nightstand filled with a set of Magic Armor, Rings, the Soul Cage, and a few
+  other Skara Brae Plot Items.  It is recommended that you get this AFTER
+  completing the plot in Skara Brae, as it may screw up the plot here.  (I'm
+  not sure if it does mess the plot or not, but better safe than sorry)
+
+
++=============================================================================+
+| 12. Alagner's Notebook and the Time Lord                                    |
++=============================================================================+
+
+Go back to New Magincia and tell Alagner that there are no answers to the
+questions of Life and Death, he will then give you a key to his storehouse.
+
+_______________
+The Storehouse:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Notebook*, Gold, Reagants, Lightning Wands, Potions, Rings
+
+  Walk into the Storehouse from the illusionary wall in the east side, and use
+  your key to open the locked door.  Flip the switch, then use lockpicks on
+  this locked door.  Flip the bloody switch, and go up past the teleporter to
+  the iron door.  Cast telekinesis on the switch to the left to open the door.
+  Go up.  Stack the crates to get onto the table, and make a staircase up to
+  the locked door (which opens with the key Alagner gave you).  Take the
+  Notebook, and anything else you want.
+
+______
+Wisps:
+¯¯¯¯¯¯
+  Go back to Yew and talk to the wisps (if you marked the stone, go straight to
+  Nicodemus' place) and they will tell you that the Time Lord requests an
+  audience with you.  Seems he got stuck in the Shrine of Spirituality, and
+  can only be reached by use of the Orb of Moons (put it NW of yourself, the
+  normal Moonglow position).
+
+__________
+Time Lord:
+¯¯¯¯¯¯¯¯¯¯
+  The Time Lord is locked in a Cylindrical Cage. (200 xp to talk to him) Turns
+  out that he was the one who sent the Red Moongate to summon you, but he
+  missed and you ended out in Trinsic instead of coming to him.  He also tells
+  you that a powerful being is attacking Brittania, and that the Guardian
+  trapped him there.  To get him out you need to go to Dungeon Despise (NW of
+  Britain) to destroy a large Magic Generator in the shape of a Sphere.
+
+_________________
+Alagner Murdered!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Going back to New Magincia to deliver the notebook back to its owner, you
+  will discover the third murder site, Alagner.  Look in the Crystal Ball to
+  see the murderers.  Seems that notebook was rather incriminating (the wisps
+  sold the notebooks contents to the Guardian, and he in turn ordered the
+  murder.  So in a way you are responsible for this one)
+
+_____________________________
+Despise: (and Selwyn's Tower)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Complete Set of Magic Armor, Gold, Magic Wands, Reagants, Rings,
+         Lightning Whip, Sword of Defense, Fire Sword, Magic Bow, Magic Sword
+
+  Now is a pretty good time to go to the dungeon Despise.
+
+  On the way to Despise is a thieves campground, they don't have much, but they
+  do have Honey.  (21N, 6E)
+
+  There are multiple entrances to Despise, you want the one where the Magic
+  Carpet was found (8N, 30W).
+
+  Despise is an annoying dungeon with many teleporters.  Also it has quite a
+  bit of treasure in it if you are willing to look for it.  First off, go up
+  past the Fire Field, past the intersection, and then when you are teleported
+  (it's subtle watch for it!) go to the right.  Then go down the right path
+  (the left path has a little water on it) and you'll be teleported again.
+  Continue down and find the Magically Locked door, open it and go down that
+  way.  There will be two more locked doors and then you'll arrive at a Hideout
+  of Rebels.  There should be 5 of them, 2 Mages, Paladin, Pirate and Fighter.
+  Turns out that these "Rebels" were going to attack Lord British's castle
+  tomorrow, and you being the great Avatar that you are have prevented it!  The
+  Paladin should have a complete set of Magic Armor on him.
+
+    Note:  There are invisible stairs from one level of the hideout to the
+           other.
+
+  Avoid the teleporters, and go back to the first Magically Locked Door.  Now
+  go left, down, and then all the way to the left and up into a room with a lot
+  of Fire Fields in it.  Go up past the sleep and poison fields to a Red
+  Moongate, and go in.  It will take you back to the Sleep and Poison Fields.
+  Go by the Moongate and Mark that spot.  Leave the dungeon.  (don't worry
+  we're coming back!)
+
+  Another thing to do in Despise is to find Brother Wayne of the Empath order
+  of monks.  You can find him but you can't do anything to help him.  He'll
+  stay in those caves forever.
+
+
++=============================================================================+
+| 13. The Tetrahedron, "Stone Harpies are the Devil, I tells ya!"             |
++=============================================================================+
+
+Go back to the Time Lord first (NW Orb of Moons) and talk to him.  Specifically
+mention "Moongate".  He tells you that you need Nicodemus' Hourglass.  Also
+he mentions that once inside that there is a pattern to be observed.
+
+_______________
+Nicodemus, Yew:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Use the recall on the marked stone to go straight to Nicodemus' house (told
+  you that would come in handy) and talk to Nicodemus about the hourglass.  He
+  tells you that he sold it to the Antiques dealer in Paws, but that it lost
+  its enchantment and he can't re-enchant it with the Ether the way it is.
+
+________________
+Paws, Hourglass:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Nicodemus' Hourglass*
+
+  Go to Paws now, and talk to Beverlea in the House of Items, and buy the Hour-
+  Glass (5 gold), and take it to Nicodemus, who suggests that you repair the
+  Ether first.  Talk to the Time Lord and ask him how to "fix Magic", and he
+  tells you to talk to Penumbra in Moonglow.
+
+_________
+Penumbra: (25S, 179E)
+¯¯¯¯¯¯¯¯¯
+  Take 4 pieces of Blackrock with you to Moonglow.  Penumbra has been asleep
+  for the past 200 years, and therefore hasn't been affected by the changes in
+  the Ether (lucky for you).  To open her door place a these items by the gold
+  plate in front of her door: hammer, gold ring, lockpick, thread, and a gold
+  coin, followed by another form of gold.  After that the plate will turn into
+  a key.  (you can get a gold ring from Zelda's room, you can make thread in
+  the clothes shop)  Place the 4 blackrock pieces on the 4 pedestals and use
+  the orange potion on the table to awaken her.  She will ask you to repair the
+  Ether (which is why we came here anyway!).  She will then tell you to get the
+  Ethereal Ring so that you can survive near the Tetrahedron, and that
+  Draxinusom was the last owner of the Ring.  And finally she tells you to
+  bring the Ring back so that she can enchant it. (800 xp to talk to her)
+
+______________
+Ethereal Ring:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Ethereal Ring*, Rings
+
+  Go to Terfin and talk to Draxinusom (167S, 114E) who tells you that he sold
+  the Ring to the Sultan of Spektran, (50 xp) so go there now (144S, 89E).
+  Talking to the Sultan reveals that he is quite insane and that the Ring is
+  safely locked away behind him.  He doesn't care if you go take it...hehe.  Go
+  into the room behind him, kill the Stone Harpy and take the Key on it to open
+  the door. (*CAUTION* Stone Harpies are not easy things to kill!  Plus the
+  Demon Sword refuses to kill it)  Take the Ring.  Go back to Penumbra and have
+  her enchant the Ring. (200 xp)
+
+_______
+Deceit: (2N, 177E)
+¯¯¯¯¯¯¯
+  Items: Magic Armor, gold, gems, Glass Sword, Little Tetrahedron*
+
+  Penumbra tells you to go to Deceit to destroy the Tetrahedron.  The dungeon
+  isn't so hard.  Go up through the magically locked door and then through
+  the left passage going up.  Run past all the arrows shooting at you, and then
+  go up.  Take the left passage up and go through the wall. Continue up through
+  the Magically locked door, (take the top passage right to fight a dragon and
+  get some treasure) go right through the middle passage, go through the wall.
+  Don't bother with the switch, and go down past the door and go right through
+  another wall.  Go up to the closed door, cast telekinesis on the switch to
+  open the door.  Make sure to wear the Ring, AND leave your party outside of
+  the room with the Tetrahedron (they can come into the dungeon).  Walk into
+  the Tetrahedron as you would a Moongate, (1000 xp) and slay the weird Red
+  Beast inside (you can either use your Demon Sword or a Glass Sword, or if you
+  are very brave just attack him normally).  Double Click on the little
+  Tetrahedron inside to destroy the machine.  Grab the Little Tetrahedron and
+  leave.
+
+
++=============================================================================+
+| 14. The Sphere, "It's a small Sphere after all!"                            |
++=============================================================================+
+
+All Mages everywhere have regained their sanity!  Go to Nicodemus and have
+him enchant the Hourglass, (100 xp) the teleport back to the Sphere using your
+Recall spell, and go into the Moongate. (1000 xp for approaching the Sphere)
+
+___________
+The Sphere:
+¯¯¯¯¯¯¯¯¯¯¯
+  Items: Small Sphere*
+
+  This one is a little easier than the last one since there is no beast inside,
+  so step into the Moongate, if you haven't already.  You will notice that
+  you are in a "room" with many moongates standing on a platform with both a
+  Blue Moongate and a Red Moongate.  The "dots" in the center show the order,
+  Red, Blue, Blue, Red.  And again take the Small Sphere, the machine will
+  blow up and take the small Sphere again.
+
+  With the destruction of the Sphere the Time Lord contacts you (through the
+  Hourglass) and informs you that Moongates will no longer function (bless that
+  Mark and Recall combination!) and that you cannot return home through a Red
+  Moongate.  Bummer.  The only way you can get home is to go through the Black
+  Gate, but to do that would be to abandon Britannia to the Guardian.  He also
+  tells you to destroy one more generator, the Cube. And that after you do that
+  to investigate Buccaneer's Den for the location of the Black Gate. (200 xp
+  for talking to the Time Lord)
+
+
++=============================================================================+
+| 15. The Cube, "Oh no, the worst enemy of them all...the Borg!"              |
++=============================================================================+
+
+The cube is located on the scenic Meditation Retreat (173S, 85E), so go there.
+Remember the cave to the north that you were forbidden to go into earlier?
+Go in it.  You can talk to Gorn if you want, but he is on the Guardian's side
+and may get mad at you.  Continue through the cavern and you will eventually
+be confronted by a Female Warrior.  Ignore her and continue to the Cube.
+You will be hurt by the noise near the cube and have to leave.  Use the Hour-
+glass to talk to the Time Lord to discover that you need "Special Helmets"
+made out of Caddellite, and tells you to talk to Brion at the observatory for
+more information.  Mark near the cube, and teleport to Moonglow (assuming you
+Marked near Penumbra's house).  Brion tells you that a meteor hit near the NE
+sea and that Zorn could make a helmet out of Caddellite.
+
+_________
+Ambrosia:
+¯¯¯¯¯¯¯¯¯
+  Items: Caddellite* (1 for each member of the party), Magic Helm, Magic Sword
+
+  The meteor hit Ambrosia (93N, 187E) so go there now.  There is some treasure
+  at the SE corner of the island.  Go into the cave. (ignore the fairy,
+  seriously)  Eventually you will end out facing a Hydra, talk to him, and then
+  defeat him.  The room to the south of the Hydra has a meteor and your
+  Caddellite pieces.  Get enough for your entire party.
+
+_______________
+Zorn's Helmets:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Items: Caddellite Helmets*
+
+  Go to minoc and talk to Zorn about making some helmets from your special ore,
+  caddellite.  He will very quickly make you some helmets.
+
+_________
+The Cube:
+¯¯¯¯¯¯¯¯¯
+  Teleport back to the Cube, wearing your new helmets of course, and walk into
+  the Cube.  (1000 xp) The Cube is a very difficult (well... for me it was)
+  maze.  As you walk you will step on switches which will create bridges, and
+  destroy them.  There are also traps in here, so beware!  (also note that you
+  cannot cast spells here, so having a potion or two could help)  Here's what
+  to do:
+
+    - Walk forward to create the first bridge.
+    - Walk all the way to the left (it will destroy the first bridge and create
+      a new one)
+    - Go up that new bridge, and continue up as far as you can go. (this
+      creates two new bridges)
+    - Go down and left on the new bridge, and then all the way up.
+    - Go right across the bridge, down, and then right.  (this should create 2
+      new bridges, but if it doesn't, then move around a little), go down all
+      the way across the bridge, and then come back up.
+    - Go back left across the bridge, and then up all the way.
+    - Go left all the way, then right, and down the new bridge.
+    - Go left all the way, down the bridge, and then right, and down the bridge
+      (you still can't reach the Cube from here however)
+    - Go back up, left through the Fire Fields, and up again.
+    - Now, go right all the way, and down the bridge, and then right, up and
+      right.
+    - Go down, then left across 2 bridges, then back to the right off one
+      bridge and go down and right, then up all the way.
+    - Go back down, then left, then down again, and a little to the left and
+      then up the bridge, and up the other bridge.
+    - Finally go left all the way onto a Fire Field, and then up and onto the
+      Platform with the Cube on it.
+
+  (200 xp for destroying the Cube) Don't forget to get the little Cube.
+  Talk to the Time Lord after destroying the cube. (200 xp)
+
+
++=============================================================================+
+| 16. Buccaneer's Den, "Gasp!  Look at all the incriminating Evidence!"       |
++=============================================================================+
+
+Items: Black Gate Key*, other treasures
+
+There's really only one thing you need from Buccaneer's Den, and that is the
+Black Gate Key, which will let you into the Dungeon on the Isle of the Avatar.
+If you talk to the Fellowship leader here with the Cube, you learn stuff and
+get 100 xp. Go to the Fellowship Hall and open the wall behind their Altar
+thing, then cast Telekinesis on the lever to open the way to the dungeon.  Go
+south from there through a wall and into a large chamber.  The NW room has a
+locked chest open it (lockpicks, destroy it, etc.) to get a Black Gate Key, and
+a note that looks like this:
+
+  Finster - Britain (x)
+  Duncan - Buccaneer's Den (x)
+  Christopher - Trinsic (x)
+  Frederico - Minoc (x)
+  Tania - Minoc (x)
+  Alagner - New Magincia (x)
+  Lord British - Britain ( )
+  Your Name, the Avatar - ( )
+
+Seems you found the Fellowship's hitlist, and guess who's on it.  You!
+Also be sure to talk to various Fellowship people while in possession of the
+Cube.  They will find themselves telling the Truth (like in "Liar Liar").
+Getting the key from Sintag with the Cube is 300 xp.
+
+SUBPLOT ALERT: 1 - The Pirate Friends
+
+______________________________________
+Other Things to Do in Buccaneer's Den:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  - As covered in the "General Strategies, Money" section above, you can gamble
+    on the games here, most notably the Rat Race.  6 to 1 odds for a Fellowship
+    Member, not too shabby!
+
+  - There's more tunnels here than I walked through.  Finish wandering around
+    them to find Sullivan the Trickster (he pretended to be the Avatar and got
+    Sprellic of Jhelom in trouble).  He's currently in the Fellowship Prison
+    being tortured by a sadistic Troll named Grod.  Kill Grod and free Sullivan
+    if you want.  Also locked away here is Anton, Alagner's Apprentice. (he got
+    caught gathering evidence against the Fellowship)
+
+  - There is also a Juggernaut Hammer, Magic Armor, Magic Shield, some gems,
+    gold a great Dagger, Firedoom Staff, Magic Helm, a Lightning Whip, some
+    armor, etc.
+
+  - Also the tunnels connect to the Baths, if you want to go there for free,
+    and I know that you do.  After using the "services" of the baths, you can
+    talk to the Unicorn again, and he won't want to get near you anymore
+    because you are no longer a "virgin".  Hehe.
+
+  - And finally at the far end of the tunnels is a Liche, who has some Magic
+    Items Reagants and potions for the taking.
+
+
++=============================================================================+
+| 17. The Black Gate                                                          |
++=============================================================================+
+
+Make sure you have the following items: Rudyom's Wand, Cube, Tetrahedron,
+Sphere, and the Black Gate Key.
+
+Go to the Isle of the Avatar (170S, 178E), the Black Gate Key will open the
+doors here.  Go into the cave to the left, and open that with the Key as well.
+You will now be in a room with the Guardian's throne.  There isn't much time
+till he comes!  Walk through the northwestern tapestry and flip the switch.
+Go through the north doors.  Go up, to the right, and up through the metal
+doors.  In the north room are 3 switches, they control which of the 3 rooms
+is open.  Flick the left switch, and if the left winch moves then go to
+the far left room.  Search the woman for a key, move the barrel and flick
+that switch.  Go down and to the right until you get to a locked door, use
+your new key to open it and go right.  You will now be in a lever puzzle.
+Once your past that (you want to get to the switch in the middle) go down,
+flip a switch to go left, fight the guys here, go to the well and get the key.
+Continue down.
+
+Open the locked door with your new key, kill the Paladin here
+(he has a full set of Magic Armor!) and take his key to open the next door.
+Get the key and step on the teleporter.  Down and to the left is a Dragon with
+a lot lot LOT of treasure.  However, from the teleporter, flick the switch
+and go up into a Fellowship Meeting Hall.  Move the Medallion to open the
+passage to the north.  Go up.  Pick the door to the north and go up again.
+Go past the statue through the wall up, into a room full of traps and a Liche.
+Continue going up.  Then after awhile go onto the left teleport pad, and
+continue going up.  Dispel the Energy Fields and go onto that teleporter.  Step
+on the purple teleporter here, and go right through the illusionary wall.
+There will be a chair in the center of the room.  Sit in it twice, and go
+through a wall to the south of the room, search the body and the backpack
+to get a blue key, then go back to the throne room and then go through a wall
+to the NE (on the north side).  Go up and open the 2 locked doors (one's Magic
+the other requires that blue key).  Sit on the Throne of Virtue, and go back
+to the Throne of Chance.  Sit on it again, kill the Liche (if there is one)
+and walk through the wall to the NW (on the north wall) step on the teleporter
+and you are at the Black Gate! (10,000 xp)
+
+Kill the people there (if you want), and put the 3 blackrock pieces into
+their corresponding holes to disable the shield around the Black Gate, then
+use Rudyom's Wand on the Gate to win!
+
+Yay!  You won!  Congrats!
+Sit back and enjoy the endgame sequence.
+
+And then prepare yourself for the most similar game ever, Ultima 7: Part Two!
+
+
++=============================================================================+
+| SUBPLOTS: There are 24 subplots listed below                                |
++=============================================================================+
+
+This is sorted in the order that you visit the town.
+
+________
+Trinsic:
+¯¯¯¯¯¯¯¯
+  None!
+
+________
+a. Paws:
+¯¯¯¯¯¯¯¯
+  Free Weston!
+  ------------
+  You first encounter this subplot in Paws, where the name Weston comes up.
+  Seems he has a wife and kids who haven't heard from him in awhile, but they
+  know that he went to Britain.  Later on the roof of Lord British's castle,
+  you find a cell with Weston inside.  Talk to him and agree to talk to Lord
+  British about him.  Do so, and Weston will be freed. (20 xp)
+
+  Who Stole the Poison?
+  ---------------------
+  Talking to Morfin, you will quickly discover that a vial of Silver Serpent
+  poison has been stolen from his stock.  Go talk to Camille, and agree to
+  deliver the grain to the mill for her.  Once that is done, Feridwyn will tell
+  you that the poison was found in Tobias' (Camille's son) possession.  Tobias,
+  however, claims that Garritt (Feridwyn's son) framed him.  You'll get a tip
+  that Morfin isn't all that he seems, search his house for a key to his store-
+  room, search the storeroom to find a chest, unlock the chest using a key
+  under a bucket of blood in the slaughterhouse.  Inside you will find gold
+  bars, venom and a book outlining his crooked dealings.  Confront Morfin about
+  this, and he'll mention that Garritt may be using the venom (which acts like
+  a drug) he'll also give you a key.  Use the key to open Garritt's chest to
+  find the Vial of Venom.  Confront him and he'll confess.  He isn't very
+  penitent about the experience, though, and still acts superior. (150 xp)
+
+  Thurston's Infatuations
+  -----------------------
+  Talking with Thurston he'll tell you that he's got only 1 reason to live,
+  the bar maid, Polly.  Talk to Polly about Thurston, and she'll be impressed
+  with the story.  Tell Thurston of the events and he'll be very happy.  Yay.
+  (0 xp)
+
+___________
+b. Britain:
+¯¯¯¯¯¯¯¯¯¯¯
+  Where Does Patterson go at Night?
+  ---------------------------------
+  Patterson, the Mayor of Britain, acts like the perfect Fellowship Member.
+  Loving wife, good job, and he seems to be morally clean.  However, his wife
+  Judith tells a different story.  Follow Patterson after the Fellowship
+  meeting to discover that he is having an affair with Candice.  Confront
+  Patterson _while_ he is with Candice, and he will agree to break the affair
+  off, and become a better person. (60 xp total)
+
+  Miranda's Law
+  -------------
+  Locke Lake (near Cove) is horridly polluted.  Miranda (in Lord British's
+  castle, she's a council member) wants to get a new law passed to clean up
+  the lake and needs Lord Heather (the mayor of Cove) signature to pass the
+  Bill into Law.  Take the scroll to Cove, get it signed, and bring it back.
+  (20 xp)
+
+  Acting for Avatars
+  ------------------
+  Go to the theatre-house and have a chat with the director, Raymundo.  Ask
+  for an audition to play the Avatar in their play.  Then go talk to Gaye,
+  the seamstress to get an Avatar costume made.  Put it on and go do your
+  audition.  And really _feel_ the part. (20 xp)
+
+________
+c. Cove:
+¯¯¯¯¯¯¯¯
+  Miranda's Law (See Above)
+  -------------------------
+
+  Nastassia's Father
+  ------------------
+  Talking with Lord Heather, the mayor, will reveal that only Nastassia is
+  without a lover.  He also tells you to talk to De Maria to hear the story
+  of Nastassia.  Do so.  Then go talk to Nastassia, and she will ask you to
+  find out what happened to her father, Julius.  The trail now leads to the
+  Emps in the Deep Forest, but you need Honey to talk to them.  Luckily there
+  is a bee cave (56N, 54W).  Go there, and all the way in you will find some
+  honey, take it and run from all them giant Bees.  Talk to the Emp Trellek,
+  who will tell you that Julius saved the lives of countless Emps, and is the
+  only human that the Emps call "Hero".  Sniff.  Go back and tell Nastassia.
+  (50 xp, infinite)
+
+_________
+d. Minoc:
+¯¯¯¯¯¯¯¯¯
+  Owen the Shipwright, Hero or Fraud?
+  -----------------------------------
+  Everybody in town has an opinion on Owen.  Fellowship members think that he
+  is the greatest thing since sliced bread, while everyone else hates him.
+  Talk to these people about Owen: the Mayor, Burnside; Gladstone of the
+  artists Guild; and Jakher.  From here the trail leads out of town to the
+  south (46N, 89E) and a hermit named Karl.  Badger Karl until he gives you the
+  ship plans.  Take the plans to Julia, and she'll say that the ship is flawed.
+  Go to the Mayor, and Owen's Monument will be cancelled.  Talking to Owen, at
+  this point, causes him to commit suicide. (100 xp)
+
+__________
+e. Jhelom:
+¯¯¯¯¯¯¯¯¯¯
+  The Honor Flag
+  --------------
+  A false Avatar (!) lied his way into a free room for the night.  But he got
+  cold during the night and demanded more and more blankets.  Finally, the inn-
+  keeper, a weak willed sop named Sprellic, ran out of blankets, and in
+  desperation, stole the Honor Flag from De Snel's.  Morning came and the false
+  Avatar was gone, with the Honor Flag. De Snel's students now want it back, or
+  for Sprellic to duel with them.  There are 2 ways to solve this one. 1) agree
+  to be Sprellic's champion and fight the duels for him, or 2) have Kliftin
+  make a false banner to replace the stolen one.  Either way, you have to agree
+  to be the champion.  If you choose to duel, place a bet at the pub first.
+  Arrive at noon ready to fight, or to give them the Flag.  Probelm Solved.
+  Sprellic can later be found in the tunnels on Buccaneer's Den, but he isn't
+  exactly happy there. (100 xp)
+
+__________
+f. Vesper:
+¯¯¯¯¯¯¯¯¯¯
+  Blorn's Accusations
+  -------------------
+  A discussion with the pub owner reveals that Blorn is a gargoyle hater.  Talk
+  to Blorn about Gargoyles and tell him that you are not a Gargoyle "lover".
+  He will tell you that awhile ago he was attacked by a particularly violent
+  gargoyle, and asks for your help in seeking revenge.  He wants you to
+  surprise Lap-Lem, his "attacker", and slay him.  Instead go talk to Lap-Lem
+  about what happened, and he will tell you that in fact Blorn robbed Lap-Lem
+  not the other way around.  Go back to Blorn, and ask him to return the
+  Amulet, then give it back to Lap-Lem. (50 xp)
+
+  Where does Catherine Go?
+  ------------------------
+  Talking with Yvella, you will find that her daughter Catherine, disappears
+  around noon everyday.  Catherine goes to the Gargoyle side of town to hear
+  stories from For-Lem.  For-Lem asks you to keep it quiet.  If you tell Yvonne
+  what you know, her husband will kill For-Lem. (50 xp)
+
+____________
+g. Moonglow:
+¯¯¯¯¯¯¯¯¯¯¯¯
+  Balayna's Doubts
+  ----------------
+  Talk to Balayna in the Fellowship Hall and she'll spill out her doubts about
+  the Fellowship, and the Head of the Fellowship in particular.  If you talk to
+  Rankin about Balayna's Doubts, he will ask you to give her a vial, if you do
+  she will keel over and die.  If you don't she'll mysteriously vanish.
+  If you talk to Rankin after she's dead of vanished, he'll offer some lame
+  excuse for her absence. (50 xp)
+
+  Zelda's Affections
+  ------------------
+  Talk to Phearcy the bartender, who asks you to get some gossip on Zelda.
+  Go talk to Zelda up at the Lycaeum, and she'll tell you that she is attracted
+  to Brion.  Talk to Brion who admits that he has no feelings for Zelda.  Then
+  go talk to his twin brother Nelson who admits that he has quite the crush
+  on Zelda.  Then go tell Zelda the news.  Go back to Phearcy to get your
+  food. (20 xp)
+
+  Brion's Orrery
+  --------------
+  Talk to Brion about the telescope, and the subject of an orrery will come
+  up.  He will tell you that an Astrological Event will happen soon, and that
+  such an event only happens once in 800 years.  Say "BYE" and he will insist
+  that you look at his collection of odd junk.  Look at the crystals, and he
+  will offer to make you a portable orrery viewer.  All he needs is one more
+  crystal.  Well Addom has one, go buy it from him (he's usually in the pub)
+  for 20 gold.  Then come back and Brion will make the Orrery for you.  The
+  orrery will show you how close you are to the end of the game, based on how
+  close the "Astrological Alignment" is to happening.  When you are near the
+  End of the Game, the Alignment will be very close. (0 xp)
+
+  Morz
+  ----
+  There are 3 farmers in Moonglow, Cubolt, Tolemac, and Morz.  Tolemac just
+  joined the Fellowship and wants Morz to join as well.  Talking with Cubolt,
+  he'll ask you to try talking to Tolemac and Morz to talk them out of the
+  Fellowship.  It won't work with Tolemac, he's too far gone, but Morz will
+  listen and avoid the Fellowship.  Just don't mention his stutter in any way.
+  (20 xp)
+
+__________
+h. Terfin:
+¯¯¯¯¯¯¯¯¯¯
+  Who wants to destroy the Shrine?
+  --------------------------------
+  Talk to Teregus about rumors and he'll mention that someone wants to destroy
+  the shrines, and he wants your help to find out who.  Search Sarplings'
+  place to find the scroll from Runeb about the explosives (careless to leave
+  such an incriminating thing sitting around...).  Take the note, and
+  confront Sarpling with the evidence.  He'll pin the whole thing on Runeb,
+  plus he'll let slip that they planned an Assassination against Quan, the
+  Head of the Fellowship.  Show Teregus the note, and he'll ask you to confront
+  Runeb.  If you confront Runeb with these allegations he will attack you.
+  (100 xp)
+
+_______
+i. Yew:
+¯¯¯¯¯¯¯
+  Mysterious Monk
+  ---------------
+  In Empath Abbey there are 3 monks, yet for some reason the 2 in the back of
+  the abbey haven't ever heard of the third, Kreg.  Talk to Kreg and he will
+  ask for a Black Potion (invisibility) ... for research of course, not to
+  slip town unnoticed.  Give him the potion and he'll drink it and escape.  If,
+  however you go to the High Court you'll find records of a criminal who
+  sometimes goes by the name Kreg.  Confront him with this and he'll attack
+  you. (100 xp)
+
+  Nastassia's Father (see above)
+  ------------------------------
+
+  Flowers for the Healer
+  ----------------------
+  Talk to the healer, Reyna, and she will tell you of the sad story of her
+  mother's death, she also wishes for more flowers to adorn her mother's grave
+  in the graveyard.  Go talk to Aimi in the Abbey (she's the female monk) and
+  tell her the story of Reyna's mother, and she will then give you the flowers,
+  (you'd have to buy them otherwise).  Then go give the flowers to Reyna, and
+  she will say "Thanks", and will offer to discount her healing services up
+  to and including 50% off!  Wow. (19 xp)
+
+  Tax Dodging Nudists:
+  --------------------
+  You have to talk to Tseramed about them; I don't know if you have to meet
+  Mama and Papa first (I did this time), but if you get into a conversation
+  about the Bee Cave with Tseramed, eventually, he'll mention that he thinks
+  they're from Yew. Now the key here is - DO NOT ASK TSERAMED TO JOIN. (At
+  least not right now - wait until you're totally done in the Bee Cave and with
+  Mama and Papa, because I'm pretty sure if he's with you, Mama and Papa won't
+  talk to you). Once you've ended the conversation with Tseramed without asking
+  him to join, you go back to Mama and Papa; in talking to Papa, you'll be
+  given an option to ask ,"Art thou from Yew?" or something like that; that's
+  when he admits that he and Mama are actually Murray and Myrtle, the
+  Britannian Tax Council literally took the shirts off their back, prompting
+  them to get back to nature - and that no, they're not brother and sister. HA!
+  Clever hippies!  (from Linda)
+
+__________________
+j. Serpent's Hold:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Who Defaced Lord British?
+  -------------------------
+  It would seem that someone doesn't take too kindly to the current regime
+  (like any of them were alive before Lord British took over, i.e. Lord British
+  has been in every Ultima game!) and has defaced the statue of Lord British at
+  the entrance to the Hold.  Talk to Lord John Paul first, and he will ask for
+  your help in solving the crime.  Then go talk to Denton in the pub, and ask
+  him for help.  He tells you to go talk to Sir Richter.  Richter will give you
+  some stone chips to help with your investigation.  Now go talk to Leigh, the
+  healer, and ask her to examine the stone chips that you just got.  There is
+  Gargoyle blood on the chips, and there is only One Gargoyle on the island,
+  Horffe.  Talking to Horffe will reveal that he didn't do it, but that his
+  blood was spilt defending the statue from an unknown vandal.  Tory then
+  directs your attention to Jordan.  Jordan says that the night of the incident
+  he heard Lady Jehanne cry out during the night.  Go to Jehanne now.  She
+  tells you that it was Pendaran who did the heinous deed.  Confront Pendaran
+  with your knowledge, and he will eventually confess.  Finally go tell John
+  Paul of your findings. (100 xp)
+
+  Tory's Baby
+  -----------
+  Talking with Tory, you will discover that her baby Riky has been taken away
+  by Harpies, and that the knights have given up.  Agree to find Riky.  Riky
+  is on the shrine of honor (151S, 9W) south of Trinsic.  Kill the harpies
+  and take Riky home. (100 xp)
+
+________________
+k. New Magincia:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Three Pirates and a Locket:
+  ---------------------------
+  A trio of Pirates were shipwrecked on the island recently.  Also Henry lost
+  the locket that he was going to give to his true love, Constance.  Could
+  these 2 events be related?  (by the way... their ship was built by the
+  great Owen of Minoc!  Ring a bell?)  Talk to Henry to learn his tragic story
+  of his lost locket, and consequently, his lost love.  Seems also that he lost
+  the locket after talking to the 3 pirates.  Agree to help him find it, and
+  then go talk to Sam about the locket.  Now go talk to the three pirates.
+  Robin, the well dressed pirate, tells you that he lost a locket, his own
+  locket.  One of the other pirates says that the last time they saw the locket
+  was back in the pub.  Go talk to Boris, the pub owner, and he will confess
+  that he stole the locket from Robin.  Seems his wife Magenta found the
+  locket and assumed it was a gift to her.  Tell her that Boris stole it, and
+  she will give it to you.  Go talk to Robin again and he will reveal his plan
+  to kidnap Constance and sell her in Buccaneer's Den.  Don't reveal where your
+  boat is and he will attack you to keep his secret.  Return the locket to
+  Henry.  And finally go inform Constance of all that has happened. (Show
+  locket to Robin, 100 xp, Give locket to Henry 50 xp)
+
+___________________
+l. Buccaneer's Den:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  The Pirate Friends
+  ------------------
+  Talk to Mole and find out that he misses his friends Blacktooth; they had a
+  falling out.  Talk to Blacktooth and he will say he misses Mole too.  Tell
+  both of them the other's feelings and they will be friends again.  Isn't that
+  precious?
+
+  Note: This one gives you 20 exp every time you complete it, with no limit to
+        the amount of times you can do it.
+
+
++=============================================================================+
+|                                APPENDICES:                                  |
++=============================================================================+
+
++=============================================================================+
+| A. Isle of Fire Walkthrough                                                 |
++=============================================================================+
+
+Before going to the Isle of Fire, make sure to have at least 6 companions with
+you, and that they are all reasonably well equipped.  You may also want to buy
+some spells, like Telekinesis.
+
+The Isle of Fire is located at (42S, 125E).
+It is a _very_ good idea to mark the entrance to the Isle of Fire, for 2
+reasons.  One, if you die you can teleport back, and Two, you can leave at any
+time and come back instantly.  I marked my Red Stone, because its called Isle
+of Fire.
+
+_________
+Entrance:
+¯¯¯¯¯¯¯¯¯
+  Talk to Erethian.  He'll mention a great many things.  Do not mention his
+  blindness.  Or he'll get mad at you.  In the very back of the castle are 3
+  statues.
+
+______________
+Test of Truth:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Talk to the very back statue (he's an old man, possibly a wizard) and you'll
+  be teleported to the test.  Walk down, then into the large chamber (avoid
+  the middle of the room with the X), then go to the hallway to the left.  You
+  should see a small article of clothing in the hall.  Go north through the
+  wall from that point.  The illusionary hallway forks to the right and up
+  to a chamber.  Flip the switch and get the Pendant.
+
+  Your INT and MAGIC will be raised to FULL now.  He also tells you that the
+  Psyche is returning to the Core.  Hmmm...
+
+_____________
+Test of Love:
+¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Talk now to the statue of the woman.  Then go through the Blue Moongate that
+  is in the room to the south of her.  The entrance to it is in Erethian's
+  room, click on the wall to open.  Go through the moongate.
+
+  Take the bucket.  Go to the small desert and talk to the Golem standing
+  there.  Agree to help his friend.  He also gives you a book.  Read the book
+  and a page will fall out.  Pick it up (it's the spell you'll need to cast).
+  Go into the cave north of there.  Take and equip a pick.  Go through the cave
+  until you are outside, step onto the small clearing to be teleported.  Now
+  go out from this new place.  Put the bucket by the rock with the tree on it,
+  now use (double click) the pick on the tree itself so that the bucket fills
+  with blood.  Go back to the Golem, put blood on the circle of rocks, and cast
+  the spell.  The Golem will dramatically sacrifice himself for the fallen
+  Golem.  And the other Golem will be revived.  Of course now he wants to save
+  his companion, and rather than sacrifice himself (that could go on for awhile
+  if they kept sacrificing themselves) he asks you for the book that the other
+  Golem gave you, give it to him.  Again take the pick and the bucket and go
+  back to the tree.  Use the pick on the tree to get the heart, then get the
+  blood as last time.  Take the heart and the blood back to the Golems.  Put
+  the heart in, the blood on the stones, and cast the spell.  Talk to the smart
+  Golem after the other one has been Raised, to get the Talisman.
+
+  Your DEX and COMBAT will be Maximized!
+
+________________
+Test of Courage:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Talk to the Paladin Statue, then go into the room on the right with the
+  Mirror that seems alive.  Talk to it.  It is a Daemon named Arcadian who is
+  trapped in the mirror.  Agree to help him out, and he'll ask you to find a
+  small Gem in the Test of Courage.
+
+  Mind you well that this test is not the cake job that the last 2 were.  This
+  one requires a lot of fighting.  Once you're good and ready go through the
+  moongate.
+
+  The first room contains a Mage, and some skeletons.  Did I mention that the
+  Mage is summoning a Liche?  I suggest you don't let him.  The mage has a key
+  on him.  Also get the Magic Gauntlets off one of the corpse's, and another
+  corpse has a Magic Armor and a Magic Gorget.  A dead female mage has another
+  key, the exact same key that the other Mage has.  The 2 Red Moongates here do
+  nothing so ignore them.
+
+  Going to the right you'll be attacked by 2 stone golems.  Not an easy battle.
+  Unlock the right door with either key you just got.  Once you're past them
+  you need to flick 2 levers to go to the next room.  One lever is north, the
+  other east.
+
+  Go west and into the next room.  Kill the Drake here.  The female corpse here
+  has a Magic Shield.  Pick the locked chest, and take the Glass Sword.  Go
+  to the room on the left side with the crystal ball in it, and place the
+  Glass Sword on the Black Area to get the next key.  Go through the north
+  door.  Go to the right, then up and get the Magic Helm (but don't equip it
+  yet).  Now go down fight the Golem, then right and fight another Golem and
+  some slimes.  Go down here, then right, and then up.  Kill the Gazer, and
+  then go to the left and up.  Get the Great Helm, and put the Magic Helm in
+  its place.  Go back to where the Magic Helm was and put the Great Helm on the
+  pedestal.
+
+  Now go to the room with the trolls in it and go right from there. The passage
+  to the north leads to the BOSS, but first search that blackened corpse for
+  a Magic Axe.  Go into the room.  A corpse on the left has a triple crossbow.
+  The blackened corpse in the center of the room has a Glass Sword.  Get it
+  and equip it.  Dracothraxus will talk to you, then attack him with your
+  Glass Sword.  Then he offers to give you a Gem, and take it.  Mark the
+  location, then cast Recall to go back to the entrance of the Isle of Fire.
+
+  Talk to Erethian about a "powerful artifact" to defeat Dracothraxus with.  He
+  then summons some Blacksmithing equipment, and gives you a Blackrock sword to
+  forge.  It's easier to work if you ditch your party to the side.
+
+  First, use the well and bucket to get water to fill the trough. Now equip the
+  hammer in your hand, and place the Sword on the coals. Push the bellows until
+  the sword is white hot, quickly move it to the anvil, and use the hammer
+  (double click) on the sword.  After awhile of this you'll discover that the
+  sword, although finished, is too unwieldly to use as a weapon.
+
+  Talk to Erstam about it and he tells you to bind a Magical Source to it.
+  Remember the Daemon?  Go to the mirror and talk to Arcadian.  Then you must
+  use the Gem on it.  The Daemon is now trapped inside the Gem. Talk to him now
+  about the Black Sword, and then tell him to Bond himself to the sword.  You
+  now have the Demon Blade!
+
+  Cast Recall to go back to Dracothraxus's chamber, then talk to the Demon
+  Blade, and ask him to kill Dracothraxus.  Dracothraxus dies, and tells you to
+  go on the moongate to the north.  Go up there, and get the last pendant.
+
+  The last statue will MAX your STR!  And he tells you to get the Talisman of
+  Infinity, and that the scroll of infinity will tell you how to find it.
+
+_____________________
+Talisman of Infinity:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Pick up the scroll in Erethian's room and talk to him about the Talisman of
+  Infinity, and then talk to Erethian.  He says that you will need the Convex
+  and Concave Lenses.  Teleport (using Help) to Britain, grab the lenses and
+  teleport back.  Go to the room with the Dark Core, and place the lenses to
+  the left and right side.  Then put the Talismans on top of the Dark Core.
+  The Talisman of Infinity will appear and start to expunge the Dark Core to
+  the Void.  Erethian will appear to try to stop this and get destroyed.
+
+  Go back to Britain, and talk to Lord British.  He will reward you by doubling
+  your STRENGTH all the way up to 60.  Wow.
+
+
++=============================================================================+
+| B. Orb of the Moons                                                         |
++=============================================================================+
+
+The Orb of the Moons is very useful.  But unfortunately it doesn't always work
+and even when it does work, it doesn't work very long.  Anyway here's a chart
+of where to use the Orb:
+
+    Moonglow/           Britain          Jhelom
+    Time Lord
+
+    New Magincia        Avatar           Yew
+
+
+    Skara Brae          Trinsic          Minoc
+
+Placing the Orb isn't easy, and takes practice.  If it doesn't work, you
+could try putting it out farther, or taking it in closer.
+
+Note: Once you destroy the Sphere the Orb ceases to function.
+
+
++=============================================================================+
+| C. Almanac                                                                  |
++=============================================================================+
+
+This Almanac covers only the Towns of Britannia, large and small.
+
+________
+BRITAIN:
+¯¯¯¯¯¯¯¯
+Blacksmith:
+  Grayson - weapons and armor, range from 20 to 300 gold
+Food:
+  Fred - mutton (3 gold) and fowl (3) best values
+  Kelly - vegetables
+  Willy - bakery
+  Gordon - Fish and Chips (8)
+  Blue Boar - Jeannette is slightly cheaper, but still more money than Fred
+Healer:
+  Lord British - FREE!
+  Csil - Healing (40), Cure (30), Resurrection (450)
+Inn: Wayfarer's Inn (10)
+Potions:
+  Kessler - also buys Venom at 50 gold
+Spells: (listed are recommended spells, since they are cheapest here)
+  Nystul - Black Pearl (10), Blood Moss (6), Ginseng (4), Mandrake Root (10),
+           Sulfurous Ash (8)
+         - 5 Spells at optimal price
+Trainers:
+  Denby - Dex, Int, Magic (75)
+  Sentri - Dex (30)
+  Zella - Dex, Combat (45)
+Transportation:
+  Ship - The Beast, 800 gold
+  Sextant - 100 gold
+  Cart - 120 gold
+
+_______________
+Buccaneer's Den
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Blacksmith:
+  Budo - weapons and armor from 20 to 325 gold
+       - also sells lockpicks (10) and torches (5)
+Inn: The Fallen Virgin (10)
+Food:
+  The Fallen Virgin - range of 5 to 50, Mutton (6) best value
+Recreation:
+  The Baths - Admission (300), Ale and Wine (5)
+  House of Games - Rat Race (4 to 1, 6 to 1)
+Trainers:
+  Lucky - Int (35)
+Transportation:
+  Ship - The Lusty Wench, 800 gold
+
+____
+Cove
+¯¯¯¯
+Food:
+  The Emerald - 2-30, Mutton (3) best value
+Healer:
+  Jaana - Healing (30), Curing (15), Resurrection (400)
+Inn: The Out 'n' Inn (8)
+Spells:
+  Rudyom - Black Pearl (5), Blood Moss (3), Ginseng (2), Mandrake Root (5),
+           Sulfurous Ash (4)
+         - 19 Spells at optimal prices
+Trainers:
+  Rayburt - Int, Dex, Combat (60)
+
+______
+Jhelom
+¯¯¯¯¯¯
+Blacksmith:
+  Kliftin - weapons and armor from 5 to 150 gold
+Food:
+  The Bunk and Stool - 2 to 25, Fish (3) best value
+Inn: The Bunk and Stool (5)
+Trainers:
+  De Snel - Combat + 2 (40)
+
+_____
+Minoc
+¯¯¯¯¯
+Blacksmith:
+  Zorn - 12 to 300 gold
+Food:
+  The Chequered Cork - 2 to 35, no good values here
+Trainers:
+  Karenna - Dex, Combat (20)
+  Jakher - Str, Int (20)
+Transportation:
+  Ship - The Excellencia (1000)
+  Sextant - 150 gold
+
+________
+Moonglow
+¯¯¯¯¯¯¯¯
+Food:
+  The Friendly Knave - 2 to 25, trout best value (2)
+Healer:
+  Elad - Healing (25), Curing (10), Resurrecting (425)
+Potions:
+  Mariah - Awakening (15), Invisibility (90)
+Spells:
+  Mariah - Black Pearl (8), Garlic (1), Ginseng (2), Mandrake Root (7),
+           Nightshade (6)
+         - 23 spells at optimal price
+Trainers:
+  Chad - Dex, Combat (45)
+  Jillian - Int, Magic (35)
+
+____________
+New Magincia
+¯¯¯¯¯¯¯¯¯¯¯¯
+Food:
+  The Modest Damsel - 1 to 12, Fish (5) best value
+Inn: The Modest Damsel (3)
+Transportation:
+  Ship - The Nymphet (600)
+  Sextant - 40
+
+____
+Paws
+¯¯¯¯
+Antique's:
+  Beverlea - Hourglass (5), etc.
+Food:
+  Thurston - Flour (12)
+  Morfin - Beef (2), Ham (4), Mutton (3)
+  Andrew - dairy
+  Camille - carrots (1)
+  The Salty Dog - 1 to 12, no good values
+Inn: The Salty Dog (5)
+
+______________
+Serpent's Hold
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Food:
+  The Hallowed Dock - 1 to 16, Trout is best value (3)
+Healer:
+  Leigh - Healing (25), Curing (8), Resurrection (385)
+
+Training:
+  Menion - Str, Combat (45)
+Transportation:
+  Ship - The Dragon's Breath (600)
+
+__________
+Skara Brae
+¯¯¯¯¯¯¯¯¯¯
+Although no one outside of this sad town mentions it, this town is dead, and
+has been for some time.  If only the Avatar would appear and free its sad
+spectre's from their eternal torment.
+
+______
+Terfin
+¯¯¯¯¯¯
+Food:
+  Tavern (nameless) - 1 to 12, flounder best value (2)
+Healer:
+  Inmanilem - Healing (25), Cure (10), Resurrect (430)
+Training:
+  Inforlem - Str, Dex, Combat (50)
+           - Int + 2, Magic (50)
+
+_______
+Trinsic
+¯¯¯¯¯¯¯
+Blacksmith:
+  Dell - 10 to 80
+Food:
+  The Honorable Hound - 2 to 30, Mutton (3) best value
+Healer:
+  Chantu - Healing (30), Cure (15), Resurrect (400)
+Training:
+  Markus - Combat (20)
+Transportation:
+  Ship - The Scaly Eel (600)
+  Sextant - 80
+  Cart - 60
+
+______
+Vesper
+¯¯¯¯¯¯
+Food:
+  The Gilded Lizard - 1 to 20, Flounder (4) best value
+  Gargoyle Tavern - 2 to 14, no good values
+Potions:
+  Wis-Sur - 10 to 150
+Spells:
+  Wis-Sur - Black Pearl (34), Blood Moss (16), Mandrake Root (32), Spider
+            Silk(20), Sulfurous Ash (25) - you can haggle these
+          - 4 spells at optimal price
+
+___
+Yew (and Empath Abbey too)
+¯¯¯
+Healer:
+  Reyna - Healing (30), Cure (10), Ressurect (400) - Half price if you give her
+          flowers (SUBPLOT)
+Spells:
+  Nicodemus - Blood Moss (3), Garlic (2), Mandrake Root (5), Nightshade (5),
+              Spider Silk(3)
+            - 21 spells at optimal prices
+Training:
+  Bradman - Dex + 2 (30)
+  Penni - Str, Combat (35)
+  Perrin - Int + 2, Magic (45)
+
+
++=============================================================================+
+| D. Secret Locations                                                         |
++=============================================================================+
+
+Here are some of the out of the way places that hold some treasure of some sort
+
+  X Marks the Spot: 2 Glass Swords, Key (48N, 138E)
+  Pirate Fort: Gold, etc. (39N, 158E)
+  Burnt out Fort: Nuthin' (81S, 202E)
+  Chest South of Trinsic: Full set of Magic Armor (128S, 4W)
+  Abandoned Keep: Magebane (16N, 37E)
+  Crypt: Full set of Magic Armor, Death Scythe, Soul Cage (53S, 65W)
+  Island Treasure: Gold Bars, Gold (117S, 42W)
+  Island Cave: Magic Helm, Gold Bar, Gold, Key (125S, 73W)
+  Forest Altar: Magic Shield (55N, 32W)
+  House in Woods: Gold (34N, 27W)
+  Another Island Cave: Gold Bars, 4 Glass Swords, Magic Boots, Magic Gauntlets
+                       Gold, Lightning Whip, etc. (168S, 27E)
+  Island W of Serpent's Hold: Blackrock, Reagants, Lockpicks (162S, 8E)
+  Desert Cave: Magic Armor, etc. (43N, 118E)
+  Skeleton Key: Near Trinsic (111S, 26W)
+
+
++=============================================================================+
+| E. Cheating                                                                 |
++=============================================================================+
+
+_________________
+Debug Menu Cheat:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+This cheat must be activated before you even start the game.  At the command
+line type:
+
+  ultima7 abcd
+
+ is a character code, that looks suspiciously like a space.  If you've
+never done "Alt Codes" before this is how they work:  Press and hold the ALT
+button, press 2 5 5 on the numeric pad (its on the right side of your keyboard)
+and let go of ALT.
+
+In the game, press F1 to bring up a list of Commands for cheating
+                   F2 to bring up the Debug Menu.
+                   F3 to bring up the Teleport Map
+                   F5 casts any spell (hit F5, push number of the spell, select
+                      who gets to cast it, and if needed select what to cast it
+                      on)
+                    4 - dumps contents, used to see what someone is
+                      carrying.  Try it on Lord British.
+
+The Debug Menu should look exactly like:
+  [b]usiness schedule  [h]ack mover...: No
+  [d]o Schedule.: All  [l]ocation.....: Off
+  [g]ame flags         [i]nspect
+  [n]umber ID...: Off  [m]odify Npc
+  [t]eleport           [u]nk BugChkin : Yes
+  [p]ower Avatar: Off  [q]ueue Toggle.: Off
+  [s]et time           [c]reate item
+  [+-] Time Rate:   1  [a]ctivity dump
+  [f]ollowers...:* No* [X]it
+
+For the purposes of this debug menu, the avatar is considered NPC 0, with
+everyone else in the game numbered as well.  Choosing "Number ID" will show
+all the NPC numbers.
+
+-- "Hack Mover" allows you to pick up all objects, including the scenery.
+Nothing is more fun that picking a mountain apart to see how it ticks.  Also
+you can pick yourself up.
+-- "Followers" brings in everyone that can join your party.  (up to the maximum
+number of followers anyway)
+-- "Game Flags" will show you the flags.  For example, if you walk into a room
+and something is supposed to happen, what actually happened was that you
+tripped a game flag that told the computer to do something.
+-- "Create Item" is just what it says.  You can create EVERYTHING, including an
+Avatar Corpse!  Creepy!
+
+Now a little bit more on the "m"odify NPC option.  You can modify every NPC in
+the game, including all enemies.  You can affect their (or your) stats, status,
+and make them do things, called a "business activity".  Typical business
+activities are "preaching" (what the Fellowship people do) "baking", "follow
+avatar", etc.  If you set yourself to preach in a Fellowship Hall, you will do
+exactly what Batlin (or the others) does.  Creepy.  The best "status" change
+you can do is to make yourself Ethereal, which is essentially a walk through
+walls option.  Very fun, but remember you cannot go up stairs, or go up in any
+way at all while ethereal; instead you will walk through the stairs.  To go up
+a level while ethereal use the Hack mover and pick yourself up.
+
+**WARNING!!!** Doing any of the above cheats can result in a corrupted
+savegame.  You may not be able to pass the game if you cheat!  So don't save it
+if you cheat and don't cheat unless you don't want to pass the game.  You
+shouldn't cheat anyway... what kind of Avatar are you?
+
+__________
+Exp Trick:
+¯¯¯¯¯¯¯¯¯¯
+  Talk to the 2 pirate friends (see SUBPLOTS for Buccanneer's Den) and get 10
+  exp, there is no limit to the amount of times you can do it.  Although this
+  isn't a very efficient way to gain experience.
+
+__________________________________
+Lord British Catches you Cheating:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  One funny thing to do is to teleport to 209,407,0 (Hex coord).  It is a room
+  in the mountains that can only be reached via cheating.  And it really pisses
+  Lord British off!  The time I did it, he teleported there and started
+  attacking me, calling me a cheater, and whatnot.  Then if you access the
+  cheat menu, all it will say is "Oink".
+
+_______________________
+Every Item, In Trinsic: (a7,978,0) and (73b,477,0)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Go to the Blacksmith house, and stack the crates to form a ladder to get onto
+  the room.  Climb up there and walk behind the chimney.  You will be
+  teleported to a room that has every item in the game (including PLOT items
+  like the Rudyom's Wand, the 3 Blackrock pieces, etc), and teleporters to
+  every major location in Britannia.  Another way to get to the teleporter room
+  is to place an object (anything that you can climb on) to the left side of
+  the bottom tree to the right side of the Gargoyle's house in Britain.  Then
+  climb on and it will teleport you to the room.
+
+_____________________________
+Isle of Fire, Secret Chamber:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  On the Isle of Fire in the Test of Love, at the Stone of Castambre, right
+  next to the Stone is a lever.  Flick the lever to open a passage in the
+  previous dungeon to a room with 9 Glass Swords, a Death Scythe, and a
+  Firedoom Staff.
+
+_____________________________________
+Maybe We Could Just Censure the King:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Lord British is hiding a secret.  He's having an illicit love affair with the
+  chambermaid of the castle.  Sounds suspiciously Clintonian.  The only way to
+  get evidence of this, is to kill Lord British, and read the Will on his body.
+  He can be killed very few ways.  One is to use the Demon Sword on him, Two is
+  to use a Cannon on him, and Three is to cheat him dead, and lastly, everyday
+  around noon (i think) he stands underneath the sign "Lord British's Throne
+  Room" double click the sign, and it will behead the king.
+
+__________________________
+What if They're Dead, Sir?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Where do people go when they die?  Why, the House of the Dead, of course!
+  There is only one way to get here, and that is to use the Debug Menu
+  Teleport.  It is located at 5a8,508,0.  However, it's empty around the start
+  of the game.  So, say you kill someone, and then you teleport here, you will
+  find them here lying down.  So what is left back in the real world?  Their
+  corpse is considered an item, not an NPC, and all NPC's have to be somewhere
+  in the world, so they are stuffed here.  Resurrecting them will destroy the
+  corpse-item and bring them back.
+
+___________
+Troll Doll:
+¯¯¯¯¯¯¯¯¯¯¯
+  One of the actors in Britain has a Troll doll in his possession.  To see it
+  either kill him, or 4 him.
+
+______________________
+Alagner's OTHER Study:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Remember looking into the crystal ball at Alanger's place and seeing him
+  murdered?  It's actually a place!  Teleport to a82,974,0.  Of course if you
+  teleport in on someone getting murdered, you're likely to get attacked
+  yourself!  And just to the south of this study, is another study!  Wow,
+  that's three!  In that one Alagner is working (it's what you see if you look
+  in his crystal ball _before_ he is murdered).
+
+________
+USECODE:
+¯¯¯¯¯¯¯¯
+  Everything anyone says in the entire game is stored in the file called
+  "usecode".  To change what someone says, merely open it up and change it.
+  NOTE:  This is not recommended, plus you cannot change the LENGTH of what
+  someone says, just the message.  If the text starts out 10 letters long, it
+  has to end out that long.
+
+________________________
+Those Wacky Programmers:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  If you sit through the entire credits sequence (at the title screen there is
+  an option to "View Credits", don't you ever pay attention?), then a new
+  option will appear, "View Quotes".  You will get to see what was on the
+  programmers minds when they made this game.  Oink.
+
+
++=============================================================================+
+| F. Monsters                                                                 |
++=============================================================================+
+
+  There are a great many evil and vile creatures to be slain in Britannia.  The
+  following is but a simple list of them.  Stats and Exp may vary from creature
+  to creature.  Also Exp is based on you doing all the damage to the creature.
+
+  Name:             STR:  DEX:  INT:  COMBAT:  EXP:   NOTES:
+  -----             ----  ----  ----  -------  ----   ------
+  Acid Slug          13     6     3       9     16
+  Alligator          18    11     3      15     27
+  Brigand            19    21    15      17     31
+  Corpser            16     2     9      12     20   underground tentacle
+  Cyclops            19    15    11      15     27   often has gold nuggets
+  Dragon             40    12    23      18     59   *MAGICAL*
+  Drake              21    10    11      17     48
+  Emps               14    13    19       1     11   *NON EVIL*
+  Gargoyle           16    15    10       7     15
+  Gazer               5    20    12       8     25   *MAGICAL*
+  Ghost              11    11    16      11     20   *ETHEREAL*
+  Giant Bat           1    15     1      10     10
+  Giant Bee          10    26     4      20     24
+  Giant Scorpion     12    13     5      16     17   poisonous
+  Giant Rat           5     8     4       6      9   poisonous?
+  Giant Spider       13    19    11      13     14
+  Gremlin             6    16    11      10     16   turn into food when killed
+  Harpy              11    14     7      17     36
+  Headless           14     9     8      15     23   often has gold nuggets
+  Hydra              24    20    24      16     42
+  Kraken             14     7    10      14     24   *SEA*
+  Kissme             10    22     9       4     44   *MAGICAL* *NON-EVIL*
+  Liche              16    15    23      18     37   *MAGICAL*
+  Mage               12    16    20      16     32   *MAGICAL*
+  Mongbat            12    14     4      13     18
+  Paladin            20    16    14      21     29
+  Pirate             16    18    16      22     29
+  Reaper             15    16     9      17     24   *MAGICAL*
+  Sea Serpent        23    16    15      15     24   *SEA*
+  Skeleton           14    12     5      11     20
+  Slime               1     2     2      10     10   *REPLICATES*
+  Snake               8    14     7       3     11   poisonous
+  Stone Harpy        28    28    25      26     55
+  Swarm               1    17     2       2     --
+  Troll              17     7     8      12     26
+  Unicorn            30    30    30      30     38   *NON EVIL*
+  Wisp                6    27    26      17     --   *MAGICAL* *ETHEREAL*
+  Wolf               11    14     7      15     18
+
+
++=============================================================================+
+| G. Keyboard Commands                                                        |
++=============================================================================+
+
+i - opens your item screen, each subsequent "i" opens each member of the
+    party's item screens.
+z - opens your stat screen.
+c - combat on/off
+s - save/load screen
+v - version
+h - left/right handed mouse
+ESC - gets rid of all windows on screen
+
+
++=============================================================================+
+| H. Gameplay Issues                                                          |
++=============================================================================+
+
+_______
+Mo'Slo:
+¯¯¯¯¯¯¯
+  If your computer is Pentium or better, then you will most definately want to
+  use Mo'Slo when running Ultima 7.  Mo'Slo will cut your top of the line
+  processor down to size.
+
+  Mo'Slo can be obtained from:
+     http://www.geocities.com/TimesSquare/Dungeon/1350/moslo.zip
+
+  Using Mo'Slo is as follows:
+
+    "moslo.com /50 ultima7.com"  or
+    "moslo /50 ultima7" may also work.
+
+  The '/50' will cut the processor speed in half.  A P200 will be a P100, etc.
+  Just remember, the lower the number the slower it goes.
+
+___________________
+Saving Conventions:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  When you save your game, it is best to number the save, give a location and
+  to say what's going on there.  If you don't, then you don't play it for a
+  month and you forget which save was the one you used last.
+
+_______
+Errors:
+¯¯¯¯¯¯¯
+  I have personally encountered a lot of bugs in this game.  One way to see the
+  most bugs is to cheat (this happens to me a lot in the Cube maze) and try to
+  play the game that way.  Sometimes you can just go back to a previous save,
+  and other times your whole game is lost.
+
+________
+Version:
+¯¯¯¯¯¯¯¯
+  The final version of this game was 3.4.  To check which version you have
+  press the "v" button in the game.  If you have version 3.0 you should
+  probably download the upgrade at:
+
+    http://www.gamesdomain.co.uk/patches/u7up34.html
+
+
++=============================================================================+
+| I. Online Resources:                                                        |
++=============================================================================+
+
+  Here is every online resource that I have ever found, some useful, some just
+  for fun.
+
+  http://www.gamefaqs.com/ - Gamefaqs
+  http://www.gamefaqs.com/computer/doswin/faq/ultima_vii_a.txt - This FAQ
+  http://www.geocities.com/TimesSquare/Dungeon/1350/ultima.html - Good Ultima
+                                                                  Page
+  http://www.surfing.net/ultima/ - nice Ultima Site, with Music Archive
+
+  http://www.origin.ea.com/ - Origin's Official Site
+  http://www.owo.com/archive/ - Ultima Web Archive
+  http://www.owo.com/archive/ultima7/index.html - Ultima 7 page on Web Archive
+       Includes a Map, weapons locations, coordinates, and a patch
+
+Exult - http://exult.sourceforge.net/ - an open source engine for Ultima 7 and
+        Serpent Isle, supports both Windows and Unix.
+
+_________________
+Online Utilities:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  General Midi Upgrade:
+    http://members.aol.com/mikenewt/ultima/ult7gm.zip
+
+  Shapes Viewer:
+    http://www.geocities.com/TimesSquare/Dungeon/1350/u7shapes.zip
+
+  Speech Extractor:
+    http://psycho.simplenet.com/home/ultima/files/speech.zip
+
+  Add On, Kataba Aja:
+    http://psycho.simplenet.com/home/ultima/files/isle.zip
+
+  Ultima 7 Wizard:
+    http://www.chez.com/pulsarrtc/wizard/ultima/u7wizard.htm
+
+  Ultima 7 In Windows:  (allows Ultima 7 and Serpent's Isle to be run directly
+                        from Windows, with sound even!)
+
+    http://members.iinet.net.au/~rsd/U7inWindows.html
+
+________________
+Technical Files:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  Origin Tech Support:
+    http://www.origin.ea.com/tech/gamefaq/ultima7.html
+
+  Ultima and the Soundblaster AWE 32:
+    http://www.powerup.com.au/~mfleming/ultima/ult-awe32.html
+
+  How to Edit Ultima 7:
+    http://psycho.simplenet.com/home/ultima/files/u7edit.txt
+
+
++=============================================================================+
+| J. Final Words...                                                           |
++=============================================================================+
+
+Weapon Locations from "The Void" - http://www.cyberus.ca/~wolf2/weapons.shtml
+Some Brittanian Locations from the Ultima Web Archive -
+     http://www.owo.com/archive/ultima7/coord.html
+
+Special thanks to:
+
+  Nathaniel Dolynchuk for information on getting gold from Batlin, etc.
+  Jeff Tham for telling me where the Serpent's Hold key is located
+  Linda for helping with tax dodging nudists. Smelly hippies!
+  Johan Vestergaard Paulsen for the xp rewards.
+  Linda Shaw for being the key master.
+  Matthew Orrte
+  Marzo Sette Torres Jr
+
+
+                           Shameless Self Promotion:
+  ==========================================================================
+  I am Dan Simpson (dsimpson.faqs@gmail.com) and have also written FAQs for:
+
+    NES:      Disney Adventures in the Magic Kingdom
+              Final Fantasy -- Magic FAQ
+              The Legend of Zelda
+    SNES:     Aerobiz
+              Aerobiz Supersonic
+              Utopia: Creation of a Nation
+    Genesis:  StarFlight
+    PSX:      Thousand Arms -- Walkthrough
+                            -- Forging/Dating FAQ
+    PS2:      Madden NFL 2001
+    XBOX:     Star Wars: KotOR II: The Sith Lords -- FAQ/Walkthrough
+                                                  -- Influence Guide
+    PC:       AD&D Rules FAQ, 2nd and 3rd Editions
+              Baldur's Gate & Tales of the Sword Coast -- FAQ/Walkthrough
+                                                          NPC List
+                                                          Creature List
+              Baldur's Gate II & Throne of Bhaal -- FAQ/Walkthrough
+                                                 -- Items List
+                                                 -- Class FAQ
+                                                 -- Creature List
+              Civilization III (incomplete)
+              Colonization -- the Single Colony Strategy Guide
+                           -- the Cheat Guide
+              Drakan: Order of the Flame
+              Dungeon Hack
+              Icewind Dale & Heart of Winter -- FAQ/Walkthrough
+                                                Items List
+                                                Kresselack's Tomb Map (JPG)
+                                                Burial Isle Map (JPG)
+                                                Shattered Hand Map (JPG)
+              Icewind Dale II                -- Items List
+              Master of Magic (revision)
+              Messiah
+              Pharaoh (currently being edited by Red Phoenix)
+              Planescape: Torment  -- FAQ/Walkthrough
+                                      Items Listing
+              Rollercoaster Tycoon
+              Sid Meier's Alpha Centauri
+              The Sims
+              Ultima 4: Quest of the Avatar
+              Ultima 7: The Black Gate
+              Ultima 7 Part 2: Serpent Isle
+              Ultima Underworld -- Keyboard Commands
+              Ultima Underworld II -- Keyboard Commands
+                                   -- Spell List
+  All of my FAQs can be found at:
+
+    http://www.gamefaqs.com/features/recognition/2203.html
+
+
+the ASCII art was created by me, and that is why it doesn't look as good as
+some of the other ASCII arts' in my other FAQ's.
+
+This FAQ was writen mostly using the GWD Text Editor:  (shareware)
+  http://www.gwdsoft.com/
+
+I'm now an Ultima Dragon!  Tasumusu Dragon, UDIC (http://www.udic.org)
+
+
+
+________________
+Version History:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Original Version (2-22-99, 104k)
+Changes in 1.1:  (2-2?-99, 106k)
+  fixed the lettering in the Appendix (there were 2 "F."s before)
+  fixed the Contents
+  added to "food" and "spells" sections
+  other small and sundry changes
+Changes in 1.2:  (3-2-99, 108k)
+  added new money making scheme
+  added to the cheat section
+  fixed a rather embarassing error
+  added note on SNES version
+  various small and sundry changes
+Changes in 2.0:  (3-7-99, 123k)
+  Completely revised, reviewed, and rewritten
+  redid the ASCII art
+  added Almanac section to appendix (ugh...)
+  redid the monsters section
+  redid the Spells section
+  new online resources
+Changes in 2.1:  (4-12-99, 123k)
+  Fixed some spacing problems
+  Changed "Erstam" to "Erethian" (oops!)
+  Added Shameless Self Promotion
+Changes in 2.15:  (5-25-99, 125k)
+  Added trick to Pirate Friends Sub Plot and Cheats
+  Small Format Changes involving the Contents
+  Small Format Changes involving "Other things to do" in the Walkthrough
+  Small Changes
+Changes in 2.16  (7-20-99, 126k)
+  Added another online resource
+  Generally cleaned things up a bit
+  Small Changes
+Changes in 2.2:  (9-29-99, 135k)
+  Format Changes Mostly
+  Small Changes
+Changes in Version 2.3:  (2-12-00, 138k)
+  Format Changes (again)
+  Other Small Changes
+Changes in Version 2.31 (4-26-00, 140k)
+  Updated the Format
+  Other Small Changes
+
+  Version 2.4  August 21, 2000  141k
+
+    Changed over to the newest format.  Updated the Shameless Self Promotion,
+    and most excitingly, added a new Utility!  Check it out, it allows Ultima 7
+    to be run directly from Windows 95/98!  You can find it in "Online
+    Resources".
+
+  Version 2.41  September 6, 2000  143k
+
+    Added some new information from Nathaniel Dolynchuk, which has been placed
+    in the General Strategies section under the heading "Money".
+
+  Version 2.5  February 4, 2001  143k
+
+    Jeff Tham found the key that opens the chest in Serpent's Hold.  Edited the
+    format a little.
+
+  Version 2.6  May 30, 2001  144k
+
+    Added an infinite exp/item cheat from Cao Cao.
+
+  Version 2.61  January 22, 2005  144k
+
+    Changed my email address.
+
+  Version 2.7  April 18, 2009  148k
+
+    Added the tax dodging nudist sub-plot solution from Linda. Added xp
+    rewards from Johan Vestergaard Paulsen. Linda Shaw sent in the location
+    of the key for the chest south of Trinsic and the Skeleton Key. Added some
+    notes from Matthew Orrte. Added Marzo Sette Torres Jr's note on the Death
+    Scythe.
+
+
+
+
+________
+Stinger:
+¯¯¯¯¯¯¯¯
+  "Know that you too shall kneel before me, Avatar."
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+This Document is Copyright 1999-2009 by Dan Simpson
+Ultima 7 is Copyright by Origin and/or Electronic Arts
+
+I am not affiliated with Origin, Electronic Arts, or anyone who had anything to
+do with the creation of this game.  This FAQ may be posted on any site so long
+as NOTHING IS CHANGED and you EMAIL ME telling me that you are posting it.  You
+may not charge for, or in any way profit from this FAQ.
