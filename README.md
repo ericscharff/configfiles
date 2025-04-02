@@ -6,5 +6,5 @@ actual use.
 
 Also included are instructions on system maintenance.
 
-Please be aware that these files are out of date, and may not work on more
+Please be aware that these files are extermely out of date, and may not work on more
 recent distributions.
