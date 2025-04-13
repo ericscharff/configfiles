@@ -1,0 +1,34 @@
+#!/bin/bash
+
+DIARY_DIR=$HOME/d
+DIARY_FILE=$DIARY_DIR/file.txt
+
+temp_dir=$(mktemp -d)
+
+if [ ! -d "$temp_dir" ]; then
+  echo "Error: Failed to create temporary directory."
+  exit 1
+fi
+
+# Trap signals to ensure cleanup on exit
+trap cleanup EXIT SIGINT SIGTERM
+
+# Cleanup function
+cleanup() {
+  # echo "Cleaning up temporary files..."
+  rm -rf "$temp_dir"
+  # echo "Temporary files cleaned."
+}
+
+temp_file=$temp_dir/file.txt
+cp $DIARY_FILE $temp_file
+
+vim +'call Diary()' $temp_file
+
+if cmp $temp_file $DIARY_FILE; then
+  echo "Diary unchanged"
+else
+  cd $DIARY_DIR
+  cp $temp_file $DIARY_FILE
+  git commit -a
+fi
