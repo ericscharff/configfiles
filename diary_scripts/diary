@@ -23,7 +23,7 @@ cleanup() {
 temp_file=$temp_dir/file.txt
 cp $DIARY_FILE $temp_file
 
-vim +'call Diary()' $temp_file
+vim +'call diary#Diary()' $temp_file
 
 if cmp $temp_file $DIARY_FILE; then
   echo "Diary unchanged"
