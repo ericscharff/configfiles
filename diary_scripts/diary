@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DIARY_DIR=$HOME/d
-DIARY_FILE=$DIARY_DIR/file.txt
+DIARY_DIR=$HOME/Documents/system-diary
+DIARY_FILE=$DIARY_DIR/diary.txt
 
 temp_dir=$(mktemp -d)
 
