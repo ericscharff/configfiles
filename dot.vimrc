@@ -1,6 +1,7 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
+colorscheme elflord
 let mapleader = ','
 set expandtab
 set shiftwidth=2
