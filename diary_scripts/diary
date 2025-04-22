@@ -1,7 +1,11 @@
 #!/bin/bash
 
-DIARY_DIR=$HOME/Documents/system-diary
-DIARY_FILE=$DIARY_DIR/diary.txt
+if [ "$1" != "" ]; then
+  DIARY_FILE=$1
+else
+  DIARY_FILE=$HOME/Documents/system-diary
+fi
+DIARY_DIR=$(dirname $DIARY_FILE)
 
 temp_dir=$(mktemp -d)
 
