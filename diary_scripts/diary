@@ -3,7 +3,7 @@
 if [ "$1" != "" ]; then
   DIARY_FILE=$1
 else
-  DIARY_FILE=$HOME/Documents/system-diary
+  DIARY_FILE=$HOME/Documents/system-diary.txt
 fi
 DIARY_DIR=$(dirname $DIARY_FILE)
 
