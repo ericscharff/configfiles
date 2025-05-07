@@ -20,7 +20,7 @@ vmap <leader>c <Plug>OSCYankVisual
 " Window Navigation "
 "==================="
 
-" Use Ctrl-J/K/L/H to move around, not needing the Ctrl-W prefix
+" Use Ctrl-J/K/L/H to move around, avoiding the Ctrl-W prefix
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
