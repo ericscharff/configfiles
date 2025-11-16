@@ -5,7 +5,8 @@ call plug#begin()
 Plug 'ojroques/vim-oscyank', {'branch': 'main'}
 call plug#end()
 
-colorscheme desert
+set termguicolors
+set background=dark
 let mapleader = ','
 set expandtab
 set shiftwidth=2
