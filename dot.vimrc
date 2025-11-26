@@ -26,3 +26,6 @@ nnoremap <Bslash>j <C-W><C-J>
 nnoremap <Bslash>k <C-W><C-K>
 nnoremap <Bslash>l <C-W><C-L>
 nnoremap <Bslash>h <C-W><C-H>
+
+" Always open commits at the top of the file
+autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
