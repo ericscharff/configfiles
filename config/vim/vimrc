@@ -1,6 +1,8 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
+set viminfofile=$HOME/.local/state/viminfo
+
 call plug#begin()
 Plug 'ojroques/vim-oscyank', {'branch': 'main'}
 call plug#end()
