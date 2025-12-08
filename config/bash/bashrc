@@ -121,3 +121,4 @@ export NVM_DIR="$HOME/.local/share/nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export NODE_REPL_HISTORY="$HOME/.local/state/node_repl_history"
 export NPM_CONFIG_USERCONFIG="$HOME/.config/npm/config"
+export PYTHON_HISTORY=$HOME/.local/share/python/history
