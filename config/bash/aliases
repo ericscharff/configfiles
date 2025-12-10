@@ -1,2 +1,4 @@
 export EDITOR=vim
 alias e=vim
+alias lhs='dtach -A /tmp/session-lhs bash'
+alias rhs='dtach -A /tmp/session-rhs bash'
