@@ -5,6 +5,7 @@ set viminfofile=$HOME/.local/state/viminfo
 
 call plug#begin()
   Plug 'ojroques/vim-oscyank', {'branch': 'main'}
+  Plug 'prettier/vim-prettier'
 call plug#end()
 
 set termguicolors
