@@ -1,0 +1,7 @@
+config/bash/aliases
+config/git/user.inc
+config/htop/
+config/internetarchive/
+config/vim/autoload/
+config/vim/plugged/
+config/visidata/
