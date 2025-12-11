@@ -1,38 +1,9 @@
 #!/bin/bash
 
-if [ "$1" != "" ]; then
-  DIARY_FILE=$1
-else
-  DIARY_FILE=$HOME/Documents/system-diary.txt
-fi
-DIARY_DIR=$(dirname $DIARY_FILE)
+DEFAULT_DIARY_FILE=$HOME/Documents/system-diary.txt
+DIARY_FILE=${DIARY_FILE:-$DEFAULT_DIARY_FILE}
+TARGET_FILE=${1:-$DIARY_FILE}
 
-temp_dir=$(mktemp -d)
-
-if [ ! -d "$temp_dir" ]; then
-  echo "Error: Failed to create temporary directory."
-  exit 1
-fi
-
-# Trap signals to ensure cleanup on exit
-trap cleanup EXIT SIGINT SIGTERM
-
-# Cleanup function
-cleanup() {
-  # echo "Cleaning up temporary files..."
-  rm -rf "$temp_dir"
-  # echo "Temporary files cleaned."
-}
-
-temp_file=$temp_dir/file.txt
-cp $DIARY_FILE $temp_file
-
-vim +'call diary#Diary()' $temp_file
-
-if cmp $temp_file $DIARY_FILE; then
-  echo "Diary unchanged"
-else
-  cd $DIARY_DIR
-  cp $temp_file $DIARY_FILE
-  git commit -a
-fi
+cd $(dirname $TARGET_FILE)
+vim +'call diary#Diary()' $(basename $TARGET_FILE)
+git commit -a

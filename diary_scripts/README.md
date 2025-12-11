@@ -1,10 +1,10 @@
 This directory contains a diary generation shell script (diary) intended to be
-placed in `$PATH` somewhere. Edit the `DIARY_DIR` and `DIARY_FILE` variables
-to point to the correct location.
+placed in `$PATH` somewhere. Edit the `DIARY_FILE` variable to point to the
+location of the diary file.
 
-It is assumed that `DIARY_DIR` is a git managed directory. Running the `diary`
-command will edit `DIARY_FILE`, maintaining a list of dates with the most
-recent date at the top of the file, with entries like
+It is assumed that `DIARY_FILE` exists inside a git managed directory. Running
+the `diary` command will edit `DIARY_FILE`, maintaining a list of dates with
+the most recent date at the top of the file, with entries like
 
 ```
   2025-Apr-13
