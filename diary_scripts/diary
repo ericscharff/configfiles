@@ -1,9 +1,0 @@
-#!/bin/bash
-
-DEFAULT_DIARY_FILE=$HOME/Documents/system-diary.txt
-DIARY_FILE=${DIARY_FILE:-$DEFAULT_DIARY_FILE}
-TARGET_FILE=${1:-$DIARY_FILE}
-
-cd $(dirname $TARGET_FILE)
-vim +'call diary#Diary()' $(basename $TARGET_FILE)
-git commit -a
