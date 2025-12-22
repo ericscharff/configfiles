@@ -1,6 +1,7 @@
 config/git/user.inc
 config/htop/
 config/internetarchive/
+config/qalculate/qalc.history
 config/vim/autoload/
 config/vim/plugged/
 config/vim/.netrwhist
