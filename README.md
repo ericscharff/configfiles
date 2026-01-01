@@ -1,3 +1,5 @@
+# Happy 2026
+
 # Personal Linux configuration files
 
 These files live in my home directory. They should be common to many Linux
