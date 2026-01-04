@@ -34,3 +34,6 @@ nnoremap <Bslash>h <C-W><C-H>
 
 " Always open commits at the top of the file
 autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
+
+" Run prettier on the current buffer
+nnoremap <Leader>p :%!pretty %<CR>
