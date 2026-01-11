@@ -3,3 +3,4 @@ alias e=vim
 alias lhs='dtach -A /tmp/session-lhs bash'
 alias rhs='dtach -A /tmp/session-rhs bash'
 alias vpy='source $HOME/Applications/python/bin/activate'
+alias wget='wget --hsts-file="${XDG_CACHE_HOME:-$HOME/.cache}/wget/hsts-file"'
