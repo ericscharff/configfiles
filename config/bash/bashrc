@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export ASPELL_CONF="per-conf ${XDG_CONFIG_HOME:-$HOME/.config}/aspell/aspell.conf; personal ${XDG_DATA_HOME:-$HOME/.local/share}/aspell/en.pws; repl ${XDG_DATA_HOME:-$HOME/.local/share}/aspell/en.prepl"
+
 export NVM_DIR="$HOME/.local/share/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
