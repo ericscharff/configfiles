@@ -7,6 +7,7 @@ call plug#begin()
 
 Plug 'ojroques/vim-oscyank', {'branch': 'main'}
 Plug 'ericscharff/vim-diary'
+Plug 'ericscharff/vim-oberon'
 
 call plug#end()
 
@@ -37,3 +38,6 @@ autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
 
 " Run prettier on the current buffer
 nnoremap <Leader>p :%!pretty %<CR>
+
+" Oberon syntax highlighting
+au BufNewFile,BufRead *.ob set filetype=oberon
