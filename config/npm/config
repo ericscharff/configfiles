@@ -1,2 +1,2 @@
 prefix=${HOME}/.local/share/npm
-cache=${HOME}/.cache/npm
+cache=/opt/npm
