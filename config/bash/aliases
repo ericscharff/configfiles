@@ -4,3 +4,11 @@ alias lhs='dtach -A /tmp/session-lhs bash'
 alias rhs='dtach -A /tmp/session-rhs bash'
 alias vpy='source $HOME/Applications/python/bin/activate'
 alias wget='wget --hsts-file="${XDG_CACHE_HOME:-$HOME/.cache}/wget/hsts-file"'
+clean_number() {
+  echo "$1" | tr -cd '0-9'
+}
+bigger() {
+  local a=$(clean_number $1)
+  local b=$(clean_number $2)
+  python3 -c "print(f'First {$a:_} is bigger') if $a > $b else print(f'Second {$b:_} is bigger')"
+}
