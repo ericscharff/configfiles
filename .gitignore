@@ -1,6 +1,7 @@
 config/*
 !config/bash
 !config/git
+!config/labwc
 !config/npm
 !config/qalculate
 !config/tmux
