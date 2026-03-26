@@ -4,4 +4,5 @@ config/*
 !config/npm
 !config/qalculate
 !config/tmux
-!config/vim
+!config/vim/after
+!config/vim/vimrc
