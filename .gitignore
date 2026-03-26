@@ -1,8 +1,7 @@
-config/git/user.inc
-config/htop/
-config/internetarchive/
-config/qalculate/qalc.history
-config/vim/autoload/
-config/vim/plugged/
-config/vim/.netrwhist
-config/visidata/
+config/*
+!config/bash
+!config/git
+!config/npm
+!config/qalculate
+!config/tmux
+!config/vim
