@@ -124,3 +124,7 @@ export NVM_DIR="/opt/nvm"
 export NODE_REPL_HISTORY="$HOME/.local/state/node_repl_history"
 export NPM_CONFIG_USERCONFIG="$HOME/.config/npm/config"
 export PYTHON_HISTORY=$HOME/.local/share/python/history
+
+if [ -d /opt/jdk-26.0.1/bin ]; then
+  export PATH=$PATH:/opt/jdk-26.0.1/bin
+fi
