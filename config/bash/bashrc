@@ -128,3 +128,7 @@ export PYTHON_HISTORY=$HOME/.local/share/python/history
 if [ -d /opt/jdk-26.0.1/bin ]; then
   export PATH=$PATH:/opt/jdk-26.0.1/bin
 fi
+if [ -d /opt/plan9port ]; then
+  export PLAN9=/opt/plan9port
+  export PATH=$PATH:$PLAN9/bin
+fi
