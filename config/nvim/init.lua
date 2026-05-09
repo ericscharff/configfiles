@@ -7,6 +7,11 @@ Plug('ericscharff/vim-oberon')
 
 vim.call('plug#end')
 
+vim.keymap.set('n', '<leader>cc', '"+yy',
+  { desc = 'Copy line to system clipboard' })
+vim.keymap.set('v', '<leader>c', '"+y',
+  { desc = 'Copy selection to system clipboard' })
+
 vim.filetype.add({
   extension = {
     ob = 'oberon',
