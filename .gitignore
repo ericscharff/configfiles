@@ -3,6 +3,7 @@ config/*
 !config/git/config
 !config/labwc
 !config/npm
+!config/nvim
 !config/qalculate/qalc.cfg
 !config/tmux
 !config/vim/after

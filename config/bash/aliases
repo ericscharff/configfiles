@@ -1,5 +1,5 @@
-export EDITOR=vim
-alias e=vim
+export EDITOR=nvim
+alias e=nvim
 alias lhs='dtach -A /tmp/session-lhs bash'
 alias rhs='dtach -A /tmp/session-rhs bash'
 alias vpy='source $HOME/Applications/python/bin/activate'
