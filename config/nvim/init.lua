@@ -7,6 +7,8 @@ Plug('ericscharff/vim-oberon')
 
 vim.call('plug#end')
 
+vim.g.mapleader = ','
+
 vim.keymap.set('n', '<leader>cc', '"+yy',
   { desc = 'Copy line to system clipboard' })
 vim.keymap.set('v', '<leader>c', '"+y',
