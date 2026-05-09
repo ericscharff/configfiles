@@ -6,3 +6,9 @@ Plug('ericscharff/vim-diary')
 Plug('ericscharff/vim-oberon')
 
 vim.call('plug#end')
+
+vim.filetype.add({
+  extension = {
+    ob = 'oberon',
+  },
+})
