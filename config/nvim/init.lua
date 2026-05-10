@@ -7,6 +7,11 @@ Plug('ericscharff/vim-oberon')
 
 vim.call('plug#end')
 
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
+vim.opt.expandtab = true
+
 vim.g.mapleader = ','
 
 vim.keymap.set('n', '<leader>cc', '"+yy',
