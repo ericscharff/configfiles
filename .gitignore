@@ -1,4 +1,5 @@
 config/*
+config/tmux/plugins
 !config/bash
 !config/git/config
 !config/labwc

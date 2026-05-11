@@ -4,6 +4,7 @@ vim.call('plug#begin')
 
 Plug('ericscharff/vim-diary')
 Plug('ericscharff/vim-oberon')
+Plug('christoomey/vim-tmux-navigator')
 
 vim.call('plug#end')
 
