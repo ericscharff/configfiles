@@ -132,3 +132,6 @@ if [ -d /opt/plan9port ]; then
   export PLAN9=/opt/plan9port
   export PATH=$PATH:$PLAN9/bin
 fi
+if [ -d /opt/nvim-linux-x86_64/bin ]; then
+  export PATH=$PATH:/opt/nvim-linux-x86_64/bin
+fi
