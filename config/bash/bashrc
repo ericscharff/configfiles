@@ -135,3 +135,6 @@ fi
 if [ -d /opt/nvim-linux-x86_64/bin ]; then
   export PATH=$PATH:/opt/nvim-linux-x86_64/bin
 fi
+if [ -d /opt/nvim-linux-arm64/bin ]; then
+  export PATH=$PATH:/opt/nvim-linux-arm64/bin
+fi
