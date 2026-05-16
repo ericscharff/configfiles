@@ -1,6 +1,6 @@
 {
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
-  "vim-diary": { "branch": "main", "commit": "68f6fd14cbdbc4f76af9cbfa02bdc04d572ade5f" },
-  "vim-oberon": { "branch": "main", "commit": "399be13b824f3587cfbdb4635768b96ceae3c270" },
+  "vim-diary": { "branch": "main", "commit": "917632b3437bfaca52d168c3cda2f00b103ef47f" },
+  "vim-oberon": { "branch": "main", "commit": "c44d6c611c9c2ba70e2e53dd52bae57628062e43" },
   "vim-tmux-navigator": { "branch": "master", "commit": "e41c431a0c7b7388ae7ba341f01a0d217eb3a432" }
 }
