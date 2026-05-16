@@ -1,13 +1,3 @@
-local Plug = vim.fn['plug#']
-
-vim.call('plug#begin')
-
-Plug('ericscharff/vim-diary')
-Plug('ericscharff/vim-oberon')
-Plug('christoomey/vim-tmux-navigator')
-
-vim.call('plug#end')
-
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
@@ -28,3 +18,5 @@ vim.filetype.add({
     ob = 'oberon',
   },
 })
+
+require("config.lazy")
