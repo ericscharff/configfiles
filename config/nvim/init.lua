@@ -25,5 +25,4 @@ vim.filetype.add({
 })
 
 require("config.lazy")
-
-vim.lsp.enable({"lua_ls", "ts_ls"})
+require("config.lsp")
