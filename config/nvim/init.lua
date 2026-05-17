@@ -5,6 +5,7 @@ vim.opt.expandtab = true
 vim.opt.cursorline = true
 vim.opt.number = true
 vim.opt.termguicolors = true
+vim.opt.winborder = 'rounded'
 vim.diagnostic.config({ virtual_text = true })
 
 vim.g.mapleader = ','
