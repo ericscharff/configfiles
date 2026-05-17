@@ -1,5 +1,6 @@
 {
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
+  "nvim-lspconfig": { "branch": "master", "commit": "f9349d4d99e7d66403ae8bf4fbd357b154dca7a7" },
   "rose-pine": { "branch": "main", "commit": "ff483051a47e27d84bdef47703538df1ed9f4a47" },
   "vim-diary": { "branch": "main", "commit": "917632b3437bfaca52d168c3cda2f00b103ef47f" },
   "vim-oberon": { "branch": "main", "commit": "c44d6c611c9c2ba70e2e53dd52bae57628062e43" },

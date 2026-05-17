@@ -4,6 +4,7 @@ vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 vim.opt.cursorline = true
 vim.opt.number = true
+vim.diagnostic.config({ virtual_text = true })
 
 vim.g.mapleader = ','
 
@@ -22,3 +23,5 @@ vim.filetype.add({
 })
 
 require("config.lazy")
+
+vim.lsp.enable({"lua_ls"})
