@@ -24,4 +24,4 @@ vim.filetype.add({
 
 require("config.lazy")
 
-vim.lsp.enable({"lua_ls"})
+vim.lsp.enable({"lua_ls", "ts_ls"})
