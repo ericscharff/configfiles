@@ -125,16 +125,13 @@ export NODE_REPL_HISTORY="$HOME/.local/state/node_repl_history"
 export NPM_CONFIG_USERCONFIG="$HOME/.config/npm/config"
 export PYTHON_HISTORY=$HOME/.local/share/python/history
 
-if [ -d /opt/jdk-26.0.1/bin ]; then
-  export PATH=$PATH:/opt/jdk-26.0.1/bin
-fi
 if [ -d /opt/plan9port ]; then
   export PLAN9=/opt/plan9port
   export PATH=$PATH:$PLAN9/bin
 fi
-if [ -d /opt/nvim-linux-x86_64/bin ]; then
-  export PATH=$PATH:/opt/nvim-linux-x86_64/bin
-fi
-if [ -d /opt/nvim-linux-arm64/bin ]; then
-  export PATH=$PATH:/opt/nvim-linux-arm64/bin
-fi
+
+for p in jdk-26.0.1 nvim-linux-x86_64 nvim-linux-arm64 lua-language-server; do
+  if [ -d /opt/$p/bin ]; then
+    export PATH=$PATH:/opt/$p/bin
+  fi
+done
