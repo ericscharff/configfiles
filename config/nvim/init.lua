@@ -7,6 +7,7 @@ vim.opt.number = true
 vim.diagnostic.config({ virtual_text = true })
 
 vim.g.mapleader = ','
+vim.g.have_nerd_font = true
 
 vim.keymap.set('n', '<leader>cc', '"+yy',
   { desc = 'Copy line to system clipboard' })
