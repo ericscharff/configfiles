@@ -5,23 +5,35 @@ vim.opt.expandtab = true
 vim.opt.cursorline = true
 vim.opt.number = true
 vim.opt.termguicolors = true
-vim.opt.winborder = 'rounded'
+vim.opt.winborder = "rounded"
 vim.diagnostic.config({ virtual_text = true })
 
-vim.g.mapleader = ','
+vim.g.mapleader = ","
 vim.g.have_nerd_font = true
 
-vim.keymap.set('n', '<leader>cc', '"+yy',
-  { desc = 'Copy line to system clipboard' })
-vim.keymap.set('v', '<leader>c', '"+y',
-  { desc = 'Copy selection to system clipboard' })
+vim.keymap.set(
+  "n",
+  "<leader>cc",
+  '"+yy',
+  { desc = "Copy line to system clipboard" }
+)
+vim.keymap.set(
+  "v",
+  "<leader>c",
+  '"+y',
+  { desc = "Copy selection to system clipboard" }
+)
 
-vim.keymap.set('n', '<leader>p', '<cmd>%!pretty %<CR>',
-  { desc = 'Run prettier on current file' })
+vim.keymap.set(
+  "n",
+  "<leader>p",
+  "<cmd>%!pretty %<CR>",
+  { desc = "Run prettier on current file" }
+)
 
 vim.filetype.add({
   extension = {
-    ob = 'oberon',
+    ob = "oberon",
   },
 })
 

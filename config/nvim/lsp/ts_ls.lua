@@ -1,14 +1,14 @@
 return {
-  cmd = { 'npx', '--no-install', 'typescript-language-server', '--stdio' },
+  cmd = { "npx", "--no-install", "typescript-language-server", "--stdio" },
 
   filetypes = {
-    'javascript',
-    'javascriptreact',
-    'typescript',
-    'typescriptreact',
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
   },
 
-  root_markers = { 'package.json' },
+  root_markers = { "package.json" },
 
   -- Specific settings to send to the server. The schema for this is
   -- defined by the server. For example the schema for lua-language-server
