@@ -128,6 +128,6 @@ export PYTHON_HISTORY=$HOME/.local/share/python/history
 export PLAN9=/opt/z_plan9port
 for d in /opt/*/bin; do
   if [ -d "$d" ]; then
-    export PATH=$PATH:$d
+    export PATH="$PATH:$d"
   fi
 done
