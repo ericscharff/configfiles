@@ -1,5 +1,7 @@
 {
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
+  "lualine.nvim": { "branch": "master", "commit": "131a558e13f9f28b15cd235557150ccb23f89286" },
+  "nvim-web-devicons": { "branch": "master", "commit": "7d8dad2c837fcdf2e65997e68657c1a21c568074" },
   "rose-pine": { "branch": "main", "commit": "ff483051a47e27d84bdef47703538df1ed9f4a47" },
   "vim-diary": { "branch": "main", "commit": "917632b3437bfaca52d168c3cda2f00b103ef47f" },
   "vim-oberon": { "branch": "main", "commit": "c44d6c611c9c2ba70e2e53dd52bae57628062e43" },
