@@ -1,0 +1,9 @@
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
+vim.opt.expandtab = true
+vim.opt.cursorline = true
+vim.opt.number = true
+vim.opt.termguicolors = true
+vim.opt.winborder = 'rounded'
+vim.g.have_nerd_font = true
