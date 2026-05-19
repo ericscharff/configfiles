@@ -1,4 +1,4 @@
-vim.g.mapleader = ','
+vim.g.mapleader = ' '
 
 vim.keymap.set('n', '<leader>cc', '"+yy',
   { desc = 'Copy line to system clipboard' })
