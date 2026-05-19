@@ -1,4 +1,4 @@
 return {
-  "ericscharff/vim-diary",
-  cmd = "Diary",
+  'ericscharff/vim-diary',
+  cmd = 'Diary',
 }

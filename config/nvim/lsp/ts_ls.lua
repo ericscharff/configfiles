@@ -1,12 +1,12 @@
 return {
-  cmd = { "npx", "--no-install", "typescript-language-server", "--stdio" },
+  cmd = { 'npx', '--no-install', 'typescript-language-server', '--stdio' },
 
   filetypes = {
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
+    'javascript',
+    'javascriptreact',
+    'typescript',
+    'typescriptreact',
   },
 
-  root_markers = { "package.json" },
+  root_markers = { 'package.json' },
 }
