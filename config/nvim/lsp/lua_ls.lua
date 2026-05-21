@@ -7,12 +7,16 @@ return {
 
   settings = {
     Lua = {
-      diagnostics = {
-        globals = { "vim" }, -- Recognize 'vim' as a global variable
+      runtime = {
+        version = 'LuaJIT',
+        path = {
+          'lua/?.lua',
+          'lua/?/init.lua',
+        },
       },
       workspace = {
         library = {
-          vim.api.nvim_get_runtime_file("", true),
+          vim.api.nvim_get_runtime_file('', true),
         }, -- Include Neovim runtime files
       },
       telemetry = {
