@@ -2,39 +2,39 @@
   "plugins": {
     "lualine.nvim": {
       "rev": "131a558e13f9f28b15cd235557150ccb23f89286",
-      "src": "https://github.com/nvim-lualine/lualine.nvim.git"
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "neovim": {
       "rev": "ff483051a47e27d84bdef47703538df1ed9f4a47",
-      "src": "https://github.com/rose-pine/neovim.git"
+      "src": "https://github.com/rose-pine/neovim"
     },
     "nvim-web-devicons": {
       "rev": "7d8dad2c837fcdf2e65997e68657c1a21c568074",
-      "src": "https://github.com/nvim-tree/nvim-web-devicons.git"
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
-      "src": "https://github.com/nvim-lua/plenary.nvim.git"
+      "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "telescope-fzf-native.nvim": {
       "rev": "b25b749b9db64d375d782094e2b9dce53ad53a40",
-      "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim.git"
+      "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
     },
     "telescope.nvim": {
       "rev": "7d324792b7943e4aa16ad007212e6acc6f9fe335",
-      "src": "https://github.com/nvim-telescope/telescope.nvim.git"
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "vim-diary": {
       "rev": "917632b3437bfaca52d168c3cda2f00b103ef47f",
-      "src": "https://github.com/ericscharff/vim-diary.git"
+      "src": "https://github.com/ericscharff/vim-diary"
     },
     "vim-oberon": {
       "rev": "c44d6c611c9c2ba70e2e53dd52bae57628062e43",
-      "src": "https://github.com/ericscharff/vim-oberon.git"
+      "src": "https://github.com/ericscharff/vim-oberon"
     },
     "vim-tmux-navigator": {
       "rev": "e41c431a0c7b7388ae7ba341f01a0d217eb3a432",
-      "src": "https://github.com/christoomey/vim-tmux-navigator.git"
+      "src": "https://github.com/christoomey/vim-tmux-navigator"
     }
   }
 }

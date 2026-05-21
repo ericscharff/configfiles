@@ -8,15 +8,15 @@ vim.api.nvim_create_autocmd('PackChanged', {
 })
 
 vim.pack.add({
-  'https://github.com/ericscharff/vim-diary.git',
-  'https://github.com/nvim-tree/nvim-web-devicons.git',
-  'https://github.com/nvim-lualine/lualine.nvim.git',
-  'https://github.com/ericscharff/vim-oberon.git',
-  'https://github.com/rose-pine/neovim.git',
-  'https://github.com/nvim-lua/plenary.nvim.git',
-  'https://github.com/nvim-telescope/telescope-fzf-native.nvim.git',
-  'https://github.com/nvim-telescope/telescope.nvim.git',
-  'https://github.com/christoomey/vim-tmux-navigator.git',
+  'https://github.com/ericscharff/vim-diary',
+  'https://github.com/nvim-tree/nvim-web-devicons',
+  'https://github.com/nvim-lualine/lualine.nvim',
+  'https://github.com/ericscharff/vim-oberon',
+  'https://github.com/rose-pine/neovim',
+  'https://github.com/nvim-lua/plenary.nvim',
+  'https://github.com/nvim-telescope/telescope-fzf-native.nvim',
+  'https://github.com/nvim-telescope/telescope.nvim',
+  'https://github.com/christoomey/vim-tmux-navigator',
 })
 
 vim.cmd.colorscheme('rose-pine')
