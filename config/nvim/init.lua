@@ -1,5 +1,5 @@
 require('config.options')
 require('config.keys')
 require('config.ft')
-require('config.lazy')
+--require('config.lazy')
 require('config.lsp')
