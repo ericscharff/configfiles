@@ -7,6 +7,7 @@ config/tmux/plugins
 !config/npm
 !config/nvim
 !config/qalculate/qalc.cfg
+!config/sway
 !config/tmux
 !config/vim/after
 !config/vim/vimrc
