@@ -2,6 +2,7 @@ config/*
 config/tmux/plugins
 !config/bash
 !config/git/config
+!config/foot
 !config/labwc
 !config/npm
 !config/nvim
