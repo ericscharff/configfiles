@@ -1,7 +1,7 @@
 {
   "plugins": {
     "lualine.nvim": {
-      "rev": "131a558e13f9f28b15cd235557150ccb23f89286",
+      "rev": "221ce6b2d999187044529f49da6554a92f740a96",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "neovim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/rose-pine/neovim"
     },
     "nvim-web-devicons": {
-      "rev": "7d8dad2c837fcdf2e65997e68657c1a21c568074",
+      "rev": "dfbfaa967a6f7ec50789bead7ef87e336c1fa63c",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "plenary.nvim": {
@@ -25,11 +25,11 @@
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "vim-diary": {
-      "rev": "917632b3437bfaca52d168c3cda2f00b103ef47f",
+      "rev": "c47a32fd2b7d6dcb8bfdbb37271ef8e102c74073",
       "src": "https://github.com/ericscharff/vim-diary"
     },
     "vim-oberon": {
-      "rev": "c44d6c611c9c2ba70e2e53dd52bae57628062e43",
+      "rev": "287c22cc2287052f76b74f2858a54d00fce1fe6d",
       "src": "https://github.com/ericscharff/vim-oberon"
     },
     "vim-tmux-navigator": {
