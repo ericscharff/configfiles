@@ -17,7 +17,7 @@ Here are some keyboard shortcuts that are customized by tmux and vim:
 | <kbd>Ctrl</kbd> + <kbd>k</kbd> | Move one pane up. This is shared between vim and tmux so you can move between one app and the other. |
 | <kbd>Ctrl</kbd> + <kbd>l</kbd> | Move one pane to the right. This is shared between vim and tmux so you can move between one app and the other. |
 | <kbd>Ctrl</kbd> + <kbd>s</kbd> | Remapped prefix key for tmux. |
-| <kbd>Ctrl</kbd> + <kbd>s</kbd> <kbd>r</kbd> | In tmux, enter resize mode. In resize mode, h/j/k/l resize the panes. <kbd>Enter</kbd> or <kbd>Escape</kbd> exit this.
+| <kbd>Ctrl</kbd> + <kbd>s</kbd> <kbd>r</kbd> | In tmux, enter resize mode. In resize mode, h/j/k/l resizes the panes. <kbd>Enter</kbd> or <kbd>Escape</kbd> exit this. |
 | <kbd>Space</kbd> | `leader` key for vim |
 | <kbd>Leader</kbd> <kbd>+yy</kbd> | In vim, copy a line to the system clipboard. |
 | <kbd>Leader</kbd> <kbd>+y</kbd> | In vim visual selection mode, copy the selection to the system clipboard. |
