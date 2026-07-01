@@ -9,7 +9,7 @@
       "src": "https://github.com/rose-pine/neovim"
     },
     "nvim-web-devicons": {
-      "rev": "dfbfaa967a6f7ec50789bead7ef87e336c1fa63c",
+      "rev": "dad71387de386a946b123079d0e53f23028f3abd",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "plenary.nvim": {
@@ -25,11 +25,11 @@
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "vim-diary": {
-      "rev": "c47a32fd2b7d6dcb8bfdbb37271ef8e102c74073",
+      "rev": "e822244b05e229f3b55c3c989e4a2ca892b651a1",
       "src": "https://github.com/ericscharff/vim-diary"
     },
     "vim-oberon": {
-      "rev": "287c22cc2287052f76b74f2858a54d00fce1fe6d",
+      "rev": "8cf257b0ecfd27e75305f0e34795700407464468",
       "src": "https://github.com/ericscharff/vim-oberon"
     },
     "vim-tmux-navigator": {
