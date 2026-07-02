@@ -131,3 +131,4 @@ for d in /opt/*/bin; do
     export PATH="$PATH:$d"
   fi
 done
+export EDITOR=$(which nvim)
