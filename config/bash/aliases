@@ -1,4 +1,4 @@
-export EDITOR=nvim
+export EDITOR=$(which nvim)
 alias e=nvim
 alias lhs='dtach -A /tmp/session-lhs bash'
 alias rhs='dtach -A /tmp/session-rhs bash'
