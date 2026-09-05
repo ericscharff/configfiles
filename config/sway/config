@@ -63,6 +63,9 @@ include /etc/sway/config-vars.d/*
 input "1241:7:Raspberry_Pi_Internal_Keyboard" {
   xkb_options "ctrl:nocaps"
 }
+input "1133:45952:MX_KEYS_B_Keyboard" {
+  xkb_options "ctrl:nocaps"
+}
 
 ### Key bindings
 #
