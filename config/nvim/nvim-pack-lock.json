@@ -25,11 +25,11 @@
       "src": "https://github.com/nvim-telescope/telescope.nvim"
     },
     "vim-diary": {
-      "rev": "93b4351dc901a0ac6dbaecd5b3c496b998f4ba4d",
+      "rev": "9a272fb45db13b6c21f9dc76ac1485588e6d6052",
       "src": "https://github.com/ericscharff/vim-diary"
     },
     "vim-oberon": {
-      "rev": "15e70ef7823fa7da5e1c17dbb905231567136060",
+      "rev": "e93c5a7794ffcebc385b73946f9636c389e204ad",
       "src": "https://github.com/ericscharff/vim-oberon"
     },
     "vim-tmux-navigator": {
