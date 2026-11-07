@@ -125,5 +125,7 @@ export NODE_REPL_HISTORY="$HOME/.local/state/node_repl_history"
 export NPM_CONFIG_USERCONFIG="$HOME/.config/npm/config"
 export PYTHON_HISTORY=$HOME/.local/share/python/history
 
+OLDPATH=$PATH
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)
+export PATH=$OLDPATH:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin
 export EDITOR=$(which nvim)
